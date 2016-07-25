@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Version: 201607241250
-! Title: EasyList
+! Title: Modified EasyList
 ! Last modified: 24 Jul 2016 12:50 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://easylist.github.io/
@@ -182,7 +182,7 @@
 -ads-placement.
 -ads-right.
 !-ads-widget/
--ads-widget?
+!-ads-widget?
 -ads.generated.
 -ads.gif
 -ads.js?
