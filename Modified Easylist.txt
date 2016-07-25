@@ -20146,7 +20146,7 @@ _popunder+$popup
 ##.dfp-tag-wrapper
 ##.dfp-top1
 ##.dfp-top1-container
-!##.dfp_ad
+##.dfp_ad
 ##.dfp_ad_caption
 ##.dfp_ad_content_bottom
 ##.dfp_ad_content_top
@@ -24543,7 +24543,7 @@ _popunder+$popup
 ##div[id^="dfp-ad-"]
 ##div[id^="dfp-slot-"]
 ##div[id^="div-adtech-ad-"]
-!##div[id^="div-gpt-ad"]
+##div[id^="div-gpt-ad"]
 ##div[id^="div_ad_stack_"]
 ##div[id^="div_openx_ad_"]
 ##div[id^="dmRosAdWrapper"]
