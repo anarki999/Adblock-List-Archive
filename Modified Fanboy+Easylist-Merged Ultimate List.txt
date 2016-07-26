@@ -182,8 +182,8 @@
 -ads-ns.
 -ads-placement.
 -ads-right.
--ads-widget/
--ads-widget?
+!-ads-widget/
+!-ads-widget?
 -ads.generated.
 -ads.gif
 -ads.js?
@@ -16203,7 +16203,7 @@ _popunder+$popup
 ##.ad-wallpaper-container
 ##.ad-wallpaper-panorama-container
 ##.ad-warning
-!##.ad-wgt
+##.ad-wgt
 ##.ad-wide
 ##.ad-wide-bottom
 ##.ad-widget
@@ -20151,7 +20151,7 @@ _popunder+$popup
 ##.dfp-tag-wrapper
 ##.dfp-top1
 ##.dfp-top1-container
-!##.dfp_ad
+##.dfp_ad
 ##.dfp_ad_caption
 ##.dfp_ad_content_bottom
 ##.dfp_ad_content_top
@@ -24553,7 +24553,7 @@ _popunder+$popup
 ##div[id^="dfp-ad-"]
 ##div[id^="dfp-slot-"]
 ##div[id^="div-adtech-ad-"]
-!##div[id^="div-gpt-ad"]
+##div[id^="div-gpt-ad"]
 ##div[id^="div_ad_stack_"]
 ##div[id^="div_openx_ad_"]
 ##div[id^="dmRosAdWrapper"]
