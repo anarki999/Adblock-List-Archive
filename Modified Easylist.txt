@@ -16204,7 +16204,7 @@ _popunder+$popup
 ##.ad-wallpaper-panorama-container
 ##.ad-warning
 ##.ad-wgt
-##.ad-wide
+!##.ad-wide
 ##.ad-wide-bottom
 ##.ad-widget
 ##.ad-widget-area

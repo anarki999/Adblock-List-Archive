@@ -16206,7 +16206,7 @@ _popunder+$popup
 ##.ad-wgt
 ##.ad-wide
 ##.ad-wide-bottom
-##.ad-widget
+!##.ad-widget
 ##.ad-widget-area
 ##.ad-widget-list
 ##.ad-width-300
