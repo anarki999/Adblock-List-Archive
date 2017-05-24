@@ -1,0 +1,139 @@
+! Title: Piperun's iplogger filter
+! Version: 201705241442
+! Last modified: 24 May 2017 14:42
+! Update link : https://raw.githubusercontent.com/piperun/iploggerfilter/master/filterlist
+
+# iploggers
+# Will experiment with $important
+||iplogger.org^$important
+||2no.co^$important
+||ezstat.ru^$important
+||iplogger.info^$important
+||02ip.ru^$important
+||iplo.ru^$important
+||iplis.ru^$important
+||iplogger.com
+||iplogger.ru^$important
+||iplogger.org^$important
+||pgrabber.ru^$important
+||grabify.link^$important
+||ip.jlynx.net^$important
+||deviantartt.ml^$important
+||dropboxx.lm ^$important
+||gyazoo.ga^$important
+||linkit.cf^$important
+||printscr.ga^$important
+||youutube.gq^$important
+||strawpoll.ga^$important
+||xxox.co.uk
+||leakforum.ga
+||prntsc.cf
+||deviantartt.ga
+||dropboxx.ga
+||dropboxx.cf
+||strawpolll.ga
+||twitte.ga
+||bvog.com
+||hondachat.com
+||youramonkey.com
+||blasze.tk
+||myiptest.com/img.php
+||ip-grabber.com^important
+||imgurl.us^important
+||skypegrab.net^important
+||sciencefuture.tk^important
+||stresser.science^important
+||imageshack.ml^important
+||viphackforums.xyz^important
+||gtadb.net
+||fotocerdas.com
+||parlament.usa.cc
+||hs.vc
+||community.hackersclub.net^important
+||login.anal-porn.info^important
+||paypal.sellbitcoins.com^important
+||panel.teamspeak.bz	
+||files.uploads.ws
+#||cubeupload.com
+||media.appspot.com
+||hackf?rums.net
+||hackf?rums.com
+||imgur.com
+||battl?.net
+||dank.host
+||r1p.pw
+||webprofile.me
+||anonymousforum.pw
+||ts3free.top
+||viphackforum.xyz
+||bbcnews.today
+||privatexmpp.me
+||topstreaming.us
+||topcdn.biz
+||postimage.co
+||hackernews.online
+||hdblog.tech
+||sexy18.webcam
+||dropbox.desi
+||hostingonline.desi
+||freeanonymous.host
+||ampnode.host
+||spoofing.host
+||cubeupload.xyz
+||exploit-db.xyz
+||gyazoo.xyz
+||ipddoser.xyz
+||skypecracker.xyz
+||ipsnatcher.com
+||skidpaste.org
+||cloudfsx.com
+||ps3cfw.com
+
+
+# Booters
+||orcahub.com^$important
+||vbooter.org^$important
+||orboot.pw^$important
+!synstress.net
+||ddos.city^$important
+||restresser.com^$important
+||networkstresser.com^$important
+||vdos-s.com^$important
+||oxystress.eu^$important
+||freebooter.pro^$important
+||bootyou.net^$important
+||critical-boot.com^$important
+#||ipstresser.com^$imporant
+
+
+# Third party
+#||aruljohn.com/widget/ip/ip.php
+#||aruljohn.com/widget/zip/zip.js
+||aruljohn.com/widget/zip/*
+||aruljohn.com/widget/ip/*
+
+#aruljohn.com * block
+
+
+# Url shorteners
+!||go.budurl.co
+!||dr.tl/*
+!||bit.do/*
+!||taveo.net/*
+!||bit.ly/*
+!||cur.lv
+!||slsh.us
+!||adf.ly
+!||shorte.st
+!||biturl.io
+!||hackforu.ms
+!||tldr.ly
+
+
+# Temporarly
+
+
+
+
+# Image hosting
+||fuglekos.com/profile/*
