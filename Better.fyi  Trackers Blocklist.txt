@@ -1,6 +1,6 @@
 ! Title: Better.fyi | Trackers (List)
-! Version: 201705241442
-! Last modified: 24 May 2017 14:42
+! Version: 201705241724
+! Last modified: 24 May 2017 17:24
 
 ||33across.com^
 ||adadvisor.net^
@@ -73,7 +73,6 @@
 ||condenastdigital.com^
 ||dnkzzz1hlto79.cloudfront.net^
 ||d26t7ex48mr4bn.cloudfront.net^
-||dp8hsntg6do36.cloudfront.net^
 ||connexity.net^
 ||adrolays.de^
 ||conversionlogic.net^
