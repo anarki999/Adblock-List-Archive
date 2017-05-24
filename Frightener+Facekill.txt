@@ -1,0 +1,230 @@
+[Adblock Plus 2.0]
+! Title: Frightener+Facekill
+! Homepage: http://www.gjtech.net/
+! Block ads with /etc/hosts: http://adblock.gjtech.net/?format=unix-hosts
+!
+! License: http://creativecommons.org/licenses/by/3.0/
+!
+! AdBlock Plus list prepared by AdBlock Manager 0.8.3.25
+! Cache-Control: no-cache, no-store, must-revalidate, max-age=0, pre-check=0, post-check=0
+! Last Update: Sat, 17 Jan 2015 00:40:51 PST
+! Cached: Yes
+! Checksum: pOJv5+F57g6NAugPgj8zFw
+!
+! [Public Group: Do Not Track]
+^donottrack^$image,~image,donottrack
+*$donottrack,$image,~image
+*$donottrack
+!
+! [Public Group: Whitelist]
+@@||192.168.*^$document
+@@||*.xdracco.net^$document
+@@||*.gjtech.net^$document
+!
+! [Public Group: eBay]
+||ebay.com^$third-party
+ebay.com##div[id="skyscrape"]
+ebay.com##div[class*="promo"]
+!
+! [Public Group: EyeEm]
+||eyeem.com^$third-party
+eyeem.com##li[id="like-dropdown"]
+eyeem.com##header[class*="signup-header-on-scroll"]
+eyeem.com##div[class="span10 offset2"]
+eyeem.com##div[class="join_block"]
+eyeem.com##a[href*="facebook"]
+!
+! [Public Group: Fandango]
+||fandango.com^$third-party
+fandango.com##div[id="promobar"]
+fandango.com##div[id="globalDock"]
+!
+! [Public Group: Foursquare]
+||foursquare.com^$third-party
+foursquare.com##span[id="facebookLoginButton"]
+foursquare.com##div[id="suggestedFriends"]
+foursquare.com##div[id="signupPrompt"]
+foursquare.com##div[id="SFVVFX"]
+foursquare.com##div[id="newsFlash"]
+foursquare.com##div[id="nearbyRex"]
+foursquare.com##div[id="modalDialogBox"][class="richSignupModal"]
+!
+! [Public Group: GetGlue]
+||getglue.com^$third-party
+getglue.com##ul[class="table-view-group"]:first-child
+getglue.com##div[class="who-to-follow"]
+getglue.com##div[class="top-list"]
+getglue.com##div[class="thinkyouknow"]
+!
+! [Public Group: GoDaddy]
+||godaddy.com^$third-party
+godaddy.com##div[id="PodContainer" ][class="cdsPodContainer"]
+godaddy.com##div[id="pc-links"]
+godaddy.com##div[class="gdhp-promo-highlight-container"]
+godaddy.com##div[class="gdhp-model-tag"]
+godaddy.com##div[class="gdhp-main-middle"]
+godaddy.com##div[class="gdhp-celebrity-banner-small-container"]
+ecc.secureserver.net##div[class="pagetitle"]
+!
+! [Public Group: Google Plus]
+||plus.google.com^$third-party
+plus.google.com##div[navid="6"]
+plus.google.com##div[navid="4"]
+plus.google.com##div[id="ozIdRtRibbonChatRoster"]
+plus.google.com##div[guidedhelpid="friendsuggestions"]
+plus.google.com##div[componentid="54"]
+plus.google.com##div[componentid="45"]
+plus.google.com##div[componentid="44"]
+plus.google.com##div[componentid="34"]
+plus.google.com##div[componentid="13"]
+plus.google.com##div[class=&#34;Pzc&#34;]
+plus.google.com##div[class="talk_chat_widget"]
+plus.google.com##div[class="Hoan0blla"]
+plus.google.com##div[class="Exc"]
+plus.google.com##div[class="eJa"]
+!
+! [Public Group: Huffinton Post]
+||huffingtonpost.com^$third-party
+huffingtonpost.com##div[id="float_tracker"]
+huffingtonpost.com##div[id="connect_modal_v2"]
+huffingtonpost.com##div[class="share_boxes_wraper"]
+huffingtonpost.com##div[class="facebook-like-box float_left"]
+!
+! [Public Group: IMDb]
+||imdb.com^$third-party
+imdb.com##div[id="titleRecs"]
+imdb.com##div[id="rhs_tv_widget"][class="homepage_on_tv_tonight_rhstv_widget"]
+imdb.com##div[id="rhs_cornerstone"]
+imdb.com##div[class="aux-content-widget-2"]
+!
+! [Public Group: Instapaper]
+||instapaper.com^$third-party
+instapaper.com##div[id="bookmarkListDeckAdPlaceholder"]
+!
+! [Public Group: Micro$oft]
+||live.com^$third-party
+||live.com##div[class="OuterContainer"]
+!
+! [Public Group: Last.fm]
+||last.fm^$third-party
+last.fm##div[class="findmorefriends"]
+last.fm##div[class="dropdown-btn-wrapper"][data-dropdownmenu-analytics-action="ShareShowOptions"]
+!
+! [Public Group: Paypal]
+||paypal.com^$third-party
+paypal.com##div[id="mpi580046"]
+paypal.com##div[id="mpi580022"]
+paypal.com##div[id="mpi560004"]
+paypal.com##div[id="mpi560002"]
+!
+! [Public Group: Twitter]
+||twitter.com^$third-party
+||twitter.com/settings/facebook/*
+twtmore.com##div[class="bsa_wrap"]
+twitter.com##li[data-name="connect"]
+twitter.com##li[data-global-action="discover"]
+twitter.com##div[id="first_ad"]
+twitter.com##div[id="dynstrip"]
+twitter.com##div[id="ad-placeholder-Top"]
+twitter.com##div[data-prompt-id="270"]
+twitter.com##div[data-prompt-id="227"]
+twitter.com##div[data-component-term="user_recommendations"]
+twitter.com##div[data-component-term="similar_user_recommendations"]
+twitter.com##div[data-component-term="newest_list_members"]
+twitter.com##div[class="vert_ads"]
+twitter.com##div[class="user-rec-inner"]
+twitter.com##div[class="stream-item"][style="display: block; overflow: hidden; height: 38.7888px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"]
+twitter.com##div[class="promptbird"]
+twitter.com##div[class="promo-component"]
+twitter.com##div[class="onebox"]
+twitter.com##div[class="gdhp-video-container"]
+twitter.com##div[class="gdhp-celebrity-banner-large-container"]
+twitter.com##div[class="ad_panel"]
+twitter.com##div[class*="wtf-module"]
+twitter.com##div[class*="trends"]
+twitter.com##a[aria-label="Games"]
+twitter.com##(div|li)[class="promoted-tweet"]
+twitpic.com##div[id="announcement"]
+!
+! [Public Group: Readbility]
+||readability.com^$third-party
+readability.com##div[role*="contentinfo"]
+readability.com##div[class="sample-articles"]
+!
+! [Public Group: Wordpress]
+||wordpress.(com|org)^$third-party
+wordpress.(com|org)##div[id="wptouch-head"]
+wordpress.(com|org)##div[class="inner-sidebar"]
+!
+! [Public Group: Yahoo!]
+||analytics.yahoo.com^$third-party
+||a.analytics.yahoo.com^$third-party
+tumblr.com##iframe[id="tumblr_controls"]
+!
+! [Default]
+||zynga1-a.akamaihd.net/*.swf
+||www.nevadanewmakers.com/*banners*
+||who.unfollowed.me/*/ads/*
+||weston-fl.com/blog/wp-content/plugins/banner-rotator-fx/component/*
+||webtrendslive.com^
+||vfire.grapheffect.com/trackers/*
+||statse.webtrendslive.com^
+||sammobile.com/firmware/_images/bg_repeat.jpg
+||rlcdn.com^
+||richesbank.com^
+||richesbank.com/images/*
+||quantserve.com^
+||pixel.quantserve.com^
+||offers.bankofamerica.com^
+||mydas.mobi^
+||media.idownloadblog.com/wp-content/uploads/2012/04/*deal*.jpg
+||lmgtfy.com/s/images/*
+||invitemedia.com^
+||infidelguy.com/images/clients/*
+||images.fandango.com/marketing/*
+||html5adkit.plusmo.s3.amazonaws.com^
+||highonandroid.com^
+||extra.thebigboss.org/w3i/*
+||edge.quantserve.com^
+||digitalninjastl.com/*ad*
+||cydia.zodttd.com/*/ads/*
+||crwdcntrl.net^
+||cruising.older4me.com/Upload/Directos/*
+||company.zynga.com/swf/*
+||cdn-2.digidna.net/*/softpedia_*.gif
+||c.ypcdn.com^
+||c.greystripe.com/gsswf/*
+||bkrtx.com/js/*
+||b.scorecardresearch.com^
+||atti.com^
+||androidforums.com/guest-welcome.jpg
+||analytics.apnewsregistry.com^
+||alaskaair.com/content/partial/~/media/Images/FMA/evergreen/*
+||alaskaair.com/content/partial/~/media/Images/FMA/currentOffers/*
+||aka-cdn-ns.adtechus.com/apps/*
+||aff.lmgtfy.com/offers
+||ad.yieldmanager.com^
+||ad.doubleclick.net^
+||a3.twimg.com/profile_background_images/160138433/powered_128.png
+||a.rfihub.com^
+||2mdn.net^
+yelp.com##li[class="add-search-result"]
+technoleash.com##div[id="text-6"]
+technoleash.com##div[id="text-3"]
+products.verizonwireless.com##html[slick-uniqueid="1"]
+nevadanewsmakers.com/*/banners/*
+merriam-webster.com##div[id="adaptvDiv"]
+forums.cacti.net##p[class="titlebar"]
+bestbuy.com##div[id="bbyon"]
+*/moneybookers.gif
+##li[class="ad-widget"]
+##div[id="wptouch-head" class="metabox-holder"]
+##div[id="stay_connected"]
+##div[id="pw-footer"]
+##div[id="popup_content"]
+##div[id="dm_donations"]
+##div[id="discovery-top"]
+##div[id="discovery"]
+##div[componentid="80"]
+##div[componentid="10"]
+##div[class="donation"]
