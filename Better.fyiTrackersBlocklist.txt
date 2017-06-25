@@ -76,6 +76,7 @@
 ||dnkzzz1hlto79.cloudfront.net^
 ||d26t7ex48mr4bn.cloudfront.net^
 ||dp8hsntg6do36.cloudfront.net^
+@@||dp8hsntg6do36.cloudfront.net$xmlhttprequest
 ||connexity.net^
 ||adrolays.de^
 ||conversionlogic.net^
