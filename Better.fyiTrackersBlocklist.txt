@@ -1,4 +1,4 @@
-[Adblock 2.0]
+[Adblock Plus 2.0]
 ! Version: 201707041012
 ! Last modified: 04 July 2017 10:12
 ! Title: Better.fyi | Trackers (List)
