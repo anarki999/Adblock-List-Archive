@@ -1,7 +1,8 @@
+[Adblock 2.0]
 ! Version: 201707041012
 ! Last modified: 04 July 2017 10:12
 ! Title: Better.fyi | Trackers (List)
-
+!
 ||33across.com^
 ||adadvisor.net^
 ||adblade.com^
@@ -316,22 +317,22 @@
 !@@||yimg.com^$domain=yahoo.com|tumblr.com|yahoo.net|yahoo.co|yahoo.co.uk|yahoo.co.jp|flickr.com
 @@||msn.com^$first-party
 @@||bing.com^$first-party
-
-!Anti-adblocking detection & Site breaking
+!
+! Anti-adblocking detection & Site breaking
 ! http://viu.tv/
 viu.tv##.in.fade.modal-backdrop
-
+!
 ! http://www.hktvmall.com/hktv/zh/tv/live
 www.hktvmall.com##.CrazyAd
-
+!
 ! http://www.hktvmall.com/hktv/zh/supermarket
 www.hktvmall.com##.active.extra-banner-container
 @@||hktvmall.com^$script
-
+!
 ! hktvmall.com
 @@||b.scorecardresearch.com/beacon.js$script,domain=hktvmall.com
 @@||hktvmall.com^$first-party
-
+!
 ! https://www.technorms.com/
 www.technorms.com##.td-g-rec-id-header
 !www.technorms.com##.td-g-rec-id-custom_ad_2.td-g-rec
@@ -339,30 +340,30 @@ www.technorms.com##[id^="td-g-rec-id-custom_ad"]
 www.technorms.com##.td-block-title
 www.technorms.com##.td-next-prev-wrap
 www.technorms.com##.vc_sep_holder_l.vc_sep_holder
-
+!
 ! http://pcgames-download.net/?s=Anomaly
 pcgames-download.net###niceMessage > .inner
-
+!
 ! http://www.ifreesite.com/pinyin/
 www.ifreesite.com##.if_billboard
 www.ifreesite.com##.if_billpro
 www.ifreesite.com##.top
-
+!
 ! https://www.uacinemas.com.hk/chi/main/HomePage
 ||www.uacinemas.com.hk//files_upload/images/banner$image
 @@||www.uacinemas.com.hk/share/js$script,domain=www.uacinemas.com.hk
-
+!
 ! https://qooah.com/2016/11/21/clickclickclick/
 qooah.com##.widget_author_advertising_widget.widget
-
+!
 ! microsoft.com
 !@@||*.*/*$xmlhttprequest
-
+!
 ! gotrip.hk
 @@||*.*/*/adgpt.js$script
 www.gotrip.hk##.share_bar
 www.gotrip.hk##.category__featured-posts
-
+!
 ! http://www.edigest.hk/
 ! http://www.nmplus.hk/
 ! http://www.gotrip.hk/
@@ -372,15 +373,15 @@ www.gotrip.hk##.category__featured-posts
 !www.edigest.hk##.code-block-4.code-block
 !www.edigest.hk##.code-block-after-pagination
 ##.code-block
-
+!
 ! http://www.i-comic.net/anime/%E9%BE%8D%E7%8F%A0%20%E8%B6%85/%E7%AC%AC77%E9%9B%86
 i-comic.net###myModal
 i-comic.net##.in.fade.modal-backdrop
-
+!
 ! github.com
 @@||s3.amazonaws.com*
 @@||*.*$stylesheet
-
+!
 ! 3/10/2017, 4:29:21 PM http://changepw.com/view2/?p=565
 changepw.com##.ypabox-bg
 changepw.com##.top-ad
@@ -395,44 +396,44 @@ changepw.com##.adbox-bg
 !changepw.com##.quick-adsense:nth-of-type(n)
 !changepw.com##.quick-adsense
 ##.quick-adsense
-
+!
 ! http://www.girltalkhk.com/2016/08/10/sapeiar-poorcouple/
 www.girltalkhk.com##.ad-unit-footer-header
-
+!
 ! http://hk.apple.nextmedia.com/news/art/20160920/19776210
 ###fb_like
 @@||connect.facebook.net^
-
+!
 ! http://www.creativebloq.com/3d/30-amazing-examples-webgl-action-6142954
 www.creativebloq.com##.placeholder
 !www.creativebloq.com##.slotify-slot:nth-of-type(1)
 !www.creativebloq.com##.slotify-slot:nth-of-type(2)
 !www.creativebloq.com##.slotify-slot:nth-of-type(3)
 www.creativebloq.com##.slotify-slot
-
+!
 ! https://hk.thenewslens.com/article/26054
 !hk.thenewslens.com##.ad-container-2
 ##.ad-container-2
-
+!
 ! http://download.cnet.com/SanDisk-SecureAccess/3000-18511_4-75796580.html?hasJs=n&hlndr=1&dlm=0
 download.cnet.com###product-video-container
-
+!
 ! https://www.youtube.com/watch?v=tXrmAS_pdR8&list=PLrjo8kFr6wuwuSHyjfKiyG9A13Y9QhLWL
 www.youtube.com###ab4yt-brand
-
+!
 ! http://www.beautyexchange.com.hk
 www.beautyexchange.com.hk##.forum_showcase
 www.beautyexchange.com.hk##.homeless_top_zone
 www.beautyexchange.com.hk##.right_showcase
-
+!
 ! http://fun.ttshow.tw/?p=7702
 fun.ttshow.tw##.fbhi.adbox-bg
 fun.ttshow.tw##.ypabox-bg
 fun.ttshow.tw##.ypabox-container
-
+!
 ! http://www.bastillepost.com/hongkong/8-%E7%94%9F%E6%B4%BB%E4%BA%8B
 www.bastillepost.com###div-ileague-728x90
-
+!
 ! http://www.lifehack.org/articles/technology/15-awesome-gmail-plugins-boost-email-productivity.html
 !www.lifehack.org###div-dfp-ad-in-content-1-1-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-2-wrapper
@@ -445,47 +446,47 @@ www.bastillepost.com###div-ileague-728x90
 !www.lifehack.org###div-dfp-ad-in-content-1-9-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-10-wrapper
 ##[id^="div-dfp-ad-in-content-"]
-
+!
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
-
+!
 ! pixnet.net
 @@||tech3c.pixnet.net/asset/js/channelads.js$script
-
+!
 ! https://tech3c.pixnet.net/
 tech3c.pixnet.net##.adsbyfalcon
-
+!
 ! https://tech3c.pixnet.net/
 tech3c.pixnet.net##.row--commercial.row:nth-of-type(n)
-
+!
 ! http://download.cnet.com/
 download.cnet.com###video_player
 download.cnet.com##.how-to-install
-
+!
 ! https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending
 www.whatismybrowser.com##.hidden-xs.extra
 www.whatismybrowser.com##.leaderboard.hidden-xs.content-block
 www.whatismybrowser.com##.matched-content-page.matched-content.fun
-
+!
 ! ghostery.com
 @@||extension.ghostery.com$first-party
 @@||ghostery.com$first-party
-
+!
 ! https://www.viu.com/ott/hk/
 @@||www.viu.com/ott/hk/v1/js/tracking$script,first-party
 www.viu.com##.wrap.grid_type_3.grid_double_rows.grid > .float-left
 www.viu.com###cat-ad
 www.viu.com##.pb30.pt30.video-cmd-pic
-
+!
 ! vprobroadcast.com
 @@||cookiesv2.publiekeomroep.nl$script
-
+!
 ! http://www.tvboxnow.com/
 www.tvboxnow.com###ypa-hotspot
-
+!
 ! http://www.cocomy.net/post/444480
 www.cocomy.net##.well-sm.well.ad-well
-
+!
 ! browserleaks.com
 ||*/*rects*$script
 ||*/*/rects.js$script
@@ -500,13 +501,13 @@ www.cocomy.net##.well-sm.well.ad-well
 ||*/*/ga.js$script
 @@||*/*/jquery.min.js$script
 @@||*/*/jquery.js$script
-
+!
 Block ads script
 ||*/*/ads*.js$script
 ||*/*/*ads.js$script
 ||ads.*/*/
-
-
+!
+!
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
 !hk.yahoo.com###my-adsEU3
@@ -515,12 +516,12 @@ Block ads script
 ##.ads-by-google
 ##.adsbygoogle
 ##.sys_displayads.dd
-
-
+!
+!
 ! browserleaks.com
 ||*/*font.js$script
 ||*/*fonts.js$script
-
+!
 ! http://www.kephyr.com/popupkillertest/test/test12.html
 !||*/*popup*.*$image
 !||*/*popup*/*popup*.*$image
@@ -531,7 +532,7 @@ Block ads script
 !##[id^="popup"]
 !##img[src^="./popup.gif"]
 !##img[src="/images/popup.gif"]
-
+!
 ! blockadblock.com
 ||*.*/*blockadblock*/*.*$script
 ||*blockadblock*.*/*.*$script
@@ -540,28 +541,28 @@ Block ads script
 !||blockadblock.com$inline-script
 blockadblock.com##script:inject(bab-defuser.js)
 ##script:inject(bab-defuser.js)
-
+!
 onhax.me###bottom-promo-abdload
 onhax.me###top-promo-dload
-
+!
 ##.third-pt-ad-abs
 ###bab10025
 ##.a
 ##.AD_wrapper
-
+!
 hk.thenewslens.com##.help-tnl-container-970_250
 hk.thenewslens.com##.help-tnl-container-300_250
 hk.thenewslens.com##.help-tnl-container-728_90
-
+!
 www.teepr.com###topAdBlock
 www.teepr.com##.side-big-banner
-
+!
 ! nextmedia.com
 @@||staticxx.facebook.com
-
+!
 ##.facebook_share
 ##.twitter_share
-
+!
 ! yahoo.com
 !@@||s.yimg.com$script
 ||s.yimg.com$script
@@ -573,8 +574,8 @@ com##.sys_displayads.dd
 ###yui_3_12_0_4_1498462347313_1533
 ###yui_3_12_0_4_1498456552820_1604
 ###yui_3_12_0_5_1498457055165_1828
-
-
+!
+!
 ! Anti-adblocking
 @@||cdn.digits.com/1/sdk.js$script
 @@||cdn.hk01.com/assets/scripts/ga.js$script
@@ -590,9 +591,9 @@ com##.sys_displayads.dd
 ##[id^=".ad-container"]
 @@||test.netguard.me^
 ||googleapis.com^$image
-
+!
 ! https://blockads.fivefilters.org/ (Adblock testing)
 @@||widgets.outbrain.com/images$image
-
+!
 ! https://hk.yahoo.com/
 yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type(6)
