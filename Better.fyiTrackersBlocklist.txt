@@ -1,6 +1,5 @@
-[Adblock Plus 2.0]
-! Version: 201707041012
-! Last modified: 04 July 2017 10:12
+! Version: 201707112131
+! Last modified: 11 July 2017 21:31
 ! Title: Better.fyi | Trackers (List)
 !
 ||33across.com^
@@ -502,11 +501,10 @@ www.cocomy.net##.well-sm.well.ad-well
 @@||*/*/jquery.min.js$script
 @@||*/*/jquery.js$script
 !
-Block ads script
+! Block ads script
 ||*/*/ads*.js$script
 ||*/*/*ads.js$script
 ||ads.*/*/
-!
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
@@ -516,7 +514,6 @@ Block ads script
 ##.ads-by-google
 ##.adsbygoogle
 ##.sys_displayads.dd
-!
 !
 ! browserleaks.com
 ||*/*font.js$script
@@ -570,6 +567,7 @@ www.teepr.com##.side-big-banner
 @@||s.yimg.com/rx/*.js$script
 @@||s.yimg.com/lq/*.js$script
 @@||s.yimg.com/os/*.js$script
+||s.yimg.com/cv/ae/*$image
 com##.sys_displayads.dd
 ###yui_3_12_0_4_1498462347313_1533
 ###yui_3_12_0_4_1498456552820_1604
@@ -579,6 +577,7 @@ com##.sys_displayads.dd
 ! Anti-adblocking
 @@||cdn.digits.com/1/sdk.js$script
 @@||cdn.hk01.com/assets/scripts/ga.js$script
+@@||cdn.hk01.com/assets/scripts/ga_trace.js$script
 @@||*/*/adblock.js$script
 @@||*/*/ads.js$script
 @@||*/*/adbanner.gif$image
@@ -597,3 +596,12 @@ com##.sys_displayads.dd
 !
 ! https://hk.yahoo.com/
 yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type(6)
+!
+@@||*adblock*.com^$generichide
+@@||*adblock*.org^$generichide
+!
+! messenger.com
+@@||static.xx.fbcdn.net$script
+!
+! browserleaks.com
+@@||disqus.com/embed/comments/^
