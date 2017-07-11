@@ -604,4 +604,4 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 @@||static.xx.fbcdn.net$script
 !
 ! browserleaks.com
-@@||disqus.com/embed/comments/^
+@@||disqus.com/embed/comments$inline-script
