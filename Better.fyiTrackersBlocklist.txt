@@ -1,5 +1,5 @@
 ! Version: 201707112131
-! Last modified: 11 July 2017 21:31
+! Last modified: 16 July 2017 15:22
 ! Title: Better.fyi | Trackers (List)
 !
 ||33across.com^
@@ -605,3 +605,6 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 !
 ! browserleaks.com
 @@||disqus.com/embed/comments$inline-script
+!
+! www.filldisk.com
+||www.filldisk.com^$script
