@@ -589,7 +589,6 @@ com##.sys_displayads.dd
 ##.ad-container
 ##[id^=".ad-container"]
 @@||test.netguard.me^
-||googleapis.com^$image
 !
 ! https://blockads.fivefilters.org/ (Adblock testing)
 @@||widgets.outbrain.com/images$image
