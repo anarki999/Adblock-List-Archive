@@ -1,7 +1,8 @@
-! Version: 201707241209
-! Last modified: 24 July 2017 12:09
+! Version: 201708010907
+! Last modified: 1 August 2017 9:07
 ! Title: Better.fyi | Trackers (List)
 !
+! List from https://better.fyi/trackers/
 ||33across.com^
 ||adadvisor.net^
 ||adblade.com^
@@ -317,7 +318,7 @@
 @@||msn.com^$first-party
 @@||bing.com^$first-party
 !
-! Anti-adblocking detection & Site breaking
+! Anti-adblocking detection & Site unbreaking
 ! http://viu.tv/
 viu.tv##.in.fade.modal-backdrop
 !
@@ -377,7 +378,7 @@ www.gotrip.hk##.category__featured-posts
 i-comic.net###myModal
 i-comic.net##.in.fade.modal-backdrop
 !
-! github.com
+! github.com (Unbreak github.com for some other adblocking list)
 @@||s3.amazonaws.com*
 @@||*.*$stylesheet
 !
@@ -535,10 +536,9 @@ www.cocomy.net##.well-sm.well.ad-well
 ||*blockadblock*.*/*.*$script
 ||*/*adblock*.js$script
 ||*/*adblock*/*.js$script
-!||blockadblock.com$inline-script
 blockadblock.com##script:inject(bab-defuser.js)
-##script:inject(bab-defuser.js)
 !
+! onhax.me (Install RightToCopy extension to prevent right click link redirecting)
 onhax.me###bottom-promo-abdload
 onhax.me###top-promo-dload
 !
@@ -560,35 +560,49 @@ www.teepr.com##.side-big-banner
 ##.facebook_share
 ##.twitter_share
 !
-! yahoo.com
-!@@||s.yimg.com$script
-||s.yimg.com$script
+! yahoo.com (for fastest website loading) (still testing)
+@@||s.yimg.com$script
 @@||s.yimg.com/zz/combo?*$script
 @@||s.yimg.com/rx/*.js$script
 @@||s.yimg.com/lq/*.js$script
 @@||s.yimg.com/os/*.js$script
-||s.yimg.com/cv/ae/*$image
+@@||s.yimg.com/cv/ae/*$image
 com##.sys_displayads.dd
 ###yui_3_12_0_4_1498462347313_1533
 ###yui_3_12_0_4_1498456552820_1604
 ###yui_3_12_0_5_1498457055165_1828
 !
 !
-! Anti-adblocking
+! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
 @@||cdn.digits.com/1/sdk.js$script
 @@||cdn.hk01.com/assets/scripts/ga.js$script
 @@||cdn.hk01.com/assets/scripts/ga_trace.js$script
-@@||*/*/adblock.js$script
-@@||*/*/ads.js$script
-@@||*/*/adbanner.gif$image
-@@||*/*/advertisement.js$script
-@@||*/*/adframe.js$script
-@@||*/*/advert.js$script,domain=~adultmult.tv
-@@||*/*/adwordstracking.js$script
+@@||*.*/*/adblock.js$script
+@@||*.*/*/ads.js$script
+@@||*.*/*/adbanner.gif$image
+@@||*.*/*/advertisement.js$script
+@@||*.*/*/adframe.js$script
+@@||*.*/*/advert.js$script,domain=~adultmult.tv
+@@||*.*/*/adwordstracking.js$script
 ||*.*/adblock/*$inline-script
 ##.ad-container
 ##[id^=".ad-container"]
+!
+! https://www.netguard.me/test
 @@||test.netguard.me^
+!
+! https://codepen.io/mariusbalaj/pen/MaEdpx
+||*.*/*/adi.js$script
+||*.*/*/adi.js$inline-script
+!
+! https://browserleaks.com/proxy
+@@||dummy.net.err.*$image
+!
+! browserleaks.com
+@@||*.*/*/smile.gif*$image
+!
+! http://www.admoremedia.se/adblock-detection-script/
+||/*/detect.js$script
 !
 ! https://blockads.fivefilters.org/ (Adblock testing)
 @@||widgets.outbrain.com/images$image
@@ -600,10 +614,153 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 @@||*adblock*.org^$generichide
 !
 ! messenger.com
-@@||static.xx.fbcdn.net$script
+@@||static.xx.fbcdn.net^$script
 !
-! browserleaks.com
+! browserleaks.com (unbreak the comment section)
 @@||disqus.com/embed/comments$inline-script
 !
-! www.filldisk.com
+! www.filldisk.com (block HTML5 filldisk bug)
 ||www.filldisk.com^$script
+!
+! List from https://better.fyi/trackers/alexa-top-500-news/
+||google-analytics.com^
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||startpage.com/adsense/search/async-ads.js
+||googletagservices.com^
+||google.com/ads^
+||google.com/pagead^
+||google.com/js/gweb^
+||apis.google.com/js/platform.js$script
+||apis.google.com/js/client:platform.js$script
+||apis.google.com/js/plusone.js$script
+||apis.google.com/js/client:plusone.js$script
+||apis.google.com/js/rpc:shindig_random.js$script
+||apis.google.com/_/widget^
+||apis.google.com/se/0/_/+1/fastbutton^
+||google.com/images/icons/ui/gprofile_button-16.png$image
+||google.com/images/cleardot.gif$image
+||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
+||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
+||scorecardresearch.com^
+||metric.gstatic.com^
+||chartbeat.com^
+||quantserve.com^
+||chartbeat.net^
+||criteo.com^
+||crwdcntrl.net^
+||adnxs.com^
+||rubiconproject.com^
+||openx.net^
+||google.se/ads^
+||rlcdn.com^
+||adsrvr.org^
+||amazon-adsystem.com^
+||googletagmanager.com^
+||adadvisor.net^
+||moatads.com^
+||newrelic.com^
+||casalemedia.com^
+||krxd.net^
+||demdex.net^
+||imrworldwide.com^
+||tidaltv.com^
+||turn.com^
+||newsinc.com^$third-party
+||2mdn.net^
+||nr-data.net^
+||tapad.com^
+||bidswitch.net^
+||tubemogul.com^
+||bluekai.com^
+||addthis.com^
+||postrelease.com^
+||optimizely.com^
+||ntv.io^
+||advertising.com^
+||parsely.com^
+||pubmatic.com^
+||taboola.com^
+||gwallet.com^
+||sitescout.com^
+||simpli.fi^
+||tiqcdn.com^
+||media6degrees.com^
+||nexac.com^
+||adsymptotic.com^
+||exelator.com^
+||mathtag.com^
+||rfihub.com^
+||pixel.wp.com^
+||stats.wp.com^
+||addthisedge.com^
+||townnews.com^$third-party
+||adtechus.com^
+||adobedtm.com^
+||mookie1.com^
+||load.s3.amazonaws.com^
+||yldbt.com^
+||ml314.com^
+||adroll.com^
+||adform.net^
+||ppjol.net^third-party
+||indexww.com^third-party
+||wishabi.net^
+||wishabi.com^
+||btrll.com^
+||lijit.com^
+||omtrdc.net^
+||2o7.net^
+||chango.com^
+||imshopping.com^$third-party
+||revsci.net^
+||ixiaa.com^
+||circularhub.com^
+||spotxchange.com^
+||servedbyopenx.com^third-party
+||imasdk.googleapis.com^
+||sonobi.com^
+||dnn506yrbagrg.cloudfront.net^
+||mediavoice.com^
+||adtech.de^
+||contextweb.com^
+||w55c.net^
+||budgetedbauer.com^
+||yieldmo.com^
+||betrad.com^
+||ensighten.com^
+||gcion.com^
+||lrcdn.net^
+||liverail.com^
+||adap.tv^
+||gtrk.s3.amazonaws.com^
+||d3ujids68p6xmq.cloudfront.net^
+||fallingfalcon.com^
+||gigya.com^
+||rhythmxchange.com^
+||outbrain.com^
+||1rx.io^
+||spotxcdn.com^
+||brand-server.com^
+||d31qbv1cthcecs.cloudfront.net^
+||decenthat.com^
+||d5nxst8fruw4z.cloudfront.net^
+||sharethrough.com^
+||zedo.com^
+||eyeota.net^
+||d1xfq2052q7thw.cloudfront.net^
+||sharethis.com^
+||domdex.com^
+||bloxcms.com^
+||flashtalking.com^
+||condenastdigital.com^
+||d2lv4zbk7v5f93.cloudfront.net^
+||connexity.net^
+||mdotlabs.com^
+||agkn.com^
+||zqtk.net^
+||owneriq.net^
+||eqads.com^
+||pagefair.net^
+||burt.io^
