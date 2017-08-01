@@ -505,7 +505,7 @@ www.cocomy.net##.well-sm.well.ad-well
 ! Block ads script
 ||*/*/ads*.js$script
 ||*/*/*ads.js$script
-||ads.*/*/
+||ads.*/*$script
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
