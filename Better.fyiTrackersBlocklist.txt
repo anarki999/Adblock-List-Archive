@@ -1,5 +1,5 @@
-! Version: 201708010907
-! Last modified: 1 August 2017 9:07
+! Version: 201708021101
+! Last modified: 2 August 2017 11:01
 ! Title: Better.fyi | Trackers (List)
 !
 ! List from https://better.fyi/trackers/
@@ -534,7 +534,7 @@ www.cocomy.net##.well-sm.well.ad-well
 ! blockadblock.com
 ||*.*/*blockadblock*/*.*$script
 ||*blockadblock*.*/*.*$script
-||*/*adblock*.js$script
+!||*/*adblock*.js$script
 ||*/*adblock*/*.js$script
 blockadblock.com##script:inject(bab-defuser.js)
 !
