@@ -1,5 +1,5 @@
-! Version: 201708021101
-! Last modified: 2 August 2017 11:01
+! Version: 201708021105
+! Last modified: 2 August 2017 11:05
 ! Title: Better.fyi | Trackers (List)
 !
 ! List from https://better.fyi/trackers/
@@ -535,7 +535,7 @@ www.cocomy.net##.well-sm.well.ad-well
 ||*.*/*blockadblock*/*.*$script
 ||*blockadblock*.*/*.*$script
 !||*/*adblock*.js$script
-||*/*adblock*/*.js$script
+!||*/*adblock*/*.js$script
 blockadblock.com##script:inject(bab-defuser.js)
 !
 ! onhax.me (Install RightToCopy extension to prevent right click link redirecting)
