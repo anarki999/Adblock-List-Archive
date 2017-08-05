@@ -1,5 +1,6 @@
 ! Version: 201708051650
 ! Last modified: 5 August 2017 16:50
+! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
 ! List from https://better.fyi/trackers/
