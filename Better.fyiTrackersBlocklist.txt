@@ -1,5 +1,5 @@
-! Version: 201708051650
-! Last modified: 5 August 2017 16:50
+! Version: 201708111252
+! Last modified: 11 August 2017 12:52
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -314,8 +314,6 @@
 ||yieldmo.com^
 ||yume.com^
 ||zergnet.com^
-!||yimg.com^
-!@@||yimg.com^$domain=yahoo.com|tumblr.com|yahoo.net|yahoo.co|yahoo.co.uk|yahoo.co.jp|flickr.com
 @@||msn.com^$first-party
 @@||bing.com^$first-party
 !
@@ -323,16 +321,16 @@
 ! http://viu.tv/
 viu.tv##.in.fade.modal-backdrop
 !
-! http://www.hktvmall.com/hktv/zh/tv/live
-www.hktvmall.com##.CrazyAd
-!
 ! http://www.hktvmall.com/hktv/zh/supermarket
+www.hktvmall.com##.CrazyAd
 www.hktvmall.com##.active.extra-banner-container
-@@||hktvmall.com^$script
+!@@||hktvmall.com^$script
+@@||images.hktvmall.com$image
+@@||hktv-media.hktvmall.com$image
 !
-! hktvmall.com
+! http://www.hktvmall.com/hktv/zh/tv/live
 @@||b.scorecardresearch.com/beacon.js$script,domain=hktvmall.com
-@@||hktvmall.com^$first-party
+!@@||hktvmall.com^$image
 !
 ! https://www.technorms.com/
 www.technorms.com##.td-g-rec-id-header
@@ -516,10 +514,15 @@ www.cocomy.net##.well-sm.well.ad-well
 ##.ads-by-google
 ##.adsbygoogle
 ##.sys_displayads.dd
+! https://mg.mail.yahoo.com/mg.mail.yahoo.com
+mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649357463_2038
+mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649410078_3549
+mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649410078_3550
 !
 ! browserleaks.com
 ||*/*font.js$script
 ||*/*fonts.js$script
+@@||*.*/*/js/libs/webfont.js$script
 !
 ! http://www.kephyr.com/popupkillertest/test/test12.html
 !||*/*popup*.*$image
@@ -562,12 +565,143 @@ www.teepr.com##.side-big-banner
 ##.twitter_share
 !
 ! yahoo.com (for fastest website loading) (still testing)
-@@||s.yimg.com$script
-@@||s.yimg.com/zz/combo?*$script
-@@||s.yimg.com/rx/*.js$script
-@@||s.yimg.com/lq/*.js$script
-@@||s.yimg.com/os/*.js$script
-@@||s.yimg.com/cv/ae/*$image
+||yimg.com^
+@@||yimg.com^$domain=yahoo.com|tumblr.com|yahoo.net|yahoo.co|yahoo.co.uk|yahoo.co.jp|flickr.com
+||l.yimg.com^*&partner=*&url=$important
+||yimg.com/gemini/pr/video_$important
+||yimg.com/gs/apex/mediastore/$important
+||yimg.com^*/dianominewwidget2.html$important,domain=yahoo.com
+||yimg.com^*/quickplay_maxwellhouse.png$important
+||yimg.com^*/sponsored.js$important
+||yimg.com^*_skin_$important,domain=yahoo.com
+||yimg.com/rq/darla/$important,domain=yahoo.com
+||http.atlas.cdn.yimg.com/yamplus/video_*.mp4?$important,object-subrequest,domain=yahoo.com
+||l.yimg.com/a/i/*_wallpaper$important,image
+||l.yimg.com/ao/i/ad/$important
+||l.yimg.com/mq/a/$important
+||richmedia.yimg.com^$important
+||s.yimg.com^*/audience/$important
+||yimg.com/*300x250$important,image,object
+||yimg.com/a/1-$important,~stylesheet
+||yimg.com/ao/adv/$important,script,domain=yahoo.com
+||yimg.com/cv/*/billboard/$important
+||yimg.com/cv/*/config-object-html5billboardfloatexp.js$important
+||yimg.com/cv/ae/ca/audience/$important,image,domain=yahoo.com
+||yimg.com/cv/ae/us/audience/$important,image,domain=yahoo.com
+||yimg.com/cv/eng/*.webm$important,domain=yahoo.com
+||yimg.com/cv/eng/*/635x100_$important,domain=yahoo.com
+||yimg.com/cv/eng/*/970x250_$important,domain=yahoo.com
+||yimg.com/dh/ap/default/*/skins_$important,image,domain=yahoo.com
+||yimg.com/hl/ap/*_takeover_$important,domain=yahoo.com
+||yimg.com/hl/ap/default/*_background$important,image,domain=yahoo.com
+||yimg.com/i/i/de/cat/yahoo.html$important,domain=yahoo.com
+||yimg.com/la/i/wan/widgets/wjobs/$important,subdocument,domain=yahoo.com
+||yimg.com/rq/darla/$important,domain=yahoo.com
+||yimg.com^*/billboardv2r5min.js$important,domain=yahoo.com
+||yimg.com^*/darla-secure-pre-min.js$important,domain=yahoo.com
+||yimg.com^*/fairfax/$important,image
+||yimg.com^*/flash/promotions/$important
+||yimg.com^*/ya-answers-dmros-ssl-min.js$important,domain=yahoo.com
+||yimg.com^*/yad*.js$important,domain=yahoo.com
+||yimg.com^*/yad.html$important
+||yimg.com^*/yfpadobject.js$important,domain=yahoo.com
+||yimg.com^*_east.swf$domain=yahoo.com$important
+||yimg.com^*_north.swf$important,domain=yahoo.com
+||yimg.com^*_west.swf$important,domain=yahoo.com
+@@||ads.yimg.com/a/$important,domain=autos.yahoo.com
+@@||ads.yimg.com/ev/eu/any/vint/videointerstitial*.js$important
+@@||ads.yimg.com/la/adv/y/yahooxtra$important,image,domain=movies.yahoo.com
+@@||ads.yimg.com^*/any/yahoologo$important,image
+@@||ads.yimg.com^*/search/b/syc_logo_2.gif$important
+@@||ads.yimg.com^*videoadmodule*.swf$important
+@@||l.yimg.com/*/adservice/$important
+@@||l.yimg.com/zz/combo?*/advertising.$important,stylesheet
+@@||yimg.com/ks/plugin/adplugin.swf?$important,domain=yahoo.com
+@@||yimg.com/nn/lib/metro/300_250_Human_Touch_mail.jpg$important,domain=yahoo.com
+@@||yimg.com/p/combo?$important,stylesheet,domain=yahoo.com
+@@||yimg.com/rq/darla/*/g-r-min.js$important,domain=yahoo.com
+@@||yimg.com/zz/combo?*&*.js$important
+@@||yimg.com^*&yat/js/ads_$important
+@@||yimg.com^*/adplugin_*.swf$important,object,domain=games.yahoo.com
+@@||yimg.com^*/ads-min.css$important,domain=yahoo.com
+@@||yimg.com^*/java/promotions/js/ad_eo_1.1.js$important
+@@||yimg.com/av/gemini-ui/*/advertiser/$important,domain=gemini.yahoo.com
+||qos.video.yimg.com^$important
+||yimg.com/wi/ytc.js$important
+||yimg.com^*/l?ig=$important,image
+||ybinst2.ec.yimg.com/ec/*&Type=Event.CPT&$important,domain=search.yahoo.com
+||yimg.com/nq/ued/assets/flash/wsclient_$important
+||yimg.com^*/swfproxy-$important,object
+||yimg.com^*/yabcs.js$important
+||yimg.com^*/ywa.js$important
+@@||l.yimg.com/g/combo/*/comscore.$important,script
+@@||yimg.com/bm/lib/fi/common/*/yfi_comscore.js$important,domain=finance.yahoo.com
+@@||yimg.com^*/ywa.js$important,domain=nydailynews.com|travelscream.com|yahoo.com
+@@||yimg.com/mi/eu/ywa.js$important,domain=immowelt.de
+||s.yimg.com/ja/ap/$important,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
+@@||yimg.com/*/*.css$important
+@@||yimg.com/*/css/$important
+@@||ytimg.com^*_banner$important,domain=youtube.com
+||l.yimg.com^*&partner=*&url=$important
+||yimg.com/gemini/pr/video_$important
+||yimg.com/gs/apex/mediastore/$important
+||yimg.com^*/dianominewwidget2.html$important,domain=yahoo.com
+||yimg.com^*/quickplay_maxwellhouse.png$important
+||yimg.com^*/sponsored.js$important
+||yimg.com^*_skin_$important,domain=yahoo.com
+||http.atlas.cdn.yimg.com/yamplus/video_*.mp4?$important,object-subrequest,domain=yahoo.com
+||l.yimg.com/a/i/*_wallpaper$important,image
+||l.yimg.com/ao/i/ad/$important
+||l.yimg.com/mq/a/$important
+||richmedia.yimg.com^$important
+||s.yimg.com^*/audience/$important
+||yimg.com/*300x250$important,image,object
+||yimg.com/a/1-$important,~stylesheet
+||yimg.com/ao/adv/$important,script,domain=yahoo.com
+||yimg.com/cv/*/billboard/$important
+||yimg.com/cv/*/config-object-html5billboardfloatexp.js$important
+||yimg.com/cv/ae/ca/audience/$important,image,domain=yahoo.com
+||yimg.com/cv/ae/us/audience/$important,image,domain=yahoo.com
+||yimg.com/cv/eng/*.webm$important,domain=yahoo.com
+||yimg.com/cv/eng/*/635x100_$important,domain=yahoo.com
+||yimg.com/cv/eng/*/970x250_$important,domain=yahoo.com
+||yimg.com/dh/ap/default/*/skins_$important,image,domain=yahoo.com
+||yimg.com/hl/ap/*_takeover_$important,domain=yahoo.com
+||yimg.com/hl/ap/default/*_background$important,image,domain=yahoo.com
+||yimg.com/i/i/de/cat/yahoo.html$important,domain=yahoo.com
+||yimg.com/la/i/wan/widgets/wjobs/$important,subdocument,domain=yahoo.com
+||yimg.com/rq/darla/$important,domain=yahoo.com
+||yimg.com^*/billboardv2r5min.js$important,domain=yahoo.com
+||yimg.com^*/darla-secure-pre-min.js$important,domain=yahoo.com
+||yimg.com^*/fairfax/$important,image
+||yimg.com^*/flash/promotions/$important
+||yimg.com^*/ya-answers-dmros-ssl-min.js$important,domain=yahoo.com
+||yimg.com^*/yad*.js$important,domain=yahoo.com
+||yimg.com^*/yad.html$important
+||yimg.com^*/yfpadobject.js$important,domain=yahoo.com
+||yimg.com^*_east.swf$important,domain=yahoo.com
+||yimg.com^*_north.swf$important,domain=yahoo.com
+||yimg.com^*_west.swf$important,domain=yahoo.com
+@@||ads.yimg.com/a/$important,domain=autos.yahoo.com
+@@||ads.yimg.com/ev/eu/any/vint/videointerstitial*.js$important
+@@||ads.yimg.com/la/adv/y/yahooxtra$important,image,domain=movies.yahoo.com
+@@||ads.yimg.com^*/any/yahoologo$important,image
+@@||ads.yimg.com^*/search/b/syc_logo_2.gif$important
+@@||ads.yimg.com^*videoadmodule*.swf$important
+@@||l.yimg.com/*/adservice/$important
+@@||l.yimg.com/zz/combo?*/advertising.$important,stylesheet
+@@||yimg.com/ks/plugin/adplugin.swf?$important,domain=yahoo.com
+@@||yimg.com/nn/lib/metro/300_250_Human_Touch_mail.jpg$important,domain=yahoo.com
+@@||yimg.com/p/combo?$important,stylesheet,domain=yahoo.com
+@@||yimg.com/rq/darla/*/g-r-min.js$important,domain=yahoo.com
+@@||yimg.com/zz/combo?*&*.js$important
+@@||yimg.com^*&yat/js/ads_$important
+@@||yimg.com^*/adplugin_*.swf$important,object,domain=games.yahoo.com
+@@||yimg.com^*/ads-min.css$important,domain=yahoo.com
+@@||yimg.com^*/java/promotions/js/ad_eo_1.1.js$important
+@@||yimg.com/av/gemini-ui/*/advertiser/$important,domain=gemini.yahoo.com
+@@||yimg.com/*/*.css$important
+@@||yimg.com/*/css/$important
 com##.sys_displayads.dd
 ###yui_3_12_0_4_1498462347313_1533
 ###yui_3_12_0_4_1498456552820_1604
@@ -623,7 +757,48 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 ! www.filldisk.com (block HTML5 filldisk bug)
 ||www.filldisk.com^$script
 ||*filldisk*/index.js$script
-!||*disk*/index.js$script
+||*disk*/index.js$script
+!
+! Genral Custom Filters for faster website speed loading
+||adclixx.net^
+||adnetasia.com^
+||ads.yahoo.com^
+||adtrackers.net^
+||bannertrack.net^
+||bats.video.yahoo.com^
+||beap-bc.yahoo.com^
+||c.bing.com^
+||clickability.com^
+||doubleclick.net^
+||doubleclickbygoogle.com^
+||fc.yahoo.com^
+||geo-um.btrll.com^
+||geo.yahoo.com^
+||ghbtns.com^
+||global.adserver.yahoo.com^
+||google-analytics.com^
+||googleadservices.com^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||adserver.yahoo.com^
+||imasdk.googleapis.com^
+||juicyads.com^
+||n.gemini.yahoo.com^
+||newrelic.com^
+||pair.com^
+||scorecardresearch.com^
+||tp2.beap.gemini.yahoo.com^
+||udc.yahoo.com^
+||us.adserver.yahoo.com^
+!
+! Allow Facebook comments & Plugins
+||facebook.com/tr/*
+||facebook.com/impression.php/*
+@@||facebook.com/*/plugins
+@@||connect.facebook.net/*
+@@||staticxx.facebook.com/connect/*
+@@||fbcdn.net/*
 !
 ! List from https://better.fyi/trackers/alexa-top-500-news/
 ||google-analytics.com^
