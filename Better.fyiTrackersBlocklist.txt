@@ -1,8 +1,9 @@
-! Version: 201708122113
-! Last modified: 12 August 2017 21:13
+! Version: 201708172247
+! Last modified: 17 August 2017 22:47
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
+
 ! List from https://better.fyi/trackers/
 ||33across.com^third-party
 ||adadvisor.net^third-party
@@ -716,6 +717,9 @@ com##.sys_displayads.dd
 @@||*.*/*/adframe.js$script
 @@||*.*/*/advert.js$script,domain=~adultmult.tv
 @@||*.*/*/adwordstracking.js$script
+@@||*.*/*/adsbygoogle.js$script
+@@||www.adiode.com^
+
 ||*.*/adblock/*$inline-script
 ##.ad-container
 ##[id^=".ad-container"]
@@ -724,6 +728,7 @@ com##.sys_displayads.dd
 @@||test.netguard.me^
 !
 ! https://codepen.io/mariusbalaj/pen/MaEdpx
+||*.*/*/*adi.js$script
 ||*.*/*/adi.js$script
 ||*.*/*/adi.js$inline-script
 !
@@ -744,6 +749,8 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 !
 @@||*adblock*.com^$generichide
 @@||*adblock*.org^$generichide
+@@||*.*/*adblock*$generichide
+@@||codepen.io^$generichide, important
 !
 ! messenger.com
 @@||static.xx.fbcdn.net^$script
@@ -757,6 +764,18 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 ||www.filldisk.com^$script
 ||*filldisk*/index.js$script
 ||*disk*/index.js$script
+!
+! https://www.receivesmsonline.net/
+! https://receivefreesms.net/
+www.receivesmsonline.net##.col-md-10:nth-of-type(n) > center
+###mADSNoNum
+###mADSAd
+###mADSFooter
+receivefreesms.net##.container > .pull-right
+receivefreesms.net##center:nth-of-type(n)
+!
+! www.nbcsports.com
+@@||geo.nbcsports.com/*jQuery*$script,domain=www.nbcsports.com
 !
 ! Genral Custom Filters for faster website speed loading
 ||adclixx.net^
