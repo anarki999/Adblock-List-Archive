@@ -3,7 +3,6 @@
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
-
 ! List from https://better.fyi/trackers/
 ||33across.com^third-party
 ||adadvisor.net^third-party
