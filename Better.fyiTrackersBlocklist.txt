@@ -764,7 +764,7 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 !
 ! www.filldisk.com (block HTML5 filldisk bug)
 !||www.filldisk.com^$script
-!||*filldisk*/index.js$script
+||*filldisk*/index.js$script
 filldisk.com##script:inject(abort-on-property-read.js, localStorage)
 filldisk.com##script:inject(abort-on-property-read.js, sessionStorage)
 !
