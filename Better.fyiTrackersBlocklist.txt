@@ -1,5 +1,5 @@
-! Version: 201708172247
-! Last modified: 17 August 2017 22:47
+! Version: 201708211526
+! Last modified: 21 August 2017 15:26
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -483,6 +483,10 @@ www.tvboxnow.com###ypa-hotspot
 ! http://www.cocomy.net/post/444480
 www.cocomy.net##.well-sm.well.ad-well
 !
+! https://www.discoverhongkong.com/
+||www.discoverhongkong.com/tc/images/banners/*.gif$image
+www.discoverhongkong.com###rightBannerAdContainer
+!
 ! browserleaks.com
 ||*/*rects*$script
 ||*/*/rects.js$script
@@ -718,7 +722,11 @@ com##.sys_displayads.dd
 @@||*.*/*/adwordstracking.js$script
 @@||*.*/*/adsbygoogle.js$script
 @@||www.adiode.com^
-
+!
+@@||*adblock*.com^$generichide
+@@||*adblock*.org^$generichide
+@@||*.*/*adblock*$generichide
+@@||codepen.io^$generichide, important
 ||*.*/adblock/*$inline-script
 ##.ad-container
 ##[id^=".ad-container"]
@@ -746,11 +754,6 @@ com##.sys_displayads.dd
 ! https://hk.yahoo.com/
 yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type(6)
 !
-@@||*adblock*.com^$generichide
-@@||*adblock*.org^$generichide
-@@||*.*/*adblock*$generichide
-@@||codepen.io^$generichide, important
-!
 ! messenger.com
 @@||static.xx.fbcdn.net^$script
 !
@@ -760,9 +763,10 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 !@@||openload.co/stream/*
 !
 ! www.filldisk.com (block HTML5 filldisk bug)
-||www.filldisk.com^$script
-||*filldisk*/index.js$script
-||*disk*/index.js$script
+!||www.filldisk.com^$script
+!||*filldisk*/index.js$script
+filldisk.com##script:inject(abort-on-property-read.js, localStorage)
+filldisk.com##script:inject(abort-on-property-read.js, sessionStorage)
 !
 ! https://www.receivesmsonline.net/
 ! https://receivefreesms.net/
@@ -775,6 +779,11 @@ receivefreesms.net##center:nth-of-type(n)
 !
 ! www.nbcsports.com
 @@||geo.nbcsports.com/*jQuery*$script,domain=www.nbcsports.com
+!
+! lihkg.com
+@@||ir0.mobify.com/500/*$image
+! spiegel.de
+@@||*.adition.com/*$important,domain=www.spiegel.de
 !
 ! Genral Custom Filters for faster website speed loading
 ||adclixx.net^
