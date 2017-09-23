@@ -1,5 +1,5 @@
-! Version: 201708232323
-! Last modified: 23 August 2017 23:23
+! Version: 201709231231
+! Last modified: 23 September 2017 12:31
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -138,7 +138,7 @@
 ||apis.google.com/se/0/_/+1/fastbutton^
 ||google.com/images/icons/ui/gprofile_button-16.png
 ||google.com/images/cleardot.gif
-||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent^
+!||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent^
 ||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js
 ||google.se/ads^
 ||googleadservices.com^
