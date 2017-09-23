@@ -1,5 +1,5 @@
-! Version: 201709231231
-! Last modified: 23 September 2017 12:31
+! Version: 201709231243
+! Last modified: 23 September 2017 12:43
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -138,7 +138,6 @@
 ||apis.google.com/se/0/_/+1/fastbutton^
 ||google.com/images/icons/ui/gprofile_button-16.png
 ||google.com/images/cleardot.gif
-!||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent^
 ||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js
 ||google.se/ads^
 ||googleadservices.com^
@@ -846,7 +845,6 @@ receivefreesms.net##center:nth-of-type(n)
 ||apis.google.com/se/0/_/+1/fastbutton^
 ||google.com/images/icons/ui/gprofile_button-16.png$image
 ||google.com/images/cleardot.gif$image
-!||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
 ||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
 ||scorecardresearch.com^third-party
 ||metric.gstatic.com^third-party
@@ -1315,8 +1313,5 @@ receivefreesms.net##center:nth-of-type(n)
 ||filepicker.io^third-party
 ||wxug.com^third-party
 
-! 9/20/2017, 10:29:59 PM http://hackersthegame.wikia.com/wiki/Hackers_Wikia
-hackersthegame.wikia.com###MtaxPQGU
-
-! 9/20/2017, 10:30:32 PM http://hackersthegame.wikia.com/wiki/Hackers_Wikia
+! http://hackersthegame.wikia.com/wiki/Hackers_Wikia
 hackersthegame.wikia.com###MtaxPQGU
