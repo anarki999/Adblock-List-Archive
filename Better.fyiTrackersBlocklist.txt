@@ -321,13 +321,14 @@ viu.tv##.in.fade.modal-backdrop
 ! http://www.hktvmall.com/hktv/zh/supermarket
 www.hktvmall.com##.CrazyAd
 www.hktvmall.com##.active.extra-banner-container
-!@@||hktvmall.com^$script
+@@||hktvmall.com^$script
 @@||images.hktvmall.com$image
 @@||hktv-media.hktvmall.com$image
 !
 ! http://www.hktvmall.com/hktv/zh/tv/live
 @@||b.scorecardresearch.com/beacon.js$script,domain=hktvmall.com
-!@@||hktvmall.com^$image
+@@||hktvmall.com^$image
+!@@||hktvmall.com^
 !
 ! https://www.technorms.com/
 www.technorms.com##.td-g-rec-id-header
@@ -1313,3 +1314,9 @@ receivefreesms.net##center:nth-of-type(n)
 ||shareaholic.com^third-party
 ||filepicker.io^third-party
 ||wxug.com^third-party
+
+! 9/20/2017, 10:29:59 PM http://hackersthegame.wikia.com/wiki/Hackers_Wikia
+hackersthegame.wikia.com###MtaxPQGU
+
+! 9/20/2017, 10:30:32 PM http://hackersthegame.wikia.com/wiki/Hackers_Wikia
+hackersthegame.wikia.com###MtaxPQGU
