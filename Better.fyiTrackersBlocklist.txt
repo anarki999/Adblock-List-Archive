@@ -846,7 +846,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||apis.google.com/se/0/_/+1/fastbutton^
 ||google.com/images/icons/ui/gprofile_button-16.png$image
 ||google.com/images/cleardot.gif$image
-||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
+!||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
 ||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
 ||scorecardresearch.com^third-party
 ||metric.gstatic.com^third-party
