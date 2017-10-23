@@ -1,5 +1,5 @@
-! Version: 201709231243
-! Last modified: 23 September 2017 12:43
+! Version: 201710230853
+! Last modified: 23 October 2017 08:53
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -566,7 +566,6 @@ www.teepr.com##.side-big-banner
 ##.twitter_share
 !
 ! yahoo.com (for fastest website loading) (still testing)
-||yimg.com^
 @@||yimg.com^$domain=yahoo.com|tumblr.com|yahoo.net|yahoo.co|yahoo.co.uk|yahoo.co.jp|flickr.com
 ||l.yimg.com^*&partner=*&url=$important
 ||yimg.com/gemini/pr/video_$important
