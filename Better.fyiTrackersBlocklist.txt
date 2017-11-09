@@ -1,5 +1,5 @@
-! Version: 201710230853
-! Last modified: 23 October 2017 08:53
+! Version: 201711091534
+! Last modified: 09 November 2017 15:34
 ! Expires: 1 days (update frequency)
 ! Title: Better.fyi | Trackers (List)
 !
@@ -710,8 +710,8 @@ com##.sys_displayads.dd
 !
 ! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
 @@||cdn.digits.com/1/sdk.js$script
-@@||cdn.hk01.com/assets/scripts/ga.js$script
-@@||cdn.hk01.com/assets/scripts/ga_trace.js$script
+@@||cdn.hk01.com/*/scripts/ga.js$script
+@@||cdn.hk01.com/*/scripts/ga_trace.js$script
 @@||*.*/*/adblock.js$script
 @@||*.*/*/ads.js$script
 @@||*.*/*/adbanner.gif$image
