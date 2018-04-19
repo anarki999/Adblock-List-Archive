@@ -1337,18 +1337,18 @@ profullcrack.com##center:nth-of-type(n)
 
 ||*crash*.com$inline-script
 
-! 3/6/2018, 10:35:40 AM http://www.dpxq.com/hldcg/search/view_u_799927.html
+! http://www.dpxq.com/
 ||www.dpxq.com/hldcg/bbs/up/image/*/$image
 
-! 3/8/2018, 4:44:49 PM google.com
+! google.com
 @@||ajax.googleapis.com/*/webfont.js$script
 ||fonts.googleapis.com^$script
 
-! 3/26/2018, 10:55:57 AM eslite.com
+! eslite.com
 @@||www.eslite.com^$image,domain=www.eslite.com
 
-! 3/28/2018, 6:19:31 PM kuas.edu.tw
+! kuas.edu.tw
 @@||people.engh.kuas.edu.tw^$image
 
-! 3/28/2018, 6:41:36 PM kuas.edu.tw
-@@||people.engh.kuas.edu.tw^$image
+! kuas.edu.tw
+@@||people.engh.kuas.edu.tw^$imag
