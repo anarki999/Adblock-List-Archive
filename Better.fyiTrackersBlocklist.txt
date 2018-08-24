@@ -1351,4 +1351,15 @@ profullcrack.com##center:nth-of-type(n)
 @@||people.engh.kuas.edu.tw^$image
 
 ! kuas.edu.tw
-@@||people.engh.kuas.edu.tw^$imag
+@@||people.engh.kuas.edu.tw^$image
+
+! 5/17/2018, 11:25:40 AM https://www.ifreesite.com/pinyin/
+www.ifreesite.com##.if_billboard
+
+@@||*player*$script
+
+! wunderground.com
+@@||www.wunderground.com^$script
+
+! appledaily.com
+@@||anvato-api-config.s3.amazonaws.com
