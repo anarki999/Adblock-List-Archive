@@ -1363,3 +1363,9 @@ www.ifreesite.com##.if_billboard
 
 ! appledaily.com
 @@||anvato-api-config.s3.amazonaws.com
+
+! https://www.washingtonpost.com
+www.washingtonpost.com##.modal-mask
+
+! anime1.me
+@@||*/ads.js?ads=ads
