@@ -1,3 +1,9 @@
+[Better.fyi Trackers Blocklist]
+! Title: Better.fyi Trackers Blocklist
+! Expires: 1 days
+! License: See source for license and credits
+! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
+
 ! List from https://better.fyi/trackers/
 ||33across.com^third-party
 ||adadvisor.net^third-party
@@ -456,11 +462,6 @@ tech3c.pixnet.net##.row--commercial.row:nth-of-type(n)
 download.cnet.com###video_player
 download.cnet.com##.how-to-install
 !
-! https://www.whatismybrowser.com/detect/what-http-headers-is-my-browser-sending
-www.whatismybrowser.com##.hidden-xs.extra
-www.whatismybrowser.com##.leaderboard.hidden-xs.content-block
-www.whatismybrowser.com##.matched-content-page.matched-content.fun
-!
 ! ghostery.com
 @@||extension.ghostery.com$first-party
 @@||ghostery.com$first-party
@@ -529,7 +530,7 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 ||*/*/popup.gif$image
 ||*/*/popup.jpg$image
 ||*/*/popup.png$image
-!###popupdiv
+###popupdiv
 !##[id^="popup"]
 !##img[src^="./popup.gif"]
 !##img[src="/images/popup.gif"]
@@ -747,6 +748,9 @@ com##.sys_displayads.dd
 !
 ! https://blockads.fivefilters.org/ (Adblock testing)
 @@||widgets.outbrain.com/images$image
+! fivefilters.org
+@@||fivefilters.org^$inline-script
+
 !
 ! https://hk.yahoo.com/
 yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type(6)
@@ -1331,9 +1335,9 @@ profullcrack.com##center:nth-of-type(n)
 @@||tinypaste.cc^$generichide
 @@||uploadocean.com^$generichide
 @@||www.wholehk.com^$generichide
-
-! https://www.whatismybrowser.com/
-##.fun
+@@||codepen.io^$generichide
+@@||jsfiddle.net^$generichide
+@@||world.taobao.com^$generichide
 
 ||*crash*.com$inline-script
 
@@ -1356,8 +1360,6 @@ profullcrack.com##center:nth-of-type(n)
 ! 5/17/2018, 11:25:40 AM https://www.ifreesite.com/pinyin/
 www.ifreesite.com##.if_billboard
 
-@@||*player*$script
-
 ! wunderground.com
 @@||www.wunderground.com^$script
 
@@ -1369,3 +1371,37 @@ www.washingtonpost.com##.modal-mask
 
 ! anime1.me
 @@||*/ads.js?ads=ads
+
+! https://www.facebook.com
+www.facebook.com###u_0_d
+
+! tolawa.blogspot.com
+@@||4.bp.blogspot.com
+
+! disq.us
+@@||disq.us^
+
+!  https://www.sadeempc.com/idm/
+www.sadeempc.com##.code-block-7.code-block
+
+! viu.tv
+@@*player*$script
+
+! https://ads-blocker.com
+ads-blocker.com###text-5
+
+! http://www.semprot.com
+www.semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
+
+! https://browserleaks.com
+browserleaks.com##div:nth-of-type(n) > .adsbygoogle
+@@||*s_a_f_e..overflow*
+
+! https://designmodo.com
+designmodo.com##.adsense-p
+
+! http://pseudo-flaw.net
+pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
+mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
+mail.google.com##div[role="main"]>div.aKB
+mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
