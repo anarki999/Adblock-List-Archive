@@ -449,9 +449,6 @@ www.bastillepost.com###div-ileague-728x90
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
 !
-! pixnet.net
-@@||tech3c.pixnet.net/asset/js/channelads.js$script
-!
 ! https://tech3c.pixnet.net/
 tech3c.pixnet.net##.adsbyfalcon
 !
@@ -500,10 +497,43 @@ www.discoverhongkong.com###rightBannerAdContainer
 @@||*/*/jquery.min.js$script
 @@||*/*/jquery.js$script
 !
-! Block ads script
-||*/*/ads*.js$script
-||*/*/*ads.js$script
-||ads.*/*$script
+! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
+@@||cdn.digits.com/1/sdk.js$script
+@@||cdn.hk01.com/*/scripts/ga.js$script
+@@||cdn.hk01.com/*/scripts/ga_trace.js$script
+@@||*/*/*ads.js$script
+@@||*/*/ads*.js$script
+@@||*/*/ads.js$script
+@@||*/*/*ads*.js$script
+@@||*/*/dfp.js$script
+@@||*/*/*dfp.js$script
+@@||*/*/dfp*.js$script
+@@||blockadblock.com^$1p
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+@@||*/*/adblock.js$script
+@@||*/*/*adblock*.js$script
+@@||*/*/adblock*.js$script
+@@||*/*/*adblock.js$script
+@@||*/*/adbanner.gif$image
+@@||*/*/advertisement.js$script
+@@||*/*/adframe.js$script
+@@||*/*/advert.js$script,domain=~adultmult.tv
+@@||*/*/adwordstracking.js$script
+@@||*/*/adsbygoogle.js$script
+@@||www.adiode.com^
+!
+! https://codepen.io/mariusbalaj/pen/MaEdpx
+||*/*/*adi.js$script
+||*/*/adi.js$script
+||*/*/adi.js$inline-script
+!
+@@||*adblock*.com^$generichide
+@@||*adblock*.org^$generichide
+@@||*.*/*adblock*$generichide
+@@||codepen.io^$generichide,important
+||*.*/adblock/*$inline-script
+##.ad-container
+##[id^=".ad-container"]
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
@@ -707,50 +737,19 @@ com##.sys_displayads.dd
 ###yui_3_12_0_4_1498456552820_1604
 ###yui_3_12_0_5_1498457055165_1828
 !
-!
-! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
-@@||cdn.digits.com/1/sdk.js$script
-@@||cdn.hk01.com/*/scripts/ga.js$script
-@@||cdn.hk01.com/*/scripts/ga_trace.js$script
-@@||*.*/*/adblock.js$script
-@@||*.*/*/ads.js$script
-@@||*.*/*/adbanner.gif$image
-@@||*.*/*/advertisement.js$script
-@@||*.*/*/adframe.js$script
-@@||*.*/*/advert.js$script,domain=~adultmult.tv
-@@||*.*/*/adwordstracking.js$script
-@@||*.*/*/adsbygoogle.js$script
-@@||www.adiode.com^
-!
-@@||*adblock*.com^$generichide
-@@||*adblock*.org^$generichide
-@@||*.*/*adblock*$generichide
-@@||codepen.io^$generichide, important
-||*.*/adblock/*$inline-script
-##.ad-container
-##[id^=".ad-container"]
-!
-! https://www.netguard.me/test
-@@||test.netguard.me^
-!
-! https://codepen.io/mariusbalaj/pen/MaEdpx
-||*.*/*/*adi.js$script
-||*.*/*/adi.js$script
-||*.*/*/adi.js$inline-script
-!
 ! https://browserleaks.com/proxy
 @@||dummy.net.err.*$image
 @@||*&pageReferrer=$image,first-party
 @@||*.*/*/smile.gif*$image,first-party
 !
 ! http://www.admoremedia.se/adblock-detection-script/
-||/*/detect.js$script
+||*/*/detect.js$script
+!
+! https://www.netguard.me/test
+@@||*netguard.me*^
 !
 ! https://blockads.fivefilters.org/ (Adblock testing)
 @@||widgets.outbrain.com/images$image
-! fivefilters.org
-@@||fivefilters.org^$inline-script
-
 !
 ! https://hk.yahoo.com/
 yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type(6)
@@ -1335,9 +1334,6 @@ profullcrack.com##center:nth-of-type(n)
 @@||tinypaste.cc^$generichide
 @@||uploadocean.com^$generichide
 @@||www.wholehk.com^$generichide
-@@||codepen.io^$generichide
-@@||jsfiddle.net^$generichide
-@@||world.taobao.com^$generichide
 
 ||*crash*.com$inline-script
 
@@ -1369,12 +1365,6 @@ www.ifreesite.com##.if_billboard
 ! https://www.washingtonpost.com
 www.washingtonpost.com##.modal-mask
 
-! anime1.me
-@@||*/ads.js?ads=ads
-
-! https://www.facebook.com
-www.facebook.com###u_0_d
-
 ! tolawa.blogspot.com
 @@||4.bp.blogspot.com
 
@@ -1399,6 +1389,20 @@ browserleaks.com##div:nth-of-type(n) > .adsbygoogle
 
 ! https://designmodo.com
 designmodo.com##.adsense-p
+
+! 13322.com
+@@||hm.baidu.com/hm.js$domain=kkj.13322.com
+
+||auth.omoplanet.com^
+
+! https://hk.news.appledaily.com
+hk.news.appledaily.com###articleOmo
+
+! https://www.pinterest.com
+www.pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
+
+! https://webdeasy.de
+webdeasy.de##.privacy-popup
 
 ! http://pseudo-flaw.net
 pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
