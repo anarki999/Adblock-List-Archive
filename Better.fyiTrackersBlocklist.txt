@@ -4,6 +4,12 @@
 ! License: See source for license and credits
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
+[Better.fyi Trackers Blocklist]
+! Title: Better.fyi Trackers Blocklist
+! Expires: 1 days
+! License: See source for license and credits
+! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
+
 ! List from https://better.fyi/trackers/
 ||33across.com^third-party
 ||adadvisor.net^third-party
@@ -371,7 +377,7 @@ www.gotrip.hk##.category__featured-posts
 !www.edigest.hk##.code-block-3.code-block
 !www.edigest.hk##.code-block-4.code-block
 !www.edigest.hk##.code-block-after-pagination
-##.code-block
+*##.code-block
 !
 ! http://www.i-comic.net/anime/%E9%BE%8D%E7%8F%A0%20%E8%B6%85/%E7%AC%AC77%E9%9B%86
 i-comic.net###myModal
@@ -382,10 +388,10 @@ i-comic.net##.in.fade.modal-backdrop
 @@||*.*$stylesheet
 !
 ! 3/10/2017, 4:29:21 PM http://changepw.com/view2/?p=565
-changepw.com##.ypabox-bg
-changepw.com##.top-ad
-changepw.com##.ypabox-container
-changepw.com##.adbox-bg
+*##.ypabox-bg
+*##.top-ad
+*##.ypabox-container
+*##.adbox-bg
 !changepw.com##.quick-adsense:nth-of-type(1)
 !changepw.com##.quick-adsense:nth-of-type(2)
 !changepw.com##.quick-adsense:nth-of-type(3)
@@ -394,13 +400,13 @@ changepw.com##.adbox-bg
 !changepw.com##.quick-adsense:nth-of-type(6)
 !changepw.com##.quick-adsense:nth-of-type(n)
 !changepw.com##.quick-adsense
-##.quick-adsense
+*##.quick-adsense
 !
 ! http://www.girltalkhk.com/2016/08/10/sapeiar-poorcouple/
 www.girltalkhk.com##.ad-unit-footer-header
 !
 ! http://hk.apple.nextmedia.com/news/art/20160920/19776210
-###fb_like
+*###fb_like
 @@||connect.facebook.net^
 !
 ! http://www.creativebloq.com/3d/30-amazing-examples-webgl-action-6142954
@@ -412,7 +418,7 @@ www.creativebloq.com##.slotify-slot
 !
 ! https://hk.thenewslens.com/article/26054
 !hk.thenewslens.com##.ad-container-2
-##.ad-container-2
+*##.ad-container-2
 !
 ! http://download.cnet.com/SanDisk-SecureAccess/3000-18511_4-75796580.html?hasJs=n&hlndr=1&dlm=0
 download.cnet.com###product-video-container
@@ -444,13 +450,13 @@ www.bastillepost.com###div-ileague-728x90
 !www.lifehack.org###div-dfp-ad-in-content-1-8-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-9-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-10-wrapper
-##[id^="div-dfp-ad-in-content-"]
+*##[id^="div-dfp-ad-in-content-"]
 !
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
 !
 ! https://tech3c.pixnet.net/
-tech3c.pixnet.net##.adsbyfalcon
+*##.adsbyfalcon
 !
 ! https://tech3c.pixnet.net/
 tech3c.pixnet.net##.row--commercial.row:nth-of-type(n)
@@ -532,17 +538,17 @@ www.discoverhongkong.com###rightBannerAdContainer
 @@||*.*/*adblock*$generichide
 @@||codepen.io^$generichide,important
 ||*.*/adblock/*$inline-script
-##.ad-container
-##[id^=".ad-container"]
+*##.ad-container
+*##[id^=".ad-container"]
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
 !hk.yahoo.com###my-adsEU3
 !hk.yahoo.com###my-adsTL3
-##[id^="my-ads"]
-##.ads-by-google
-##.adsbygoogle
-##.sys_displayads.dd
+*##[id^="my-ads"]
+*##.ads-by-google
+*##.adsbygoogle
+*##.sys_displayads.dd
 ! https://mg.mail.yahoo.com/mg.mail.yahoo.com
 mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649357463_2038
 mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649410078_3549
@@ -560,7 +566,7 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 ||*/*/popup.gif$image
 ||*/*/popup.jpg$image
 ||*/*/popup.png$image
-###popupdiv
+*###popupdiv
 !##[id^="popup"]
 !##img[src^="./popup.gif"]
 !##img[src="/images/popup.gif"]
@@ -576,23 +582,24 @@ blockadblock.com##script:inject(bab-defuser.js)
 onhax.me###bottom-promo-abdload
 onhax.me###top-promo-dload
 !
-##.third-pt-ad-abs
-###bab10025
+*##.third-pt-ad-abs
+*###bab10025
 onhax.me##.a
-##.AD_wrapper
+*##.AD_wrapper
 !
 hk.thenewslens.com##.help-tnl-container-970_250
 hk.thenewslens.com##.help-tnl-container-300_250
 hk.thenewslens.com##.help-tnl-container-728_90
 !
-www.teepr.com###topAdBlock
+*###topAdBlock
 www.teepr.com##.side-big-banner
+*##.mid-post-ad-2
 !
 ! nextmedia.com
 @@||staticxx.facebook.com
 !
-##.facebook_share
-##.twitter_share
+*##.facebook_share
+*##.twitter_share
 !
 ! yahoo.com (for fastest website loading) (still testing)
 ||yimg.com^
@@ -771,9 +778,9 @@ filldisk.com##script:inject(abort-on-property-read.js, sessionStorage)
 ! https://www.receivesmsonline.net/
 ! https://receivefreesms.net/
 www.receivesmsonline.net##.col-md-10:nth-of-type(n) > center
-###mADSNoNum
-###mADSAd
-###mADSFooter
+*###mADSNoNum
+*###mADSAd
+*###mADSFooter
 receivefreesms.net##.container > .pull-right
 receivefreesms.net##center:nth-of-type(n)
 !
@@ -1409,3 +1416,41 @@ pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 mail.google.com##div[role="main"]>div.aKB
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
+
+
+! https://www.weekendhk.com
+*##.gpt_ads_box
+
+!  https://hk.on.cc
+hk.on.cc###focus_banner_cd_CTN
+
+! https://www.ifreesite.com
+www.ifreesite.com##ins.if_adslot.adsbygoogle:nth-of-type(n)
+
+! https://www.gotrip.hk
+||imgs.gotrip.hk/wp-content/uploads/*/*/ad*.jpg$image
+www.gotrip.hk##.gpt_ads_box
+
+! https://hk.news.appledaily.com
+hk.news.appledaily.com###subscription_head_banner
+
+! https://unwire.pro
+unwire.pro##.widget_text.widget
+
+! https://www.askdavetaylor.com
+*##.medrectangle-4.ezoic-ad
+*##.box-4.ezoic-ad
+*##.box-2.ezoic-ad
+*##.box-1.ezoic-ad
+
+! https://gadgetsrevived.com
+*##.adsbygoogle
+
+! 5/1/2020 https://www.bilibili.com
+www.bilibili.com###slide_ad
+
+!https://lifehacker.co.in
+lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
+
+!  https://9anime-tv.com
+9anime-tv.com##.\34 883b2027efd7eca112a57c842ee1726 > div:nth-of-type(1)
