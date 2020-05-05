@@ -145,7 +145,6 @@
 ||googleadservices.com^
 ||startpage.com/adsense/search/async-ads.js
 ||googleadservices.com^$third-party
-||googlesyndication.com^$third-party
 ||imasdk.googleapis.com^$third-party
 ||googlesyndication.com^$third-party
 ||googletagmanager.com^$third-party
@@ -321,7 +320,7 @@ viu.tv##.in.fade.modal-backdrop
 !
 ! http://www.hktvmall.com/hktv/zh/supermarket
 *##.CrazyAd
-www.hktvmall.com##.active.extra-banner-container
+hktvmall.com##.active.extra-banner-container
 @@||hktvmall.com^$script
 @@||images.hktvmall.com$image
 @@||hktv-media.hktvmall.com$image
@@ -332,20 +331,20 @@ www.hktvmall.com##.active.extra-banner-container
 !@@||hktvmall.com^
 !
 ! https://www.technorms.com/
-www.technorms.com##.td-g-rec-id-header
-!www.technorms.com##.td-g-rec-id-custom_ad_2.td-g-rec
-www.technorms.com##[id^="td-g-rec-id-custom_ad"]
-www.technorms.com##.td-block-title
-www.technorms.com##.td-next-prev-wrap
-www.technorms.com##.vc_sep_holder_l.vc_sep_holder
+technorms.com##.td-g-rec-id-header
+!technorms.com##.td-g-rec-id-custom_ad_2.td-g-rec
+technorms.com##[id^="td-g-rec-id-custom_ad"]
+technorms.com##.td-block-title
+technorms.com##.td-next-prev-wrap
+technorms.com##.vc_sep_holder_l.vc_sep_holder
 !
 ! http://pcgames-download.net/?s=Anomaly
 pcgames-download.net###niceMessage > .inner
 !
 ! http://www.ifreesite.com/pinyin/
-www.ifreesite.com##.if_billboard
-www.ifreesite.com##.if_billpro
-www.ifreesite.com##.top
+ifreesite.com##.if_billboard
+ifreesite.com##.if_billpro
+ifreesite.com##.top
 !
 ! https://www.uacinemas.com.hk/chi/main/HomePage
 ||www.uacinemas.com.hk//files_upload/images/banner$image
@@ -359,17 +358,17 @@ qooah.com##.widget_author_advertising_widget.widget
 !
 ! gotrip.hk
 @@||*.*/*/adgpt.js$script
-www.gotrip.hk##.share_bar
-www.gotrip.hk##.category__featured-posts
+gotrip.hk##.share_bar
+gotrip.hk##.category__featured-posts
 !
 ! http://www.edigest.hk/
 ! http://www.nmplus.hk/
 ! http://www.gotrip.hk/
-!www.edigest.hk##.code-block-1.code-block
-!www.edigest.hk##.code-block-2.code-block
-!www.edigest.hk##.code-block-3.code-block
-!www.edigest.hk##.code-block-4.code-block
-!www.edigest.hk##.code-block-after-pagination
+!edigest.hk##.code-block-1.code-block
+!edigest.hk##.code-block-2.code-block
+!edigest.hk##.code-block-3.code-block
+!edigest.hk##.code-block-4.code-block
+!edigest.hk##.code-block-after-pagination
 *##.code-block
 !
 ! http://www.i-comic.net/anime/%E9%BE%8D%E7%8F%A0%20%E8%B6%85/%E7%AC%AC77%E9%9B%86
@@ -396,18 +395,18 @@ i-comic.net##.in.fade.modal-backdrop
 *##.quick-adsense
 !
 ! http://www.girltalkhk.com/2016/08/10/sapeiar-poorcouple/
-www.girltalkhk.com##.ad-unit-footer-header
+girltalkhk.com##.ad-unit-footer-header
 !
 ! http://hk.apple.nextmedia.com/news/art/20160920/19776210
 *###fb_like
 @@||connect.facebook.net^
 !
 ! http://www.creativebloq.com/3d/30-amazing-examples-webgl-action-6142954
-www.creativebloq.com##.placeholder
-!www.creativebloq.com##.slotify-slot:nth-of-type(1)
-!www.creativebloq.com##.slotify-slot:nth-of-type(2)
-!www.creativebloq.com##.slotify-slot:nth-of-type(3)
-www.creativebloq.com##.slotify-slot
+creativebloq.com##.placeholder
+!creativebloq.com##.slotify-slot:nth-of-type(1)
+!creativebloq.com##.slotify-slot:nth-of-type(2)
+!creativebloq.com##.slotify-slot:nth-of-type(3)
+creativebloq.com##.slotify-slot
 !
 ! https://hk.thenewslens.com/article/26054
 !hk.thenewslens.com##.ad-container-2
@@ -417,12 +416,12 @@ www.creativebloq.com##.slotify-slot
 download.cnet.com###product-video-container
 !
 ! https://www.youtube.com/watch?v=tXrmAS_pdR8&list=PLrjo8kFr6wuwuSHyjfKiyG9A13Y9QhLWL
-www.youtube.com###ab4yt-brand
+youtube.com###ab4yt-brand
 !
 ! http://www.beautyexchange.com.hk
-www.beautyexchange.com.hk##.forum_showcase
-www.beautyexchange.com.hk##.homeless_top_zone
-www.beautyexchange.com.hk##.right_showcase
+beautyexchange.com.hk##.forum_showcase
+beautyexchange.com.hk##.homeless_top_zone
+beautyexchange.com.hk##.right_showcase
 !
 ! http://fun.ttshow.tw/?p=7702
 fun.ttshow.tw##.fbhi.adbox-bg
@@ -430,19 +429,19 @@ fun.ttshow.tw##.ypabox-bg
 fun.ttshow.tw##.ypabox-container
 !
 ! http://www.bastillepost.com/hongkong/8-%E7%94%9F%E6%B4%BB%E4%BA%8B
-www.bastillepost.com###div-ileague-728x90
+bastillepost.com###div-ileague-728x90
 !
 ! http://www.lifehack.org/articles/technology/15-awesome-gmail-plugins-boost-email-productivity.html
-!www.lifehack.org###div-dfp-ad-in-content-1-1-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-2-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-3-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-4-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-5-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-6-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-7-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-8-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-9-wrapper
-!www.lifehack.org###div-dfp-ad-in-content-1-10-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-1-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-2-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-3-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-4-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-5-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-6-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-7-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-8-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-9-wrapper
+!lifehack.org###div-dfp-ad-in-content-1-10-wrapper
 lifehack.org##[id^="div-dfp-ad-in-content-"]
 !
 ! http://wmoov.com/
@@ -464,22 +463,22 @@ download.cnet.com##.how-to-install
 !
 ! https://www.viu.com/ott/hk/
 @@||www.viu.com/ott/hk/v1/js/tracking$script,first-party
-www.viu.com##.wrap.grid_type_3.grid_double_rows.grid > .float-left
-www.viu.com###cat-ad
-www.viu.com##.pb30.pt30.video-cmd-pic
+viu.com##.wrap.grid_type_3.grid_double_rows.grid > .float-left
+viu.com###cat-ad
+viu.com##.pb30.pt30.video-cmd-pic
 !
 ! vprobroadcast.com
 @@||cookiesv2.publiekeomroep.nl$script
 !
 ! http://www.tvboxnow.com/
-www.tvboxnow.com###ypa-hotspot
+tvboxnow.com###ypa-hotspot
 !
 ! http://www.cocomy.net/post/444480
-www.cocomy.net##.well-sm.well.ad-well
+cocomy.net##.well-sm.well.ad-well
 !
 ! https://www.discoverhongkong.com/
 ||www.discoverhongkong.com/tc/images/banners/*.gif$image
-www.discoverhongkong.com###rightBannerAdContainer
+discoverhongkong.com###rightBannerAdContainer
 !
 ! browserleaks.com
 ||*/*rects*$script
@@ -492,7 +491,6 @@ www.discoverhongkong.com###rightBannerAdContainer
 ||*/*fingerprint*$xmlhttprequest
 ||*/*fingerprint*$inline-script
 !||*/*/*analytics*.js$script
-||*/*/ga.js$script
 @@||*/*/jquery.min.js$script
 @@||*/*/jquery.js$script
 !
@@ -500,9 +498,8 @@ www.discoverhongkong.com###rightBannerAdContainer
 !@@||cdn.digits.com/1/sdk.js$script
 @@||*/sdk.js$script
 !@@||cdn.hk01.com/*/scripts/ga.js$script
-!@@||cdn.hk01.com/*/scripts/ga_trace.js$script
-@@||*/*/ga.js$script
-@@||*/*/ga_trace.js$script
+@@||*/*/ga.js$script$domain=~google-analytics.com
+@@||cdn.hk01.com/*/scripts/ga_trace.js$script
 @@||*/*/*ads.js$script
 !@@||*/*/ads*.js$script
 @@||*/*/ads.js$script
@@ -514,22 +511,19 @@ www.discoverhongkong.com###rightBannerAdContainer
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 @@||*/*/adblock.js$script
 @@||*adblock*/index.js$script
-!@@||*/*/*adblock*.js$script
-!@@||*/*/adblock*.js$script
+@@||*/*/*adblock*.js$script
+@@||*/*/adblock*.js$script
 @@||*/*/*adblock.js$script
 @@||*/*/adbanner.gif$image
 @@||*/*/advertisement.js$script
 @@||*/*/advertisements.js$script
+@@||*/*/fuckadblock.*.js$script
+@@||*/*/fuckadblock.js$script
 @@||*/*/adframe.js$script
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
 @@||www.adiode.com^
-!
-! https://codepen.io/mariusbalaj/pen/MaEdpx
-! ||*/*/*adi.js$script
-||*/*/adi.js$script
-||*/*/adi.js$inline-script
 !
 @@||*adblock*.com^$generichide
 @@||*adblock*.org^$generichide
@@ -571,12 +565,29 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 ! ##img[src="/images/popup.gif"]
 !
 ! blockadblock.com
-||*.*/*blockadblock*/*.*$script
-||*blockadblock*.*/*.*$script
+!||*.*/*blockadblock*/*.*$script
+!||*blockadblock*.*/*.*$script
 !||*/*adblock*.js$script
 !||*/*adblock*/*.js$script
 blockadblock.com##script:inject(bab-defuser.js)
 blockadblock.com##script:inject(nobab)
+!
+google-analytics.com##script:inject(google-analytics.com/ga.js)
+google-analytics.com##script:inject(google-analytics.com/analytics.js)
+google-analytics.com##script:inject(google-analytics.com/inpage_linkid.js)
+google-analytics.com##script:inject(google-analytics.com/cx/api.js)
+googletagservices.com##script:inject(googletagservices.com/gpt.js)
+googletagmanager.com##script:inject(googletagmanager.com/gtm.js)
+googlesyndication.com##script:inject(googlesyndication.com/adsbygoogle.js)
+scorecardresearch.com##script:inject(scorecardresearch.com/beacon.js)
+doubleclick.net##script:inject(doubleclick.net/instream/ad_status.js)
+addthis.com##script:inject(addthis.com/addthis_widget.js)
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/count.js$script
+@@||disqus.com/embed.js$script
+@@||disquscdn.com$script
+disqus.com##script:inject(disqus.com/embed.js)
 !
 ! onhax.me (Install RightToCopy extension to prevent right click link redirecting)
 onhax.me###bottom-promo-abdload
@@ -765,12 +776,12 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 @@||static.xx.fbcdn.net^$script
 !
 ! browserleaks.com (unbreak the comment section)
-! @@||disqus.com/embed/comments$inline-script
+!@@||disqus.com/embed/comments$inline-script
 ! openload.co
 !@@||openload.co/stream/*
 !
 ! www.filldisk.com (block HTML5 filldisk bug)
-||*filldisk*/index.js$script
+!||*filldisk*/index.js$script
 filldisk.com##script:inject(abort-on-property-read.js, localStorage)
 !
 ! https://www.receivesmsonline.net/
@@ -1359,7 +1370,7 @@ profullcrack.com##center:nth-of-type(n)
 @@||people.engh.kuas.edu.tw^$image
 
 ! https://www.ifreesite.com/pinyin/
-www.ifreesite.com##.if_billboard
+ifreesite.com##.if_billboard
 
 ! wunderground.com
 @@||www.wunderground.com^$script
@@ -1368,7 +1379,7 @@ www.ifreesite.com##.if_billboard
 @@||anvato-api-config.s3.amazonaws.com
 
 ! https://www.washingtonpost.com
-www.washingtonpost.com##.modal-mask
+washingtonpost.com##.modal-mask
 
 ! tolawa.blogspot.com
 @@||4.bp.blogspot.com
@@ -1377,7 +1388,7 @@ www.washingtonpost.com##.modal-mask
 @@||disq.us^
 
 !  https://www.sadeempc.com/idm/
-www.sadeempc.com##.code-block-7.code-block
+sadeempc.com##.code-block-7.code-block
 
 ! viu.tv
 @@*player*$script
@@ -1386,7 +1397,7 @@ www.sadeempc.com##.code-block-7.code-block
 ads-blocker.com###text-5
 
 ! http://www.semprot.com
-www.semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
+semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 
 ! https://browserleaks.com
 browserleaks.com##div:nth-of-type(n) > .adsbygoogle
@@ -1406,7 +1417,7 @@ designmodo.com##.block-p
 hk.news.appledaily.com###articleOmo
 
 ! https://www.pinterest.com
-www.pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
+pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
 
 ! https://webdeasy.de
 webdeasy.de##.privacy-popup
@@ -1425,11 +1436,11 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
 hk.on.cc###focus_banner_cd_CTN
 
 ! https://www.ifreesite.com
-www.ifreesite.com##ins.if_adslot.adsbygoogle:nth-of-type(n)
+ifreesite.com##ins.if_adslot.adsbygoogle:nth-of-type(n)
 
 ! https://www.gotrip.hk
 ||imgs.gotrip.hk/wp-content/uploads/*/*/ad*.jpg$image
-www.gotrip.hk##.gpt_ads_box
+gotrip.hk##.gpt_ads_box
 
 ! https://hk.news.appledaily.com
 hk.news.appledaily.com###subscription_head_banner
@@ -1447,7 +1458,7 @@ unwire.pro##.widget_text.widget
 gadgetsrevived.com##.adsbygoogle
 
 ! https://www.bilibili.com
-www.bilibili.com###slide_ad
+bilibili.com###slide_ad
 
 ! https://lifehacker.co.in
 lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
@@ -1457,3 +1468,4 @@ lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
 
 ! https://www.techotopia.com
 techotopia.com##.adtester-container
+
