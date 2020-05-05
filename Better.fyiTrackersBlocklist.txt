@@ -320,7 +320,7 @@
 viu.tv##.in.fade.modal-backdrop
 !
 ! http://www.hktvmall.com/hktv/zh/supermarket
-www.hktvmall.com##.CrazyAd
+*##.CrazyAd
 www.hktvmall.com##.active.extra-banner-container
 @@||hktvmall.com^$script
 @@||images.hktvmall.com$image
@@ -443,7 +443,7 @@ www.bastillepost.com###div-ileague-728x90
 !www.lifehack.org###div-dfp-ad-in-content-1-8-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-9-wrapper
 !www.lifehack.org###div-dfp-ad-in-content-1-10-wrapper
-*##[id^="div-dfp-ad-in-content-"]
+lifehack.org##[id^="div-dfp-ad-in-content-"]
 !
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
@@ -497,50 +497,56 @@ www.discoverhongkong.com###rightBannerAdContainer
 @@||*/*/jquery.js$script
 !
 ! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
-@@||cdn.digits.com/1/sdk.js$script
-@@||cdn.hk01.com/*/scripts/ga.js$script
-@@||cdn.hk01.com/*/scripts/ga_trace.js$script
+!@@||cdn.digits.com/1/sdk.js$script
+@@||*/sdk.js$script
+!@@||cdn.hk01.com/*/scripts/ga.js$script
+!@@||cdn.hk01.com/*/scripts/ga_trace.js$script
+@@||*/*/ga.js$script
+@@||*/*/ga_trace.js$script
 @@||*/*/*ads.js$script
-@@||*/*/ads*.js$script
+!@@||*/*/ads*.js$script
 @@||*/*/ads.js$script
-@@||*/*/*ads*.js$script
+!@@||*/*/*ads*.js$script
 @@||*/*/dfp.js$script
 @@||*/*/*dfp.js$script
-@@||*/*/dfp*.js$script
-@@||blockadblock.com^$1p
+!@@||*/*/dfp*.js$script
+!@@||blockadblock.com^$1p
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 @@||*/*/adblock.js$script
-@@||*/*/*adblock*.js$script
-@@||*/*/adblock*.js$script
+@@||*adblock*/index.js$script
+!@@||*/*/*adblock*.js$script
+!@@||*/*/adblock*.js$script
 @@||*/*/*adblock.js$script
 @@||*/*/adbanner.gif$image
 @@||*/*/advertisement.js$script
+@@||*/*/advertisements.js$script
 @@||*/*/adframe.js$script
-@@||*/*/advert.js$script,domain=~adultmult.tv
+@@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
 @@||www.adiode.com^
 !
 ! https://codepen.io/mariusbalaj/pen/MaEdpx
-||*/*/*adi.js$script
+! ||*/*/*adi.js$script
 ||*/*/adi.js$script
 ||*/*/adi.js$inline-script
 !
 @@||*adblock*.com^$generichide
 @@||*adblock*.org^$generichide
-@@||*.*/*adblock*$generichide
-@@||codepen.io^$generichide,important
+@@||*adblock*$generichide
+@@||*/*adblock*$generichide
+!@@||codepen.io^$generichide,important
 ||*.*/adblock/*$inline-script
 *##.ad-container
-*##[id^=".ad-container"]
+yahoo.com##[id^=".ad-container"]
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
 !hk.yahoo.com###my-adsEU3
 !hk.yahoo.com###my-adsTL3
-*##[id^="my-ads"]
+yahoo.com##[id^="my-ads"]
 *##.ads-by-google
-*##.adsbygoogle
+yahoo.com##.adsbygoogle
 *##.sys_displayads.dd
 ! https://mg.mail.yahoo.com/mg.mail.yahoo.com
 mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649357463_2038
@@ -570,6 +576,7 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 !||*/*adblock*.js$script
 !||*/*adblock*/*.js$script
 blockadblock.com##script:inject(bab-defuser.js)
+blockadblock.com##script:inject(nobab)
 !
 ! onhax.me (Install RightToCopy extension to prevent right click link redirecting)
 onhax.me###bottom-promo-abdload
@@ -732,10 +739,10 @@ www.teepr.com##.side-big-banner
 @@||yimg.com/av/gemini-ui/*/advertiser/$important,domain=gemini.yahoo.com
 @@||yimg.com/*/*.css$important
 @@||yimg.com/*/css/$important
-com##.sys_displayads.dd
-###yui_3_12_0_4_1498462347313_1533
-###yui_3_12_0_4_1498456552820_1604
-###yui_3_12_0_5_1498457055165_1828
+*##.sys_displayads.dd
+*###yui_3_12_0_4_1498462347313_1533
+*###yui_3_12_0_4_1498456552820_1604
+*###yui_3_12_0_5_1498457055165_1828
 !
 ! https://browserleaks.com/proxy
 @@||dummy.net.err.*$image
@@ -758,19 +765,17 @@ yahoo.com##.Pb-8.Pt-10.Px-12.RevealNested.Pos-r.Cf.js-stream-content:nth-of-type
 @@||static.xx.fbcdn.net^$script
 !
 ! browserleaks.com (unbreak the comment section)
-@@||disqus.com/embed/comments$inline-script
+! @@||disqus.com/embed/comments$inline-script
 ! openload.co
 !@@||openload.co/stream/*
 !
 ! www.filldisk.com (block HTML5 filldisk bug)
-!||www.filldisk.com^$script
 ||*filldisk*/index.js$script
 filldisk.com##script:inject(abort-on-property-read.js, localStorage)
-filldisk.com##script:inject(abort-on-property-read.js, sessionStorage)
 !
 ! https://www.receivesmsonline.net/
 ! https://receivefreesms.net/
-www.receivesmsonline.net##.col-md-10:nth-of-type(n) > center
+receivesmsonline.net##.col-md-10:nth-of-type(n) > center
 *###mADSNoNum
 *###mADSAd
 *###mADSFooter
@@ -1327,7 +1332,7 @@ profullcrack.com##center:nth-of-type(n)
 @@||archive.org^$generichide
 @@||big5.china.com.cn^$generichide
 @@||browserleaks.com^$generichide
-@@||codepen.io^$generichide
+!@@||codepen.io^$generichide
 @@||movie.yahoo-leisure.hk^$generichide
 @@||playok.com^$generichide
 @@||simple-adblock.com^$generichide
@@ -1389,6 +1394,8 @@ browserleaks.com##div:nth-of-type(n) > .adsbygoogle
 
 ! https://designmodo.com
 designmodo.com##.adsense-p
+designmodo.com##.sidebar-banner
+designmodo.com##.block-p
 
 ! 13322.com
 @@||hm.baidu.com/hm.js$domain=kkj.13322.com
@@ -1437,7 +1444,7 @@ unwire.pro##.widget_text.widget
 *##.box-1.ezoic-ad
 
 ! https://gadgetsrevived.com
-*##.adsbygoogle
+gadgetsrevived.com##.adsbygoogle
 
 ! https://www.bilibili.com
 www.bilibili.com###slide_ad
@@ -1447,3 +1454,6 @@ lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
 
 !  https://9anime-tv.com
 9anime-tv.com##.\34 883b2027efd7eca112a57c842ee1726 > div:nth-of-type(1)
+
+! https://www.techotopia.com
+techotopia.com##.adtester-container
