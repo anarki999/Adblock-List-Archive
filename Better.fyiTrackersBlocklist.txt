@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20200505
+! Last Update : 20200506
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
 ! List from https://better.fyi/trackers/
@@ -98,7 +98,7 @@
 ||company-target.com^$third-party
 ||demdex.com^$third-party
 ||df-srv.de^$third-party
-||jsrdn.com^$third-party
+!||jsrdn.com^$third-party
 ||do-not-tracker.org^$third-party
 ||2mdn.net^$third-party
 ||doubleclick.net^$third-party
@@ -273,7 +273,7 @@
 ||trackersimulator.org^$third-party
 ||travelaudience.com^$third-party
 ||scanscout.com^$third-party
-||videohub.tv^$third-party
+!||videohub.tv^$third-party
 ||tribalfusion.com^$third-party
 ||3lift.com^$third-party
 ||truoptik.com^$third-party
@@ -288,7 +288,7 @@
 ||apxlv.com^$third-party
 ||ru4.com^$third-party
 ||wtp101.com^$third-party
-||videoamp.com^$third-party
+!||videoamp.com^$third-party
 ||tidaltv.com^$third-party
 ||vindicosuite.com^$third-party
 ||visiblemeasures.com^$third-party
@@ -496,41 +496,34 @@ discoverhongkong.com###rightBannerAdContainer
 !
 ! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
 !@@||cdn.digits.com/1/sdk.js$script
-@@||*/sdk.js$script
+@@||*/*/sdk.js$script
 !@@||cdn.hk01.com/*/scripts/ga.js$script
-@@||*/*/ga.js$script$domain=~google-analytics.com
-@@||cdn.hk01.com/*/scripts/ga_trace.js$script
+!@@||cdn.hk01.com/*/scripts/ga_trace.js$script
+@@||*/*/ga.js$script,domain=~google-analytics.com
+@@||*/*/ga_trace.js$script,domain=~google-analytics.com
 @@||*/*/*ads.js$script
-!@@||*/*/ads*.js$script
 @@||*/*/ads.js$script
 !@@||*/*/*ads*.js$script
-@@||*/*/dfp.js$script
-@@||*/*/*dfp.js$script
-!@@||*/*/dfp*.js$script
-!@@||blockadblock.com^$1p
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-@@||*/*/adblock.js$script
+@@||detectadblock.com/dfp.js$script,1p
+!||*/*/*adblock*.js$script
+!||*/*/adblock*.js$script
+||*/*/adblock.js$script
+||*/*/*adblock.js$script
 @@||*adblock*/index.js$script
-@@||*/*/*adblock*.js$script
-@@||*/*/adblock*.js$script
-@@||*/*/*adblock.js$script
+||*/*/*ads*.gif$image,important
 @@||*/*/adbanner.gif$image
+@@||*/*/*adbanner.gif$image
+@@||*/*/*adbanner*.gif$image
 @@||*/*/advertisement.js$script
-@@||*/*/advertisements.js$script
-@@||*/*/fuckadblock.*.js$script
-@@||*/*/fuckadblock.js$script
+@@||*/*/advertisement.min.js$script
+@@||*/*/advertisements.min.js$script
 @@||*/*/adframe.js$script
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 @@||www.adiode.com^
 !
-@@||*adblock*.com^$generichide
-@@||*adblock*.org^$generichide
-@@||*adblock*$generichide
-@@||*/*adblock*$generichide
-!@@||codepen.io^$generichide,important
-||*.*/adblock/*$inline-script
 *##.ad-container
 yahoo.com##[id^=".ad-container"]
 !
@@ -571,6 +564,8 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 !||*/*adblock*/*.js$script
 blockadblock.com##script:inject(bab-defuser.js)
 blockadblock.com##script:inject(nobab)
+blockadblock.com##.col-md-4 > div:nth-of-type(2)
+@@/blockadblock.$script,domain=blockadblock.com
 !
 google-analytics.com##script:inject(google-analytics.com/ga.js)
 google-analytics.com##script:inject(google-analytics.com/analytics.js)
@@ -952,7 +947,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||betrad.com^$third-party
 ||ensighten.com^$third-party
 ||gcion.com^$third-party
-||lrcdn.net^$third-party
+!||lrcdn.net^$third-party
 ||liverail.com^$third-party
 ||adap.tv^$third-party
 ||gtrk.s3.amazonaws.com^$third-party
@@ -962,7 +957,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||rhythmxchange.com^$third-party
 ||outbrain.com^$third-party
 ||1rx.io^$third-party
-||spotxcdn.com^$third-party
+!||spotxcdn.com^$third-party
 ||brand-server.com^$third-party
 ||d31qbv1cthcecs.cloudfront.net^$third-party
 ||decenthat.com^$third-party
@@ -987,7 +982,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||burt.io^$third-party
 ||gumgum.com^$third-party
 ||dotomi.com^$third-party
-!||pagefair.com^$third-party
+||pagefair.com^$third-party
 ||crazyegg.com^$third-party
 ||veruta.com^$third-party
 ||adgrx.com^$third-party
@@ -995,7 +990,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||visualdna.com^$third-party
 ||adsafeprotected.com^$third-party
 ||dynatracesaas.com^$third-party
-||jwpcdn.com^$third-party
+!||jwpcdn.com^$third-party
 ||smartadserver.com^$third-party
 ||wtp101.com^$third-party
 ||polarmobile.com^$third-party
@@ -1026,7 +1021,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||adotmob.com^$third-party
 ||kingfeatures.com^$third-party
 ||360yield.com^$third-party
-||netdna-cdn.com^$third-party
+!||netdna-cdn.com^$third-party
 ||akamai.net^$third-party
 ||syncaccess.net^$third-party
 ||gravatar.com^$third-party
@@ -1074,7 +1069,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||vdna-assets.com^$third-party
 ||alephd.com^$third-party
 ||bizographics.com^$third-party
-||licdn.com^$third-party
+!||licdn.com^$third-party
 ||deliverimp.com^$third-party
 ||voicefive.com^$third-party
 ||adsnative.com^$third-party
@@ -1091,7 +1086,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||genesismedia.com^$third-party
 ||myvoicenation.com^$third-party
 ||mpstat.us^$third-party
-||aolcdn.com^$third-party
+!||aolcdn.com^$third-party
 ||genesismediaus.com^$third-party
 ||sniperlog.ru^$third-party
 ||dynamicyield.com^$third-party
@@ -1110,10 +1105,10 @@ receivefreesms.net##center:nth-of-type(n)
 ||undertone.com^$third-party
 ||adblade.com^$third-party
 ||247realmedia.com^$third-party
-||rdcdn.com^$third-party
+!||rdcdn.com^$third-party
 ||thebrighttag.com^$third-party
 ||bfmio.com^$third-party
-||newscdn.com.au^$third-party
+!||newscdn.com.au^$third-party
 ||videostat.com^$third-party
 ||yashi.com^$third-party
 ||optimahub.com^$third-party
@@ -1140,7 +1135,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||nexage.com^$third-party
 ||llnwd.net^$third-party
 ||fastclick.net^$third-party
-||rackcdn.com^$third-party
+!||rackcdn.com^$third-party
 ||onthe.io^$third-party
 ||kampyle.com^$third-party
 ||bkrtx.com^$third-party
@@ -1181,7 +1176,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||wdtinc.com^$third-party
 ||bounceexchange.com^$third-party
 ||createjs.com^$third-party
-||hiberniacdn.com^$third-party
+!||hiberniacdn.com^$third-party
 ||angsrvr.com^$third-party
 ||turner.com^$third-party
 ||condenet.com^$third-party
@@ -1233,7 +1228,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||viglink.com^$third-party
 ||mobify.com^$third-party
 ||webtype.com^$third-party
-||cnevids.com^$third-party
+!||cnevids.com^$third-party
 ||technoratimedia.com^$third-party
 ||ppjol.com^$third-party
 ||imonomy.com^$third-party
@@ -1259,7 +1254,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||gravity.com^$third-party
 ||impdesk.com^$third-party
 ||sumologic.com^$third-party
-||disquscdn.com^$third-party
+!||disquscdn.com^$third-party
 ||qualtrics.com^$third-party
 ||ghdig.com^$third-party
 ||mcclatchydc.com^$third-party
@@ -1272,7 +1267,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||openx.com^$third-party
 ||treasuredata.com^$third-party
 ||cdninstagram.com^$third-party
-||grvcdn.com^$third-party
+!||grvcdn.com^$third-party
 ||mailchimp.com^$third-party
 ||tumblr.com^$third-party
 ||abmr.net^$third-party
@@ -1289,7 +1284,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||forumcomm.com^$third-party
 ||goroost.com^$third-party
 ||adobe.com^$third-party
-||kxcdn.com^$third-party
+!||kxcdn.com^$third-party
 ||liveperson.net^$third-party
 ||livedap.com^$third-party
 ||adizio.com^$third-party
@@ -1420,7 +1415,7 @@ hk.news.appledaily.com###articleOmo
 pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
 
 ! https://webdeasy.de
-webdeasy.de##.privacy-popup
+*##.privacy-popup
 
 ! http://pseudo-flaw.net
 pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
@@ -1469,3 +1464,36 @@ lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
 ! https://www.techotopia.com
 techotopia.com##.adtester-container
 
+! https://www.smartone.com
+www.smartone.com###carouselExampleControls
+
+@@||midas.gtimg.cn^
+@@||edgecast-vod.yahoo.net^
+
+! http://cablenews.i-cable.com
+*##.right_ad
+
+! http://gameplayhk.com
+*##.share-article
+
+! https://www.hk01.com
+hk01.com##div.dnZMTb.sc-bdVaJa.hKiLMS
+
+! https://www.mobiloud.com
+*##.cc-color-override-1827372716
+
+! https://propellerads.com
+propellerads.com###media_image-2
+@@||propellerads.com^$1p
+
+!http://technews.tw
+technews.tw###a8abe630
+technews.tw###ADTOP
+technews.tw##[id^="div-gpt-ad-"]
+technews.tw###a46524ac
+
+! https://adlock.com
+*###banner_full
+
+! http://ccc.technews.tw
+||trvdp.com^
