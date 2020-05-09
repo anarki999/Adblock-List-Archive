@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20200506
+! Last Update : 20200509
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
 ! List from https://better.fyi/trackers/
@@ -828,6 +828,22 @@ receivefreesms.net##center:nth-of-type(n)
 ||tp2.beap.gemini.yahoo.com^
 ||udc.yahoo.com^
 ||us.adserver.yahoo.com^
+||doubleclick.net^
+||google.com/ads^
+||google.com/pagead^
+||google.com/js/gweb^
+||apis.google.com/js/platform.js$script
+||apis.google.com/js/client:platform.js$script
+@@||apis.google.com/js/platform.js$domain=play.google.com
+||apis.google.com/js/plusone.js$script
+||apis.google.com/js/client:plusone.js$script
+||apis.google.com/js/rpc:shindig_random.js$script
+||apis.google.com/_/widget^
+||apis.google.com/se/0/_/+1/fastbutton^
+||google.com/images/icons/ui/gprofile_button-16.png$image
+||google.com/images/cleardot.gif$image
+||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
+||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
 !
 ! Allow Facebook comments & Plugins
 ||facebook.com/tr/*
@@ -844,21 +860,8 @@ receivefreesms.net##center:nth-of-type(n)
 ||googleadservices.com^$third-party
 ||startpage.com/adsense/search/async-ads.js
 ||googletagservices.com^$third-party
-||google.com/ads^
-||google.com/pagead^
-||google.com/js/gweb^
-||apis.google.com/js/platform.js$script
-||apis.google.com/js/client:platform.js$script
-@@||apis.google.com/js/platform.js$domain=play.google.com
-||apis.google.com/js/plusone.js$script
-||apis.google.com/js/client:plusone.js$script
-||apis.google.com/js/rpc:shindig_random.js$script
-||apis.google.com/_/widget^
-||apis.google.com/se/0/_/+1/fastbutton^
-||google.com/images/icons/ui/gprofile_button-16.png$image
-||google.com/images/cleardot.gif$image
-||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
-||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
+
+
 ||scorecardresearch.com^$third-party
 ||metric.gstatic.com^$third-party
 ||chartbeat.com^$third-party
@@ -1155,7 +1158,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||gatehousemedia.com^$third-party
 ||holidayvideogiftguide.com^$third-party
 ||clmbtech.com^$third-party
-||zencdn.net^$third-party
+!||zencdn.net^$third-party
 ||digitalmediacommunications.com^$third-party
 ||richmetrics.com^$third-party
 !||brightcove.net^$third-party
@@ -1266,7 +1269,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||quantcount.com^$third-party
 ||openx.com^$third-party
 ||treasuredata.com^$third-party
-||cdninstagram.com^$third-party
+!||cdninstagram.com^$third-party
 !||grvcdn.com^$third-party
 ||mailchimp.com^$third-party
 ||tumblr.com^$third-party
@@ -1497,3 +1500,8 @@ technews.tw###a46524ac
 
 ! http://ccc.technews.tw
 ||trvdp.com^
+
+! https://mail.yahoo.com
+||s.yimg.com/rx/builds/*$subdocument
+mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_R
+mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO
