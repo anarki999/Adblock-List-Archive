@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20200627
+! Last Update : 20200629
 ! Update details: Upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -502,6 +502,10 @@ discoverhongkong.com###rightBannerAdContainer
 !||*/*/*analytics*.js$script
 @@||*/jquery.min.js$script
 @@||*/jquery.js$script
+! sitexw.fr
+@@||*/*adblock*.js$script
+@@||*/*adblock.js$script
+@@||*/adblock*.js$script
 !
 ! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
 !@@||cdn.digits.com/1/sdk.js$script
@@ -1512,7 +1516,7 @@ technews.tw###a46524ac
 
 ! https://mail.yahoo.com
 ||s.yimg.com/rx/builds/*$subdocument
-mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_R
+mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_id^R
 mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO
 
 ! https://www.researchgate.net
@@ -1537,3 +1541,14 @@ www.hk01.com##[src^="https://e.infogram.com/"]
 
 ! pixelprivacy.com
 @@||*-google-tag-manager/*$script
+
+! https://webdeasy.de
+*##div.webd-f-container:nth-of-type(n)
+
+! https://timesofindia.indiatimes.com
+timesofindia.indiatimes.com##.ipadmt.paisa1
+
+*##div.\39 f5cbf51aebdcd5dd70684a59b8a7241:nth-of-type(n)
+
+! https://v.youku.com
+v.youku.com##.km5tum3buoaq.diq63ml1ie6b
