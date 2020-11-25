@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20200629
-! Update details: Upgraded Anti-fingerprinting without messing out website
+! Last Update : 20201125
+! Update details: fixing breaking website, upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
 ! List from https://better.fyi/trackers/
@@ -416,8 +416,20 @@ creativebloq.com##.slotify-slot
 ! http://download.cnet.com/SanDisk-SecureAccess/3000-18511_4-75796580.html?hasJs=n&hlndr=1&dlm=0
 download.cnet.com###product-video-container
 !
-! https://www.youtube.com/watch?v=tXrmAS_pdR8&list=PLrjo8kFr6wuwuSHyjfKiyG9A13Y9QhLWL
+! https://www.youtube.com/
 youtube.com###ab4yt-brand
+youtube.com##.ad-container
+youtube.com##.ad-div
+youtube.com##.masthead-ad-control
+youtube.com##.video-ads
+youtube.com##.ytp-ad-progress-list
+youtube.com###ad_creative_3
+youtube.com###footer-ads
+youtube.com###masthead-ad
+youtube.com###player-ads
+youtube.com##.ytd-mealbar-promo-renderer
+youtube.com###watch-channel-brand-div
+youtube.com###watch7-sidebar-ads
 !
 ! http://www.beautyexchange.com.hk
 beautyexchange.com.hk##.forum_showcase
@@ -495,14 +507,23 @@ discoverhongkong.com###rightBannerAdContainer
 ||*/*fingerprint/*.js$script,xmlhttprequest
 ||*/*fingerprint*/*.js$script,xmlhttprequest
 ||*/fp.js$script,xmlhttprequest
-||*/fp*.js$script,xmlhttprequest
+||*/fp1.js$script,xmlhttprequest
+||*/fp2.js$script,xmlhttprequest
+||*/fp3.js$script,xmlhttprequest
+||*/fp4.js$script,xmlhttprequest
+||*/fp5.js$script,xmlhttprequest
+||*/fp6.js$script,xmlhttprequest
+||*/fp7.js$script,xmlhttprequest
+||*/fp8.js$script,xmlhttprequest
+||*/fp9.js$script,xmlhttprequest
+||*/fp10.js$script,xmlhttprequest
 ||*/*fingerprint*$image,domain=~yimg.com
 ||*/*fingerprint*$xmlhttprequest
 !||*/*fingerprint*$inline-script
 !||*/*/*analytics*.js$script
 @@||*/jquery.min.js$script
 @@||*/jquery.js$script
-! sitexw.fr
+! https://fuckadblock.sitexw.fr/
 @@||*/*adblock*.js$script
 @@||*/*adblock.js$script
 @@||*/adblock*.js$script
@@ -1181,7 +1202,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||igodigital.com^$third-party
 ||afy11.net^$third-party
 ||typography.com^$third-party
-||edgesuite.net^$third-party
+!||edgesuite.net^$third-party
 ||conde.io^$third-party
 ||tacoda.net^$third-party
 ||bidtheatre.com^$third-party
@@ -1369,7 +1390,7 @@ profullcrack.com##center:nth-of-type(n)
 
 ! google.com
 @@||ajax.googleapis.com/*/webfont.js$script
-||fonts.googleapis.com^$script
+!||fonts.googleapis.com^$script
 
 ! eslite.com
 @@||www.eslite.com^$image,domain=www.eslite.com
@@ -1550,5 +1571,50 @@ timesofindia.indiatimes.com##.ipadmt.paisa1
 
 *##div.\39 f5cbf51aebdcd5dd70684a59b8a7241:nth-of-type(n)
 
+! https://item.taobao.com
+item.taobao.com##.auto.baxia-dialog
+item.taobao.com###J_DcHead
+item.taobao.com###J_IdsSegments
+
 ! https://v.youku.com
-v.youku.com##.km5tum3buoaq.diq63ml1ie6b
+@@||ws.mmstat.com^
+v.youku.com##.h5-ext-layer
+
+! tmall.com
+@@||tui.taobao.com^
+
+! https://pseudo-flaw.net
+*###startAd
+*###endAd
+
+! https://www.peekme.cc
+*##.text-center.margin-bottom-10.ad-box
+*###sideFixed
+
+! https://cheatsquad.gg
+*##.ad_billboard
+
+! 7/21/2020 https://www.peekme.cc
+www.peekme.cc##.well-sm.well.ad-well.text-center
+
+! https://pseudo-flaw.net
+pseudo-flaw.net###startAd
+pseudo-flaw.net###endAd
+
+! 7/16/2020 https://www.oneangrygamer.net
+www.oneangrygamer.net###text-11
+
+! 7/16/2020 egybest.zone
+@@||*/api.js
+@@||reef.egybest.zone^
+
+! 7/16/2020 https://4pda.ru
+4pda.ru###CmCz1BrYrrq
+4pda.ru##.F2g2SnikKA
+
+! 8/22/2020 https://hongkiat.github.io
+hongkiat.github.io##.ads
+hongkiat.github.io##.include
+
+! 8/22/2020 https://thomas.vanhoutte.be
+thomas.vanhoutte.be##center
