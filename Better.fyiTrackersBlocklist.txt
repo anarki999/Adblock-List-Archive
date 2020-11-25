@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20201125
+! Last Update : 20201126
 ! Update details: fixing breaking website, upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -1338,7 +1338,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||sascdn.com^$third-party
 ||timeinc.net^$third-party
 ||d3qxwzhswv93jk.cloudfront.net^$third-party
-||fncstatic.com^$third-party
+!||fncstatic.com^$third-party
 ||d5i9o0tpq9sa1.cloudfront.net^$third-party
 ||clicktale.net^$third-party
 ||polyfill.io^$third-party
