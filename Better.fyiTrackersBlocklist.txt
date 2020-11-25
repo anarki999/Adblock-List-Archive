@@ -116,7 +116,7 @@
 ||eyeota.net^$third-party
 ||eyereturn.com^$third-party
 ||eyeviewads.com^$third-party
-||lrcdn.net^$third-party
+!||lrcdn.net^$third-party
 ||fallingfalcon.com^$third-party
 ||flashtalking.com^$third-party
 ||wishabi.com^$third-party
@@ -130,9 +130,7 @@
 ||google.com/ads^
 ||google.com/pagead^
 ||google.com/js/gweb^
-||apis.google.com/js/platform.js
 ||apis.google.com/js/client:platform.js
-@@||apis.google.com/js/platform.js$domain=play.google.com
 ||apis.google.com/js/plusone.js^
 ||apis.google.com/js/client:plusone.js
 ||apis.google.com/js/rpc:shindig_random.js
@@ -163,7 +161,7 @@
 @@||googletagservices.com/tag/js/gpt.js$script,domain=theatlantic.com
 @@||bing.com/maps/embed/viewer.aspx^$third-party
 ||ioam.de^$third-party
-||newsinc.com^$third-party
+!||newsinc.com^$third-party
 ||instinctiveads.com^$third-party
 ||interstateanalytics.com^$third-party
 ||ipowow.com^$third-party
@@ -270,7 +268,7 @@
 ||tiqcdn.com^$third-party
 ||theadex.com^$third-party
 ||adsrvr.org^$third-party
-||townnews.com^$third-party
+!||townnews.com^$third-party
 ||trackersimulator.org^$third-party
 ||travelaudience.com^$third-party
 ||scanscout.com^$third-party
@@ -866,9 +864,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||google.com/ads^
 ||google.com/pagead^
 ||google.com/js/gweb^
-||apis.google.com/js/platform.js$script
 ||apis.google.com/js/client:platform.js$script
-@@||apis.google.com/js/platform.js$domain=play.google.com
 ||apis.google.com/js/plusone.js$script
 ||apis.google.com/js/client:plusone.js$script
 ||apis.google.com/js/rpc:shindig_random.js$script
@@ -876,6 +872,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||apis.google.com/se/0/_/+1/fastbutton^
 ||google.com/images/icons/ui/gprofile_button-16.png$image
 ||google.com/images/cleardot.gif$image
+||fundingchoices.google.com^
 ||maps.googleapis.com/maps/api/js/QuotaService.RecordEvent$script
 ||maps.googleapis.com/maps-api-v3/api/js/25/5/stats.js$script
 !
@@ -920,7 +917,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||imrworldwide.com^$third-party
 ||tidaltv.com^$third-party
 ||turn.com^$third-party
-||newsinc.com^$third-party
+!||newsinc.com^$third-party
 ||2mdn.net^$third-party
 ||nr-data.net^$third-party
 ||tapad.com^$third-party
@@ -948,7 +945,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||pixel.wp.com^$third-party
 ||stats.wp.com^$third-party
 ||addthisedge.com^$third-party
-||townnews.com^$third-party
+||townnews\.com/.*/.*ads.*^$third-party
 ||adtechus.com^$third-party
 ||adobedtm.com^$third-party
 ||mookie1.com^$third-party
@@ -1106,7 +1103,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||vdna-assets.com^$third-party
 ||alephd.com^$third-party
 ||bizographics.com^$third-party
-||licdn.com^$third-party
+!||licdn.com^$third-party
 ||deliverimp.com^$third-party
 ||voicefive.com^$third-party
 ||adsnative.com^$third-party
