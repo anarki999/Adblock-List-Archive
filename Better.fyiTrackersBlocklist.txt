@@ -1618,3 +1618,6 @@ hongkiat.github.io##.include
 
 ! 8/22/2020 https://thomas.vanhoutte.be
 thomas.vanhoutte.be##center
+
+! 10/23/2020 amazonaws.com
+@@||fhkipublications.s3-website.ap-east-1.amazonaws.com^$script
