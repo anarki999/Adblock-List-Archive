@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20201126
+! Last Update : 20201129
 ! Update details: fixing breaking website, upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -1591,30 +1591,36 @@ v.youku.com##.h5-ext-layer
 ! https://cheatsquad.gg
 *##.ad_billboard
 
-! 7/21/2020 https://www.peekme.cc
+! https://www.peekme.cc
 www.peekme.cc##.well-sm.well.ad-well.text-center
 
 ! https://pseudo-flaw.net
 pseudo-flaw.net###startAd
 pseudo-flaw.net###endAd
 
-! 7/16/2020 https://www.oneangrygamer.net
+! https://www.oneangrygamer.net
 www.oneangrygamer.net###text-11
 
-! 7/16/2020 egybest.zone
+! egybest.zone
 @@||*/api.js
 @@||reef.egybest.zone^
 
-! 7/16/2020 https://4pda.ru
+! https://4pda.ru
 4pda.ru###CmCz1BrYrrq
 4pda.ru##.F2g2SnikKA
 
-! 8/22/2020 https://hongkiat.github.io
+! https://hongkiat.github.io
 hongkiat.github.io##.ads
 hongkiat.github.io##.include
 
-! 8/22/2020 https://thomas.vanhoutte.be
+! https://thomas.vanhoutte.be
 thomas.vanhoutte.be##center
 
-! 10/23/2020 amazonaws.com
+! amazonaws.com
 @@||fhkipublications.s3-website.ap-east-1.amazonaws.com^$script
+
+! https://hk.news.yahoo.com
+hk.news.yahoo.com###sda-MAST
+
+! bochk.com
+@@||its.bochk.com^$script
