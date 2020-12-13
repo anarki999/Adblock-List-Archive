@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20201129
+! Last Update : 20201213
 ! Update details: fixing breaking website, upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -553,7 +553,8 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+!@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+@@||pagead2.googlesyndication.com^
 @@||www.adiode.com^
 !
 *##.ad-container
