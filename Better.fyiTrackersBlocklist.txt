@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20201213
+! Last Update : 20210115
 ! Update details: fixing breaking website, upgraded Anti-fingerprinting without messing out website
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -1625,3 +1625,6 @@ hk.news.yahoo.com###sda-MAST
 
 ! bochk.com
 @@||its.bochk.com^$script
+
+! online-banking.hsbc.com.hk
+@@||static.services.online-banking.hsbc.com.hk^$script
