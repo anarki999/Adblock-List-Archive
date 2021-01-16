@@ -1628,3 +1628,12 @@ hk.news.yahoo.com###sda-MAST
 
 ! online-banking.hsbc.com.hk
 @@||static.services.online-banking.hsbc.com.hk^$script
+
+! https://pan.baidu.com
+pan.baidu.com##.swal2-backdrop-show.swal2-center.swal2-container
+
+! https://www.linkedin.com
+www.linkedin.com###ember10843
+www.linkedin.com##.pv-ad-banner
+
+*##.cookies-container
