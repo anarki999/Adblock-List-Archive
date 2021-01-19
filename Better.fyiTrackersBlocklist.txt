@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20210116
+! Last Update : 20210119
 ! Update details: unbreak e-banking website (allow all script on the e-banking website)
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 
@@ -1637,3 +1637,7 @@ www.linkedin.com###ember10843
 www.linkedin.com##.pv-ad-banner
 
 *##.cookies-container
+
+! browserleaks.com
+@@||s_a_f_e..0verflow*
+@@||*/1.gif?v=*
