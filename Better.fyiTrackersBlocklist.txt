@@ -3,6 +3,7 @@
 ! Last Update : 20210122
 ! Update details: Add filters of frightener+facekill.txt, strengthen filtering effectiveness, block all flash objects
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
+! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
 !
 ! List from https://better.fyi/trackers/
 ||33across.com^$third-party
