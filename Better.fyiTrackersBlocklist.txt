@@ -1837,7 +1837,6 @@ www.oneangrygamer.net###text-11
 !
 ! https://hongkiat.github.io
 hongkiat.github.io##.ads
-*##.ads
 hongkiat.github.io##.include
 !
 ! https://thomas.vanhoutte.be
