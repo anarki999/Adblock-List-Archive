@@ -1,9 +1,9 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
 ! Last Update : 20210121
-! Update details: unbreak e-banking website (allow all script on the e-banking website)
+! Update details: Add filters of frightener+facekill.txt
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
-
+!
 ! List from https://better.fyi/trackers/
 ||33across.com^$third-party
 ||adadvisor.net^$third-party
@@ -566,6 +566,7 @@ yahoo.com##[id^=".ad-container"]
 !hk.yahoo.com###my-adsTL3
 yahoo.com##[id^="my-ads"]
 *##.ads-by-google
+*##.adsbygoogle
 yahoo.com##.adsbygoogle
 *##.sys_displayads.dd
 ! https://mg.mail.yahoo.com/mg.mail.yahoo.com
@@ -586,7 +587,7 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 ||*/*/popup.jpg$image
 ||*/*/popup.png$image
 *###popupdiv
-! ##[id^="popup"]
+! ##div[id^="popup"]
 ! ##img[src^="./popup.gif"]
 ! ##img[src="/images/popup.gif"]
 !
@@ -892,8 +893,6 @@ receivefreesms.net##center:nth-of-type(n)
 ||googleadservices.com^$third-party
 ||startpage.com/adsense/search/async-ads.js
 ||googletagservices.com^$third-party
-
-
 ||scorecardresearch.com^$third-party
 ||metric.gstatic.com^$third-party
 ||chartbeat.com^$third-party
@@ -1360,16 +1359,235 @@ receivefreesms.net##center:nth-of-type(n)
 ||shareaholic.com^$third-party
 ||filepicker.io^$third-party
 ||wxug.com^$third-party
-
+!
+! ====== Filters from "Frightener+Facekill" ============
+! [Public Group: Do Not Track]
+^donottrack^$image,~image,donottrack
+*$donottrack,$image,~image
+*$donottrack
+!
+! [Public Group: Whitelist]
+@@||192.168.*^$document
+@@||*.xdracco.net^$document
+@@||*.gjtech.net^$document
+!
+! [Public Group: eBay]
+||ebay.com^$third-party
+ebay.com##div[id="skyscrape"]
+ebay.com##div[class*="promo"]
+!
+! [Public Group: EyeEm]
+||eyeem.com^$third-party
+eyeem.com##li[id="like-dropdown"]
+eyeem.com##header[class*="signup-header-on-scroll"]
+eyeem.com##div[class="span10 offset2"]
+eyeem.com##div[class="join_block"]
+eyeem.com##a[href*="facebook"]
+!
+! [Public Group: Fandango]
+||fandango.com^$third-party
+fandango.com##div[id="promobar"]
+fandango.com##div[id="globalDock"]
+!
+! [Public Group: Foursquare]
+||foursquare.com^$third-party
+foursquare.com##span[id="facebookLoginButton"]
+foursquare.com##div[id="suggestedFriends"]
+foursquare.com##div[id="signupPrompt"]
+foursquare.com##div[id="SFVVFX"]
+foursquare.com##div[id="newsFlash"]
+foursquare.com##div[id="nearbyRex"]
+foursquare.com##div[id="modalDialogBox"][class="richSignupModal"]
+!
+! [Public Group: GetGlue]
+||getglue.com^$third-party
+getglue.com##ul[class="table-view-group"]:first-child
+getglue.com##div[class="who-to-follow"]
+getglue.com##div[class="top-list"]
+getglue.com##div[class="thinkyouknow"]
+!
+! [Public Group: GoDaddy]
+||godaddy.com^$third-party
+godaddy.com##div[id="PodContainer" ][class="cdsPodContainer"]
+godaddy.com##div[id="pc-links"]
+godaddy.com##div[class="gdhp-promo-highlight-container"]
+godaddy.com##div[class="gdhp-model-tag"]
+godaddy.com##div[class="gdhp-main-middle"]
+godaddy.com##div[class="gdhp-celebrity-banner-small-container"]
+ecc.secureserver.net##div[class="pagetitle"]
+!
+! [Public Group: Google Plus]
+||plus.google.com^$third-party
+plus.google.com##div[navid="6"]
+plus.google.com##div[navid="4"]
+plus.google.com##div[id="ozIdRtRibbonChatRoster"]
+plus.google.com##div[guidedhelpid="friendsuggestions"]
+plus.google.com##div[componentid="54"]
+plus.google.com##div[componentid="45"]
+plus.google.com##div[componentid="44"]
+plus.google.com##div[componentid="34"]
+plus.google.com##div[componentid="13"]
+plus.google.com##div[class=&#34;Pzc&#34;]
+plus.google.com##div[class="talk_chat_widget"]
+plus.google.com##div[class="Hoan0blla"]
+plus.google.com##div[class="Exc"]
+plus.google.com##div[class="eJa"]
+!
+! [Public Group: Huffinton Post]
+||huffingtonpost.com^$third-party
+huffingtonpost.com##div[id="float_tracker"]
+huffingtonpost.com##div[id="connect_modal_v2"]
+huffingtonpost.com##div[class="share_boxes_wraper"]
+huffingtonpost.com##div[class="facebook-like-box float_left"]
+!
+! [Public Group: IMDb]
+||imdb.com^$third-party
+imdb.com##div[id="titleRecs"]
+imdb.com##div[id="rhs_tv_widget"][class="homepage_on_tv_tonight_rhstv_widget"]
+imdb.com##div[id="rhs_cornerstone"]
+imdb.com##div[class="aux-content-widget-2"]
+!
+! [Public Group: Instapaper]
+||instapaper.com^$third-party
+instapaper.com##div[id="bookmarkListDeckAdPlaceholder"]
+!
+! [Public Group: Micro$oft]
+||live.com^$third-party
+||live.com##div[class="OuterContainer"]
+!
+! [Public Group: Last.fm]
+||last.fm^$third-party
+last.fm##div[class="findmorefriends"]
+last.fm##div[class="dropdown-btn-wrapper"][data-dropdownmenu-analytics-action="ShareShowOptions"]
+!
+! [Public Group: Paypal]
+||paypal.com^$third-party
+paypal.com##div[id="mpi580046"]
+paypal.com##div[id="mpi580022"]
+paypal.com##div[id="mpi560004"]
+paypal.com##div[id="mpi560002"]
+!
+! [Public Group: Twitter]
+||twitter.com^$third-party
+||twitter.com/settings/facebook/*
+twtmore.com##div[class="bsa_wrap"]
+twitter.com##li[data-name="connect"]
+twitter.com##li[data-global-action="discover"]
+twitter.com##div[id="first_ad"]
+twitter.com##div[id="dynstrip"]
+twitter.com##div[id="ad-placeholder-Top"]
+twitter.com##div[data-prompt-id="270"]
+twitter.com##div[data-prompt-id="227"]
+twitter.com##div[data-component-term="user_recommendations"]
+twitter.com##div[data-component-term="similar_user_recommendations"]
+twitter.com##div[data-component-term="newest_list_members"]
+twitter.com##div[class="vert_ads"]
+twitter.com##div[class="user-rec-inner"]
+twitter.com##div[class="stream-item"][style="display: block; overflow: hidden; height: 38.7888px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"]
+twitter.com##div[class="promptbird"]
+twitter.com##div[class="promo-component"]
+twitter.com##div[class="onebox"]
+twitter.com##div[class="gdhp-video-container"]
+twitter.com##div[class="gdhp-celebrity-banner-large-container"]
+twitter.com##div[class="ad_panel"]
+twitter.com##div[class*="wtf-module"]
+twitter.com##div[class*="trends"]
+twitter.com##a[aria-label="Games"]
+twitter.com##(div|li)[class="promoted-tweet"]
+twitpic.com##div[id="announcement"]
+!
+! [Public Group: Readbility]
+||readability.com^$third-party
+readability.com##div[role*="contentinfo"]
+readability.com##div[class="sample-articles"]
+!
+! [Public Group: Wordpress]
+||wordpress.(com|org)^$third-party
+wordpress.(com|org)##div[id="wptouch-head"]
+wordpress.(com|org)##div[class="inner-sidebar"]
+!
+! [Public Group: Yahoo!]
+||analytics.yahoo.com^$third-party
+||a.analytics.yahoo.com^$third-party
+tumblr.com##iframe[id="tumblr_controls"]
+!
+! [Default]
+||zynga1-a.akamaihd.net/*.swf
+||www.nevadanewmakers.com/*banners*
+||who.unfollowed.me/*/ads/*
+||weston-fl.com/blog/wp-content/plugins/banner-rotator-fx/component/*
+||webtrendslive.com^
+||vfire.grapheffect.com/trackers/*
+||statse.webtrendslive.com^
+||sammobile.com/firmware/_images/bg_repeat.jpg
+||rlcdn.com^
+||richesbank.com^
+||richesbank.com/images/*
+||quantserve.com^
+||pixel.quantserve.com^
+||offers.bankofamerica.com^
+||mydas.mobi^
+||media.idownloadblog.com/wp-content/uploads/2012/04/*deal*.jpg
+||lmgtfy.com/s/images/*
+||invitemedia.com^
+||infidelguy.com/images/clients/*
+||images.fandango.com/marketing/*
+||html5adkit.plusmo.s3.amazonaws.com^
+||highonandroid.com^
+||extra.thebigboss.org/w3i/*
+||edge.quantserve.com^
+||digitalninjastl.com/*ad*
+||cydia.zodttd.com/*/ads/*
+||crwdcntrl.net^
+||cruising.older4me.com/Upload/Directos/*
+||company.zynga.com/swf/*
+||cdn-2.digidna.net/*/softpedia_*.gif
+||c.ypcdn.com^
+||c.greystripe.com/gsswf/*
+||bkrtx.com/js/*
+||b.scorecardresearch.com^
+||atti.com^
+||androidforums.com/guest-welcome.jpg
+||analytics.apnewsregistry.com^
+||alaskaair.com/content/partial/~/media/Images/FMA/evergreen/*
+||alaskaair.com/content/partial/~/media/Images/FMA/currentOffers/*
+||aka-cdn-ns.adtechus.com/apps/*
+||aff.lmgtfy.com/offers
+||ad.yieldmanager.com^
+||ad.doubleclick.net^
+||a3.twimg.com/profile_background_images/160138433/powered_128.png
+||a.rfihub.com^
+||2mdn.net^
+yelp.com##li[class="add-search-result"]
+technoleash.com##div[id="text-6"]
+technoleash.com##div[id="text-3"]
+products.verizonwireless.com##html[slick-uniqueid="1"]
+nevadanewsmakers.com/*/banners/*
+merriam-webster.com##div[id="adaptvDiv"]
+forums.cacti.net##p[class="titlebar"]
+bestbuy.com##div[id="bbyon"]
+*/moneybookers.gif
+##li[class="ad-widget"]
+##div[id="wptouch-head" class="metabox-holder"]
+##div[id="stay_connected"]
+##div[id="pw-footer"]
+##div[id="popup_content"]
+##div[id="dm_donations"]
+##div[id="discovery-top"]
+##div[id="discovery"]
+##div[componentid="80"]
+##div[componentid="10"]
+##div[class="donation"]
+!
 ! http://hackersthegame.wikia.com/wiki/Hackers_Wikia
 hackersthegame.wikia.com###MtaxPQGU
-
+!
 ! http://profullcrack.com/internet-download-manager-crack-free-download/
 profullcrack.com##center:nth-of-type(n)
-
+!
 ! Porn ads
 ||ssl.xn--s3cfp2bu4c.com/*$image
-
+!
 @@||archive.org^$generichide
 @@||big5.china.com.cn^$generichide
 @@||browserleaks.com^$generichide
@@ -1380,264 +1598,264 @@ profullcrack.com##center:nth-of-type(n)
 @@||tinypaste.cc^$generichide
 @@||uploadocean.com^$generichide
 @@||www.wholehk.com^$generichide
-
+!
 ||*crash*.com$inline-script
-
+!
 ! http://www.dpxq.com/
 ||www.dpxq.com/hldcg/bbs/up/image/*/$image
-
+!
 ! google.com
 @@||ajax.googleapis.com/*/webfont.js$script
 !||fonts.googleapis.com^$script
-
+!
 ! eslite.com
 @@||www.eslite.com^$image,domain=www.eslite.com
-
+!
 ! kuas.edu.tw
 @@||people.engh.kuas.edu.tw^$image
-
+!
 ! kuas.edu.tw
 @@||people.engh.kuas.edu.tw^$image
-
+!
 ! https://www.ifreesite.com/pinyin/
 ifreesite.com##.if_billboard
-
+!
 ! wunderground.com
 @@||www.wunderground.com^$script
-
+!
 ! appledaily.com
 @@||anvato-api-config.s3.amazonaws.com
-
+!
 ! https://www.washingtonpost.com
 washingtonpost.com##.modal-mask
-
+!
 ! tolawa.blogspot.com
 @@||4.bp.blogspot.com
-
+!
 ! disq.us
 @@||disq.us^
-
+!
 !  https://www.sadeempc.com/idm/
 sadeempc.com##.code-block-7.code-block
-
+!
 ! viu.tv
 @@*player*$script
-
+!
 ! https://ads-blocker.com
 ads-blocker.com###text-5
-
+!
 ! http://www.semprot.com
 semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
-
+!
 ! https://browserleaks.com
 browserleaks.com##div:nth-of-type(n) > .adsbygoogle
 @@||*s_a_f_e..overflow*
-
+!
 ! https://designmodo.com
 designmodo.com##.adsense-p
 designmodo.com##.sidebar-banner
 designmodo.com##.block-p
-
+!
 ! 13322.com
 @@||hm.baidu.com/hm.js$domain=kkj.13322.com
-
+!
 ||auth.omoplanet.com^
-
+!
 ! https://hk.news.appledaily.com
 hk.news.appledaily.com###articleOmo
-
+!
 ! https://www.pinterest.com
 pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
-
+!
 ! https://webdeasy.de
 *##.privacy-popup
-
+!
 ! http://pseudo-flaw.net
 pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 mail.google.com##div[role="main"]>div.aKB
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
-
-
+!
 ! https://www.weekendhk.com
-*##.gpt_ads_box
-
+!*##.gpt_ads_box
+##.gpt_ads_box
+###sidebar_video_wrapper
+!
 !  https://hk.on.cc
 hk.on.cc###focus_banner_cd_CTN
-
+!
 ! https://www.ifreesite.com
 ifreesite.com##ins.if_adslot.adsbygoogle:nth-of-type(n)
-
+!
 ! https://www.gotrip.hk
 ||imgs.gotrip.hk/wp-content/uploads/*/*/ad*.jpg$image
-gotrip.hk##.gpt_ads_box
-
+!gotrip.hk##.gpt_ads_box
+!
 ! https://hk.news.appledaily.com
 hk.news.appledaily.com###subscription_head_banner
-
+!
 ! https://unwire.pro
 unwire.pro##.widget_text.widget
-
+!
 ! https://www.askdavetaylor.com
 *##.medrectangle-4.ezoic-ad
 *##.box-4.ezoic-ad
 *##.box-2.ezoic-ad
 *##.box-1.ezoic-ad
-
+!
 ! https://gadgetsrevived.com
 gadgetsrevived.com##.adsbygoogle
-
+!
 ! https://www.bilibili.com
 bilibili.com###slide_ad
-
+!
 ! https://lifehacker.co.in
 lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
-
+!
 !  https://9anime-tv.com
 9anime-tv.com##.\34 883b2027efd7eca112a57c842ee1726 > div:nth-of-type(1)
-
+!
 ! https://www.techotopia.com
 techotopia.com##.adtester-container
-
+!
 ! https://www.smartone.com
 www.smartone.com###carouselExampleControls
-
+!
 @@||midas.gtimg.cn^
 @@||edgecast-vod.yahoo.net^
-
+!
 ! http://cablenews.i-cable.com
 *##.right_ad
-
+!
 ! http://gameplayhk.com
 *##.share-article
-
+!
 ! https://www.hk01.com
 hk01.com##div.dnZMTb.sc-bdVaJa.hKiLMS
-
+!
 ! https://www.mobiloud.com
 *##.cc-color-override-1827372716
-
+!
 ! https://propellerads.com
 propellerads.com###media_image-2
 @@||propellerads.com^$1p
-
+!
 !http://technews.tw
 technews.tw###a8abe630
 technews.tw###ADTOP
 technews.tw##[id^="div-gpt-ad-"]
 technews.tw###a46524ac
-
+##[class^="div-gpt-ad"]
+!
 ! https://adlock.com
 *###banner_full
-
+!
 ! http://ccc.technews.tw
 ||trvdp.com^
-
+!
 ! https://mail.yahoo.com
 ||s.yimg.com/rx/builds/*$subdocument
 mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_id^R
 mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO
-
+!
 ! https://www.researchgate.net
 *##.lite-page__above
-
+!
 ! https://www.hkbn.net
 *##.animated.float
-
+!
 ! https://www.instagram.com
 www.instagram.com##.qD5Mv._4EzTm.eGOV_.IwRSH.Igw0E
-
+!
 ! https://briian.com
 briian.com##.entry-content > div:nth-of-type(1)
 briian.com##.post-navigation.navigation
 briian.com##div.post-navigation:nth-of-type(n)
-
+!
 ! browserleaks.com
 @@||disqus.com^
-
+!
 ! https://www.hk01.com
 www.hk01.com##[src^="https://e.infogram.com/"]
-
+!
 ! pixelprivacy.com
 @@||*-google-tag-manager/*$script
-
+!
 ! https://webdeasy.de
 *##div.webd-f-container:nth-of-type(n)
-
+!
 ! https://timesofindia.indiatimes.com
 timesofindia.indiatimes.com##.ipadmt.paisa1
-
+!
 *##div.\39 f5cbf51aebdcd5dd70684a59b8a7241:nth-of-type(n)
-
+!
 ! https://item.taobao.com
 item.taobao.com##.auto.baxia-dialog
 item.taobao.com###J_DcHead
 item.taobao.com###J_IdsSegments
-
+!
 ! https://v.youku.com
 @@||ws.mmstat.com^
 v.youku.com##.h5-ext-layer
-
+!
 ! tmall.com
 @@||tui.taobao.com^
-
-! https://pseudo-flaw.net
+!
+! http://pseudo-flaw.net/content/adblock/
 *###startAd
 *###endAd
-
+!pseudo-flaw.net###startAd
+!pseudo-flaw.net###endAd
+!
 ! https://www.peekme.cc
 *##.text-center.margin-bottom-10.ad-box
 *###sideFixed
-
+!
 ! https://cheatsquad.gg
 *##.ad_billboard
-
+!
 ! https://www.peekme.cc
 www.peekme.cc##.well-sm.well.ad-well.text-center
-
-! https://pseudo-flaw.net
-pseudo-flaw.net###startAd
-pseudo-flaw.net###endAd
-
+!
 ! https://www.oneangrygamer.net
 www.oneangrygamer.net###text-11
-
+!
 ! egybest.zone
 @@||*/api.js
 @@||reef.egybest.zone^
-
+!
 ! https://4pda.ru
 4pda.ru###CmCz1BrYrrq
 4pda.ru##.F2g2SnikKA
-
+!
 ! https://hongkiat.github.io
 hongkiat.github.io##.ads
 hongkiat.github.io##.include
-
+!
 ! https://thomas.vanhoutte.be
 thomas.vanhoutte.be##center
-
+!
 ! amazonaws.com
 @@||fhkipublications.s3-website.ap-east-1.amazonaws.com^$script
-
+!
 ! https://hk.news.yahoo.com
 hk.news.yahoo.com###sda-MAST
-
+!
 ! bochk.com
 @@||its.bochk.com^$script
-
+!
 ! online-banking.hsbc.com.hk
 @@||static.services.online-banking.hsbc.com.hk^$script
-
+!
 ! https://pan.baidu.com
 pan.baidu.com##.swal2-backdrop-show.swal2-center.swal2-container
-
+!
 ! https://www.linkedin.com
 www.linkedin.com###ember10843
 www.linkedin.com##.pv-ad-banner
-
+!
 *##.cookies-container
-
+!
 ! browserleaks.com
 @@||s_a_f_e..0verflow*
 @@||*/1.gif?v=*
