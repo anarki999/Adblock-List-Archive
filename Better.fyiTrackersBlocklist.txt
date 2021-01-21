@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20210121
-! Update details: Add filters of frightener+facekill.txt
+! Last Update : 20210122
+! Update details: Add filters of frightener+facekill.txt, strengthen filtering effectiveness, block all flash objects
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 !
 ! List from https://better.fyi/trackers/
@@ -332,7 +332,8 @@ hktvmall.com##.active.extra-banner-container
 ! https://www.technorms.com/
 technorms.com##.td-g-rec-id-header
 !technorms.com##.td-g-rec-id-custom_ad_2.td-g-rec
-technorms.com##[id^="td-g-rec-id-custom_ad"]
+!technorms.com##[id^="td-g-rec-id-custom_ad"]
+*##[id^="td-g-rec-id-custom_ad"]
 technorms.com##.td-block-title
 technorms.com##.td-next-prev-wrap
 technorms.com##.vc_sep_holder_l.vc_sep_holder
@@ -443,17 +444,8 @@ fun.ttshow.tw##.ypabox-container
 bastillepost.com###div-ileague-728x90
 !
 ! http://www.lifehack.org/articles/technology/15-awesome-gmail-plugins-boost-email-productivity.html
-!lifehack.org###div-dfp-ad-in-content-1-1-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-2-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-3-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-4-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-5-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-6-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-7-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-8-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-9-wrapper
-!lifehack.org###div-dfp-ad-in-content-1-10-wrapper
-lifehack.org##[id^="div-dfp-ad-in-content-"]
+!lifehack.org##[id^="div-dfp-ad-in-content-"]
+*##[id^="div-dfp-ad-in-content-"]
 !
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
@@ -531,8 +523,8 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/sdk.js$script
 !@@||cdn.hk01.com/*/scripts/ga.js$script
 !@@||cdn.hk01.com/*/scripts/ga_trace.js$script
-@@||*/*/ga.js$script,domain=~google-analytics.com
-@@||*/*/ga_trace.js$script,domain=~google-analytics.com
+@@||*/*/ga.js$script,domain=~*google-analytics.com
+@@||*/*/ga_trace.js$script,domain=~*google-analytics.com
 @@||*/*/*ads.js$script
 @@||*/*/ads.js$script
 !@@||*/*/*ads*.js$script
@@ -542,7 +534,11 @@ discoverhongkong.com###rightBannerAdContainer
 ||*/*/adblock.js$script
 ||*/*/*adblock.js$script
 @@||*adblock*/index.js$script
-||*/*/*ads*.gif$image,important
+||*/*ads*.gif$image,important
+||*/ads*.gif$image,important
+||*/*ads.gif$image,important
+||*.swf$important
+@@||*$image,first-party
 @@||*/*/adbanner.gif$image
 @@||*/*/*adbanner.gif$image
 @@||*/*/*adbanner*.gif$image
@@ -553,20 +549,24 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
+||*ads_banner*.png$important
+||*ads_banner*.jpg$important
 !@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-@@||pagead2.googlesyndication.com^
+!@@||pagead2.googlesyndication.com^
 @@||www.adiode.com^
+*##.jquery-script-ads
 !
 *##.ad-container
-yahoo.com##[id^=".ad-container"]
+!yahoo.com##[id^="ad-container"]
+*##[id^="ad-container"]
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
 !hk.yahoo.com###my-adsEU3
 !hk.yahoo.com###my-adsTL3
 yahoo.com##[id^="my-ads"]
+*##[id^="my-ads"]
 *##.ads-by-google
-*##.adsbygoogle
 yahoo.com##.adsbygoogle
 *##.sys_displayads.dd
 ! https://mg.mail.yahoo.com/mg.mail.yahoo.com
@@ -1567,17 +1567,17 @@ merriam-webster.com##div[id="adaptvDiv"]
 forums.cacti.net##p[class="titlebar"]
 bestbuy.com##div[id="bbyon"]
 */moneybookers.gif
-##li[class="ad-widget"]
-##div[id="wptouch-head" class="metabox-holder"]
-##div[id="stay_connected"]
-##div[id="pw-footer"]
-##div[id="popup_content"]
-##div[id="dm_donations"]
-##div[id="discovery-top"]
-##div[id="discovery"]
-##div[componentid="80"]
-##div[componentid="10"]
-##div[class="donation"]
+*##li[class="ad-widget"]
+*##div[id="wptouch-head" class="metabox-holder"]
+*##div[id="stay_connected"]
+*##div[id="pw-footer"]
+*##div[id="popup_content"]
+*##div[id="dm_donations"]*
+*##div[id="discovery-top"]
+*##div[id="discovery"]
+*##div[componentid="80"]
+*##div[componentid="10"]
+*##div[class="donation"]
 !
 ! http://hackersthegame.wikia.com/wiki/Hackers_Wikia
 hackersthegame.wikia.com###MtaxPQGU
@@ -1678,8 +1678,8 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
 !
 ! https://www.weekendhk.com
 !*##.gpt_ads_box
-##.gpt_ads_box
-###sidebar_video_wrapper
+*##.gpt_ads_box
+*###sidebar_video_wrapper
 !
 !  https://hk.on.cc
 hk.on.cc###focus_banner_cd_CTN
@@ -1698,16 +1698,23 @@ hk.news.appledaily.com###subscription_head_banner
 unwire.pro##.widget_text.widget
 !
 ! https://www.askdavetaylor.com
-*##.medrectangle-4.ezoic-ad
-*##.box-4.ezoic-ad
-*##.box-2.ezoic-ad
-*##.box-1.ezoic-ad
+!*##.medrectangle-4.ezoic-ad
+!*##.box-4.ezoic-ad
+!*##.box-2.ezoic-ad
+!*##.box-1.ezoic-ad
+*##.ezoic-ad
+*##.ezoic-ad-adaptive
+*##.adtester-container
+askdavetaylor.com##.adtester-container
+!www.askdavetaylor.com##.ezoic-ad-adaptive
+!*##.ezoic-ad:nth-of-type(n)
 !
 ! https://gadgetsrevived.com
 gadgetsrevived.com##.adsbygoogle
 !
 ! https://www.bilibili.com
 bilibili.com###slide_ad
+*###slide_ad
 !
 ! https://lifehacker.co.in
 lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
@@ -1743,9 +1750,8 @@ propellerads.com###media_image-2
 !http://technews.tw
 technews.tw###a8abe630
 technews.tw###ADTOP
-technews.tw##[id^="div-gpt-ad-"]
 technews.tw###a46524ac
-##[class^="div-gpt-ad"]
+*##[id^="div-gpt-ad-"]
 !
 ! https://adlock.com
 *###banner_full
@@ -1830,6 +1836,7 @@ www.oneangrygamer.net###text-11
 !
 ! https://hongkiat.github.io
 hongkiat.github.io##.ads
+*##.ads
 hongkiat.github.io##.include
 !
 ! https://thomas.vanhoutte.be
@@ -1840,6 +1847,12 @@ thomas.vanhoutte.be##center
 !
 ! https://hk.news.yahoo.com
 hk.news.yahoo.com###sda-MAST
+*###Col2-0-Ad-Proxy
+*###Col2-1-Ad-Proxy
+*###Col2-8-Ad-Proxy
+*###mrt-node-Lead-1-Ad
+*###mrt-node-Lead-2-Ad
+*###sda-LDRB
 !
 ! bochk.com
 @@||its.bochk.com^$script
@@ -1853,6 +1866,7 @@ pan.baidu.com##.swal2-backdrop-show.swal2-center.swal2-container
 ! https://www.linkedin.com
 www.linkedin.com###ember10843
 www.linkedin.com##.pv-ad-banner
+*##.pv-ad-banner
 !
 *##.cookies-container
 !
