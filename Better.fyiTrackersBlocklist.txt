@@ -538,7 +538,7 @@ discoverhongkong.com###rightBannerAdContainer
 ||*/*ads*.gif$image,important
 ||*/ads*.gif$image,important
 ||*/*ads.gif$image,important
-||*.swf$important
+||*.swf
 @@||*$image,first-party
 @@||*/*/adbanner.gif$image
 @@||*/*/*adbanner.gif$image
@@ -1873,3 +1873,10 @@ www.linkedin.com##.pv-ad-banner
 ! browserleaks.com
 @@||s_a_f_e..0verflow*
 @@||*/1.gif?v=*
+
+! https://www.zhenbuka.com
+www.zhenbuka.com###yb112
+www.zhenbuka.com##.jq-toast-wrap
+
+! zhenbuka.com
+@@||www.zhenbuka.com^$script,domain=www.zhenbuka.com
