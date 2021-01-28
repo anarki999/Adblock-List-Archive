@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20210122
-! Update details: Add filters of frightener+facekill.txt, strengthen filtering effectiveness, block all flash objects
+! Last Update : 20210128
+! Update details: Block .adsbygoogle without being detected
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
 !
@@ -1591,7 +1591,7 @@ profullcrack.com##center:nth-of-type(n)
 !
 @@||archive.org^$generichide
 @@||big5.china.com.cn^$generichide
-@@||browserleaks.com^$generichide
+!@@||browserleaks.com^$generichide
 !@@||codepen.io^$generichide
 @@||movie.yahoo-leisure.hk^$generichide
 @@||playok.com^$generichide
@@ -1649,7 +1649,10 @@ ads-blocker.com###text-5
 semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 !
 ! https://browserleaks.com
-browserleaks.com##div:nth-of-type(n) > .adsbygoogle
+!browserleaks.com##div:nth-of-type(n) > .adsbygoogle
+!*##.adsbygoogle:nth-of-type(n)
+!*##.adsbygoogle:nth-of-type(2)
+*##div:nth-of-type(n) > .adsbygoogle
 @@||*s_a_f_e..overflow*
 !
 ! https://designmodo.com
@@ -1711,7 +1714,7 @@ askdavetaylor.com##.adtester-container
 !*##.ezoic-ad:nth-of-type(n)
 !
 ! https://gadgetsrevived.com
-gadgetsrevived.com##.adsbygoogle
+!gadgetsrevived.com##.adsbygoogle
 !
 ! https://www.bilibili.com
 bilibili.com###slide_ad
@@ -1880,3 +1883,8 @@ www.zhenbuka.com##.jq-toast-wrap
 
 ! zhenbuka.com
 @@||www.zhenbuka.com^$script,domain=www.zhenbuka.com
+
+! 1/26/2021 https://hk.yahoo.com
+hk.yahoo.com###ad-north-base
+
+*##+js(acis, GoogleAnalyticsObject)
