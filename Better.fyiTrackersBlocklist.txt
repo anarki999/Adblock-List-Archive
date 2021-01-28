@@ -1650,9 +1650,15 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 !
 ! https://browserleaks.com
 !browserleaks.com##div:nth-of-type(n) > .adsbygoogle
-!*##.adsbygoogle:nth-of-type(n)
-!*##.adsbygoogle:nth-of-type(2)
-*##div:nth-of-type(n) > .adsbygoogle
+*##div:nth-of-type(2) > .adsbygoogle
+*##div:nth-of-type(3) > .adsbygoogle
+*##div:nth-of-type(4) > .adsbygoogle
+*##div:nth-of-type(5) > .adsbygoogle
+*##div:nth-of-type(6) > .adsbygoogle
+*##div:nth-of-type(7) > .adsbygoogle
+*##div:nth-of-type(8) > .adsbygoogle
+*##div:nth-of-type(9) > .adsbygoogle
+*##div:nth-of-type(10) > .adsbygoogle
 @@||*s_a_f_e..overflow*
 !
 ! https://designmodo.com
@@ -1688,8 +1694,8 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
 !  https://hk.on.cc
 hk.on.cc###focus_banner_cd_CTN
 !
-! https://www.ifreesite.com
-ifreesite.com##ins.if_adslot.adsbygoogle:nth-of-type(n)
+! https://www.ifreesite.com/pinyin/
+!ifreesite.com##.adsbygoogle:nth-of-type(n)
 !
 ! https://www.gotrip.hk
 ||imgs.gotrip.hk/wp-content/uploads/*/*/ad*.jpg$image
@@ -1715,6 +1721,7 @@ askdavetaylor.com##.adtester-container
 !
 ! https://gadgetsrevived.com
 !gadgetsrevived.com##.adsbygoogle
+*###page > .adsbygoogle
 !
 ! https://www.bilibili.com
 bilibili.com###slide_ad
@@ -1884,7 +1891,7 @@ www.zhenbuka.com##.jq-toast-wrap
 ! zhenbuka.com
 @@||www.zhenbuka.com^$script,domain=www.zhenbuka.com
 
-! 1/26/2021 https://hk.yahoo.com
+! https://hk.yahoo.com
 hk.yahoo.com###ad-north-base
 
 *##+js(acis, GoogleAnalyticsObject)
