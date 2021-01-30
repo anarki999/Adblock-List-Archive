@@ -1653,7 +1653,9 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 *##div:nth-of-type(9) > .adsbygoogle
 *##div:nth-of-type(10) > .adsbygoogle
 *##.include > .adsbygoogle
-@@||*s_a_f_e..overflow*
+!@@||*s_a_f_e..overflow*
+@@||*s_a_f_e..0verflow*
+@@||*/1.gif?v=*
 !
 ! https://designmodo.com
 designmodo.com##.adsense-p
@@ -1873,10 +1875,6 @@ www.linkedin.com##.pv-ad-banner
 *##.pv-ad-banner
 !
 *##.cookies-container
-!
-! browserleaks.com
-@@||s_a_f_e..0verflow*
-@@||*/1.gif?v=*
 
 ! https://www.zhenbuka.com
 www.zhenbuka.com###yb112
@@ -1889,3 +1887,5 @@ www.zhenbuka.com##.jq-toast-wrap
 hk.yahoo.com###ad-north-base
 
 *##+js(acis, GoogleAnalyticsObject)
+*##+js(acis, googletag)
+*##+js(acis, adsbygoogle)
