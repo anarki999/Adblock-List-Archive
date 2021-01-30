@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers Blocklist
-! Last Update : 20210128
+! Last Update : 20210130
 ! Update details: Block .adsbygoogle without being detected
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -550,6 +550,7 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
 @@||*/*/adsbygoogle.js$script
+||googlesyndication.com^
 ||*ads_banner*.png$important
 ||*ads_banner*.jpg$important
 !@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
@@ -602,16 +603,6 @@ blockadblock.com##script:inject(nobab)
 blockadblock.com##.col-md-4 > div:nth-of-type(2)
 @@/blockadblock.$script,domain=blockadblock.com
 !
-google-analytics.com##script:inject(google-analytics.com/ga.js)
-google-analytics.com##script:inject(google-analytics.com/analytics.js)
-google-analytics.com##script:inject(google-analytics.com/inpage_linkid.js)
-google-analytics.com##script:inject(google-analytics.com/cx/api.js)
-googletagservices.com##script:inject(googletagservices.com/gpt.js)
-googletagmanager.com##script:inject(googletagmanager.com/gtm.js)
-googlesyndication.com##script:inject(googlesyndication.com/adsbygoogle.js)
-scorecardresearch.com##script:inject(scorecardresearch.com/beacon.js)
-doubleclick.net##script:inject(doubleclick.net/instream/ad_status.js)
-addthis.com##script:inject(addthis.com/addthis_widget.js)
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||disqus.com/embed.js$script,redirect=disqus.com/embed.js
 ||disqus.com/count.js$script
@@ -1650,6 +1641,8 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 !
 ! https://browserleaks.com
 !browserleaks.com##div:nth-of-type(n) > .adsbygoogle
+*##.entry-content > div:nth-of-type(n) > .adsbygoogle
+*###container > div:nth-of-type(n) > .adsbygoogle
 *##div:nth-of-type(2) > .adsbygoogle
 *##div:nth-of-type(3) > .adsbygoogle
 *##div:nth-of-type(4) > .adsbygoogle
@@ -1659,6 +1652,7 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 *##div:nth-of-type(8) > .adsbygoogle
 *##div:nth-of-type(9) > .adsbygoogle
 *##div:nth-of-type(10) > .adsbygoogle
+*##.include > .adsbygoogle
 @@||*s_a_f_e..overflow*
 !
 ! https://designmodo.com
