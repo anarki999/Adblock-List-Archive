@@ -1048,7 +1048,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||kingfeatures.com^$third-party
 ||360yield.com^$third-party
 !||netdna-cdn.com^$third-party
-||akamai.net^$third-party
+!||akamai.net^$third-party
 ||syncaccess.net^$third-party
 ||gravatar.com^$third-party
 ||rundsp.com^$third-party
