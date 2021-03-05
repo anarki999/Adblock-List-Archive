@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
-! Title: Better.fyi Trackers Blocklist
-! Last Update : 20210130
+! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
+! Last Update : 20210305
 ! Update details: Block .adsbygoogle without being detected
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -1159,7 +1159,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||ctnsnet.com^$third-party
 ||pictela.net^$third-party
 ||nexage.com^$third-party
-||llnwd.net^$third-party
+!||llnwd.net^$third-party
 ||fastclick.net^$third-party
 !||rackcdn.com^$third-party
 ||onthe.io^$third-party
@@ -1336,7 +1336,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||optimatic.com^$third-party
 ||reddit.com^$third-party
 ||walmart.com^$third-party
-||content.googleapis.com^$third-party
+!||content.googleapis.com^$third-party
 ||yieldmanager.com^$third-party
 ||ugdturner.com^$third-party
 ||d36hc0p18k1aoc.cloudfront.net^$third-party
@@ -1886,6 +1886,11 @@ www.zhenbuka.com##.jq-toast-wrap
 ! https://hk.yahoo.com
 hk.yahoo.com###ad-north-base
 
-*##+js(acis, GoogleAnalyticsObject)
+!*##+js(acis, GoogleAnalyticsObject)
 *##+js(acis, googletag)
 *##+js(acis, adsbygoogle)
+
+||sibforms.com^
+
+! https://lihkg.com
+lihkg.com##._3t1IIUwX87Q7giYt9CBgsT
