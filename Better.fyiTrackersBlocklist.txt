@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20210316
-! Update details: Block .adsbygoogle without being detected
+! Last Update : 20210607
+! Update details: Improve filters
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
 !
@@ -1900,3 +1900,27 @@ wow.qooza.hk###top-banner
 
 ! https://www.setn.com
 *##.heder-area-ad
+
+! https://unwire.hk
+unwire.hk##.image-container > .image-box
+
+! https://www.carousell.com.hk
+www.carousell.com.hk##div.M_xE.D_nH.M_xB.D_nF
+
+! https://www.commonhealth.com.tw
+*##.contnet-ad1.ad--text
+*##.ad
+*##.ad--bg-300by250
+*##.contentLeaflet
+*##.ad--150
+
+! https://mrmad.com.tw
+mrmad.com.tw##.adsbygoogle
+
+! https://applealmond.com
+applealmond.com##.Zi_ad_a_H
+applealmond.com###custom_html-9
+
+! https://mail.google.com
+mail.google.com##.inboxsdk__modal_content_no_buttons
+mail.google.com##.inboxsdk__modal_overlay
