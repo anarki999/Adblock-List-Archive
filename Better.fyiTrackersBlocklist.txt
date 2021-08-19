@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20210607
-! Update details: Improve filters
+! Last Update : 20210819
+! Update details: Improve anti-adblock system
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
 !
@@ -317,6 +317,10 @@
 ! Anti-adblocking detection & Site unbreaking
 ! http://viu.tv/
 viu.tv##.in.fade.modal-backdrop
+!
+! thepiratebay2.org
+@@||www.google.com/adsense/domains/caf.js$script
+@@||google.*/afs/ads^
 !
 ! http://www.hktvmall.com/hktv/zh/supermarket
 *##.CrazyAd
@@ -1924,3 +1928,25 @@ applealmond.com###custom_html-9
 ! https://mail.google.com
 mail.google.com##.inboxsdk__modal_content_no_buttons
 mail.google.com##.inboxsdk__modal_overlay
+
+! https://boardgamegeek.com
+boardgamegeek.com##.advertisement
+
+! https://link.springer.com
+link.springer.com##.c-ad
+
+! https://www.techopedia.com
+*##.ad__mapping1__wrapper
+*##.ad__wrapper
+
+! gotrip.hk
+@@||*/*OneSignalSDKWorker
+
+! un.org
+@@||unstats.un.org^$1p
+
+*##.cookie-message
+
+! thestandnews.com
+@@||button.like.co^$domain=www.thestandnews.com
+@@||button.like.co^$domain=button.like.co
