@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20220110
+! Last Update : 2022011001
 ! Update details: Improve anti-adblock system again
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -556,7 +556,6 @@ cocomy.net##.well-sm.well.ad-well
 @@||*/*/adwordstracking.js$script
 !@@||*/*/adsbygoogle.js$script
 @@||*/*/pagead/js/adsbygoogle.js$script
-||googlesyndication.com^
 ||*ads_banner*.png$important
 ||*ads_banner*.jpg$important
 !@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
@@ -604,9 +603,8 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 !||*blockadblock*.*/*.*$script
 !||*/*adblock*.js$script
 !||*/*adblock*/*.js$script
-blockadblock.com##script:inject(bab-defuser.js)
-blockadblock.com##script:inject(nobab)
 blockadblock.com##.col-md-4 > div:nth-of-type(2)
+blockadblock.com##.col-md-4 > div:nth-of-type(3)
 @@/blockadblock.$script,domain=blockadblock.com
 !
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -1656,6 +1654,7 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 ##div:nth-of-type(9) > .adsbygoogle
 ##div:nth-of-type(10) > .adsbygoogle
 ##.include > .adsbygoogle
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#[id^="adsbygoogle"]
 !@@||*s_a_f_e..overflow*
 @@||*s_a_f_e..0verflow*
 @@||*/1.gif?v=*
@@ -2008,3 +2007,40 @@ boardgamegeek.com##.p-0.dark
 
 ! https://developers.playwire.com
 ###modal
+
+! https://blockadblock.com
+##ins.adsbygoogle[data-ad-client]:not([data-matched-content-ui-type])
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,ad,af,ag,am,au,aw,ax,az,bh,bm,bt,bw,by,bz,cr,cx,cz,dz,et,fo,gd,gi,gl,gn,gs,gw,gy,hn,hr,ke,kg,ki,ky,nl,ru,iq,ae,ai,at,ao,ba,bb,bf,bi,bj,bn,bo,bs,cd,cg,ci,ck,cm,cu,cv,cy,dj,dm,do,ec,eg,eg,fj,fk,ge,gf,gh,gm,gp,gu,hm,im,jm,kh,kn,kp,so,nz,be,ca,fm,sa,aq,kw,la,lb,lc,ly,mc,md,me,mn,mr,mx,na,nc,nf,om,pr,sa,sc,sg,sk,sl,sn,ss,sx,tl,tt,tv,tz,ua,ug,uk,us,uy,ve,vg,vu,za,lr,ma,vc,cw#$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,ad,af,ag,am,au,aw,ax,az,bh,bm,bt,bw,by,bz,cr,cx,cz,dz,et,fo,gd,gi,gl,gn,gs,gw,gy,hn,hr,ke,kg,ki,ky,nl,ru,iq,ae,ai,at,ao,ba,bb,bf,bi,bj,bn,bo,bs,cd,cg,ci,ck,cm,cu,cv,cy,dj,dm,do,ec,eg,eg,fj,fk,ge,gf,gh,gm,gp,gu,hm,im,jm,kh,kn,kp,so,nz,be,ca,fm,sa,aq,kw,la,lb,lc,ly,mc,md,me,mn,mr,mx,na,nc,nf,om,pr,sa,sc,sg,sk,sl,sn,ss,sx,tl,tt,tv,tz,ua,ug,uk,us,uy,ve,vg,vu,za,lr,ma,vc,cw#$#[class^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,nz,be,ca,fm,sa#$#[id^="div-gpt-ad"] { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,nz,be,ca,fm,sa#@##Ad300x145
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,nz,be,ca,fm,sa#@##Ad300x250
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,nz,be,ca,fm,sa#@##AdBox160
+com,co,net,org,edu,gov,mil,io,int,mobi,blog,biz,info,xyz,xxx,ly,site,yoga,icu,site,online,top,arpa,moe,name,pro,aero,asia,cat,coop,jobs,museum,post,tel,travel,ac,at,bg,br,cc,ch,cl,cn,de,dk,ee,es,eu,fi,fr,gr,hk,hu,id,ie,il,in,io,is,jp,kr,li,lk,lt,lu,lv,my,no,nu,pe,pl,pm,pw,re,ro,rs,se,sh,si,su,tf,th,tm,tn,tw,vn,wf,ws,yt,as,bd,cf,ga,gg,gq,gt,ht,ir,je,kz,ml,st,tk,to,tr,ar,pt,nz,be,ca,fm,sa#@##AdFrame1
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##AdFrame2
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##AdFrame4
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAd
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAd1
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAd2
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAd3
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAdB
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##DivAdC
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##ad-frame
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##ad-lb
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##adAd
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##adTeaser
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##ads_iframe
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##glinkswrapper
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##outbrain-paid
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##sponsored_link
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@##ad-banner
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.ad-banner
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.ad-placement
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.ads-iframe
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.adsBox
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.adsbygoogle
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.display_ad
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#.div-gpt-ad
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#div[class^="div-gpt-ad"]
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#[class^="div-gpt-ad"]
+ai,app,asia,bid,biz,black,blog,blue,cc,click,cloud,club,co,com,fun,guru,info,is,jp,life,link,live,me,media,mobi,money,nagoya,name,net,news,one,online,ooo,org,pics,pl,pro,pw,red,rocks,site,space,tech,tk,to,today,tokyo,top,website,wiki,win,work,world,xyz,yokohama#@#[id^="div-gpt-ad"]
