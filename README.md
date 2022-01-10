@@ -5,6 +5,7 @@ This is my first filter list I made myself. It includes advanced anti-adblocking
 Please report the problem if you found my list breaking some websites. Please includes which filter line breaks the website so I can test it and make it perfect =D.
 
 I would also recommend the following host file subscription link below:
+
 https://adaway.org/hosts.txt
 https://filters.adtidy.org/android/filters/15_optimized.txt
 https://blocklistproject.github.io/Lists/tracking.txt
