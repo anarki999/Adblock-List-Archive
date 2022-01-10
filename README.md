@@ -8,15 +8,10 @@ I would also recommend the following host file subscription link below:
 
 - https://adaway.org/hosts.txt
 - https://filters.adtidy.org/android/filters/15_optimized.txt
-
-https://blocklistproject.github.io/Lists/tracking.txt
-
-https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/hosts.final
-
-https://someonewhocares.org/hosts/zero/hosts
-
-https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv4.txt
-
-https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+- https://blocklistproject.github.io/Lists/tracking.txt
+- https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/hosts.final
+- https://someonewhocares.org/hosts/zero/hosts
+- https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv4.txt
+- https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 
 They works very well on my Android Adguard DNS filtering function.
