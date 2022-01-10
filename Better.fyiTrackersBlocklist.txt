@@ -1,7 +1,7 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20210819
-! Update details: Improve anti-adblock system
+! Last Update : 20220110
+! Update details: Improve anti-adblock system again
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" & "Ignore generic cosmetic filters" options in Filter Lists section.
 !
@@ -323,7 +323,7 @@ viu.tv##.in.fade.modal-backdrop
 @@||google.*/afs/ads^
 !
 ! http://www.hktvmall.com/hktv/zh/supermarket
-*##.CrazyAd
+##.CrazyAd
 hktvmall.com##.active.extra-banner-container
 @@||hktvmall.com^$script
 @@||images.hktvmall.com$image
@@ -338,7 +338,7 @@ hktvmall.com##.active.extra-banner-container
 technorms.com##.td-g-rec-id-header
 !technorms.com##.td-g-rec-id-custom_ad_2.td-g-rec
 !technorms.com##[id^="td-g-rec-id-custom_ad"]
-*##[id^="td-g-rec-id-custom_ad"]
+##[id^="td-g-rec-id-custom_ad"]
 technorms.com##.td-block-title
 technorms.com##.td-next-prev-wrap
 technorms.com##.vc_sep_holder_l.vc_sep_holder
@@ -347,9 +347,9 @@ technorms.com##.vc_sep_holder_l.vc_sep_holder
 pcgames-download.net###niceMessage > .inner
 !
 ! http://www.ifreesite.com/pinyin/
-ifreesite.com##.if_billboard
-ifreesite.com##.if_billpro
-ifreesite.com##.top
+##.if_billboard
+##.if_billpro
+##.top
 !
 ! https://www.uacinemas.com.hk/chi/main/HomePage
 ||www.uacinemas.com.hk//files_upload/images/banner$image
@@ -374,7 +374,7 @@ gotrip.hk##.category__featured-posts
 !edigest.hk##.code-block-3.code-block
 !edigest.hk##.code-block-4.code-block
 !edigest.hk##.code-block-after-pagination
-*##.code-block
+##.code-block
 !
 ! http://www.i-comic.net/anime/%E9%BE%8D%E7%8F%A0%20%E8%B6%85/%E7%AC%AC77%E9%9B%86
 i-comic.net###myModal
@@ -385,10 +385,10 @@ i-comic.net##.in.fade.modal-backdrop
 @@||*.*$stylesheet
 !
 ! 3/10/2017, 4:29:21 PM http://changepw.com/view2/?p=565
-*##.ypabox-bg
-*##.top-ad
-*##.ypabox-container
-*##.adbox-bg
+##.ypabox-bg
+##.top-ad
+##.ypabox-container
+##.adbox-bg
 !changepw.com##.quick-adsense:nth-of-type(1)
 !changepw.com##.quick-adsense:nth-of-type(2)
 !changepw.com##.quick-adsense:nth-of-type(3)
@@ -397,13 +397,13 @@ i-comic.net##.in.fade.modal-backdrop
 !changepw.com##.quick-adsense:nth-of-type(6)
 !changepw.com##.quick-adsense:nth-of-type(n)
 !changepw.com##.quick-adsense
-*##.quick-adsense
+##.quick-adsense
 !
 ! http://www.girltalkhk.com/2016/08/10/sapeiar-poorcouple/
 girltalkhk.com##.ad-unit-footer-header
 !
 ! http://hk.apple.nextmedia.com/news/art/20160920/19776210
-*###fb_like
+###fb_like
 @@||connect.facebook.net^
 !
 ! http://www.creativebloq.com/3d/30-amazing-examples-webgl-action-6142954
@@ -415,25 +415,26 @@ creativebloq.com##.slotify-slot
 !
 ! https://hk.thenewslens.com/article/26054
 !hk.thenewslens.com##.ad-container-2
-*##.ad-container-2
+##.ad-container-2
+##[id^="ad-container-2"]
 !
 ! http://download.cnet.com/SanDisk-SecureAccess/3000-18511_4-75796580.html?hasJs=n&hlndr=1&dlm=0
 download.cnet.com###product-video-container
 !
 ! https://www.youtube.com/
-youtube.com###ab4yt-brand
-youtube.com##.ad-container
-youtube.com##.ad-div
-youtube.com##.masthead-ad-control
-youtube.com##.video-ads
-youtube.com##.ytp-ad-progress-list
-youtube.com###ad_creative_3
-youtube.com###footer-ads
-youtube.com###masthead-ad
-youtube.com###player-ads
-youtube.com##.ytd-mealbar-promo-renderer
+###ab4yt-brand
+##.ad-container
+##.ad-div
+##.masthead-ad-control
+##.video-ads
+##.ytp-ad-progress-list
+###ad_creative_3
+###footer-ads
+###masthead-ad
+###player-ads
+##.ytd-mealbar-promo-renderer
 youtube.com###watch-channel-brand-div
-youtube.com###watch7-sidebar-ads
+###watch7-sidebar-ads
 !
 ! http://www.beautyexchange.com.hk
 beautyexchange.com.hk##.forum_showcase
@@ -450,13 +451,13 @@ bastillepost.com###div-ileague-728x90
 !
 ! http://www.lifehack.org/articles/technology/15-awesome-gmail-plugins-boost-email-productivity.html
 !lifehack.org##[id^="div-dfp-ad-in-content-"]
-*##[id^="div-dfp-ad-in-content-"]
+##[id^="div-dfp-ad-in-content-"]
 !
 ! http://wmoov.com/
 wmoov.com##.section_main:nth-of-type(2)
 !
 ! https://tech3c.pixnet.net/
-*##.adsbyfalcon
+##.adsbyfalcon
 !
 ! https://tech3c.pixnet.net/
 tech3c.pixnet.net##.row--commercial.row:nth-of-type(n)
@@ -486,7 +487,7 @@ cocomy.net##.well-sm.well.ad-well
 !
 ! https://www.discoverhongkong.com/
 ||www.discoverhongkong.com/tc/images/banners/*.gif$image
-discoverhongkong.com###rightBannerAdContainer
+###rightBannerAdContainer
 !
 ! browserleaks.com
 !||*/*canvas*$script
@@ -528,8 +529,8 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/sdk.js$script
 !@@||cdn.hk01.com/*/scripts/ga.js$script
 !@@||cdn.hk01.com/*/scripts/ga_trace.js$script
-@@||*/*/ga.js$script,domain=~*google-analytics.com
-@@||*/*/ga_trace.js$script,domain=~*google-analytics.com
+@@||*/*/ga.js$script,domain=~google-analytics.com
+@@||*/*/ga_trace.js$script,domain=~google-analytics.com
 @@||*/*/*ads.js$script
 @@||*/*/ads.js$script
 !@@||*/*/*ads*.js$script
@@ -553,28 +554,29 @@ discoverhongkong.com###rightBannerAdContainer
 @@||*/*/adframe.js$script
 @@||*/*/advert.js$script
 @@||*/*/adwordstracking.js$script
-@@||*/*/adsbygoogle.js$script
+!@@||*/*/adsbygoogle.js$script
+@@||*/*/pagead/js/adsbygoogle.js$script
 ||googlesyndication.com^
 ||*ads_banner*.png$important
 ||*ads_banner*.jpg$important
 !@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
 !@@||pagead2.googlesyndication.com^
 @@||www.adiode.com^
-*##.jquery-script-ads
+##.jquery-script-ads
 !
-*##.ad-container
+##.ad-container
 !yahoo.com##[id^="ad-container"]
-*##[id^="ad-container"]
+##[id^="ad-container"]
 !
 ! https://hk.yahoo.com/#
 !hk.yahoo.com###my-adsFPR
 !hk.yahoo.com###my-adsEU3
 !hk.yahoo.com###my-adsTL3
 yahoo.com##[id^="my-ads"]
-*##[id^="my-ads"]
-*##.ads-by-google
+##[id^="my-ads"]
+##.ads-by-google
 yahoo.com##.adsbygoogle
-*##.sys_displayads.dd
+##.sys_displayads.dd
 ! https://mg.mail.yahoo.com/mg.mail.yahoo.com
 mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649357463_2038
 mg.mail.yahoo.com###yui_3_16_0_ym19_1_1501649410078_3549
@@ -592,7 +594,7 @@ mg.mail.yahoo.com###yui_3_16_0_ym19_1_1511834628656_21158
 ||*/*/popup.gif$image
 ||*/*/popup.jpg$image
 ||*/*/popup.png$image
-*###popupdiv
+###popupdiv
 ! ##div[id^="popup"]
 ! ##img[src^="./popup.gif"]
 ! ##img[src="/images/popup.gif"]
@@ -618,24 +620,24 @@ disqus.com##script:inject(disqus.com/embed.js)
 onhax.me###bottom-promo-abdload
 onhax.me###top-promo-dload
 !
-*##.third-pt-ad-abs
-*###bab10025
+##.third-pt-ad-abs
+###bab10025
 onhax.me##.a
-*##.AD_wrapper
+##.AD_wrapper
 !
 hk.thenewslens.com##.help-tnl-container-970_250
 hk.thenewslens.com##.help-tnl-container-300_250
 hk.thenewslens.com##.help-tnl-container-728_90
 !
-*###topAdBlock
+###topAdBlock
 www.teepr.com##.side-big-banner
-*##.mid-post-ad-2
+##.mid-post-ad-2
 !
 ! nextmedia.com
 @@||staticxx.facebook.com
 !
-*##.facebook_share
-*##.twitter_share
+##.facebook_share
+##.twitter_share
 !
 ! yahoo.com (for fastest website loading) (still testing)
 ||yimg.com^
@@ -775,10 +777,10 @@ www.teepr.com##.side-big-banner
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
 @@||yimg.com/*/*.css
 @@||yimg.com/*/css/
-*##.sys_displayads.dd
-*###yui_3_12_0_4_1498462347313_1533
-*###yui_3_12_0_4_1498456552820_1604
-*###yui_3_12_0_5_1498457055165_1828
+##.sys_displayads.dd
+###yui_3_12_0_4_1498462347313_1533
+###yui_3_12_0_4_1498456552820_1604
+###yui_3_12_0_5_1498457055165_1828
 !
 ! https://browserleaks.com/proxy
 @@||dummy.net.err.*$image
@@ -812,9 +814,9 @@ filldisk.com##script:inject(abort-on-property-read.js, localStorage)
 ! https://www.receivesmsonline.net/
 ! https://receivefreesms.net/
 receivesmsonline.net##.col-md-10:nth-of-type(n) > center
-*###mADSNoNum
-*###mADSAd
-*###mADSFooter
+###mADSNoNum
+###mADSAd
+###mADSFooter
 receivefreesms.net##.container > .pull-right
 receivefreesms.net##center:nth-of-type(n)
 !
@@ -1358,9 +1360,7 @@ receivefreesms.net##center:nth-of-type(n)
 !
 ! ====== Filters from "Frightener+Facekill" ============
 ! [Public Group: Do Not Track]
-^donottrack^$image,~image,donottrack
-*$donottrack,$image,~image
-*$donottrack
+^donottrack^$image,~image
 !
 ! [Public Group: Whitelist]
 @@||192.168.*^$document
@@ -1423,7 +1423,6 @@ plus.google.com##div[componentid="45"]
 plus.google.com##div[componentid="44"]
 plus.google.com##div[componentid="34"]
 plus.google.com##div[componentid="13"]
-plus.google.com##div[class=&#34;Pzc&#34;]
 plus.google.com##div[class="talk_chat_widget"]
 plus.google.com##div[class="Hoan0blla"]
 plus.google.com##div[class="Exc"]
@@ -1489,7 +1488,7 @@ twitter.com##div[class="ad_panel"]
 twitter.com##div[class*="wtf-module"]
 twitter.com##div[class*="trends"]
 twitter.com##a[aria-label="Games"]
-twitter.com##(div|li)[class="promoted-tweet"]
+twitter.com##div[class="promoted-tweet"]
 twitpic.com##div[id="announcement"]
 !
 ! [Public Group: Readbility]
@@ -1563,17 +1562,17 @@ merriam-webster.com##div[id="adaptvDiv"]
 forums.cacti.net##p[class="titlebar"]
 bestbuy.com##div[id="bbyon"]
 */moneybookers.gif
-*##li[class="ad-widget"]
-*##div[id="wptouch-head" class="metabox-holder"]
-*##div[id="stay_connected"]
-*##div[id="pw-footer"]
-*##div[id="popup_content"]
-*##div[id="dm_donations"]*
-*##div[id="discovery-top"]
-*##div[id="discovery"]
-*##div[componentid="80"]
-*##div[componentid="10"]
-*##div[class="donation"]
+##li[class="ad-widget"]
+##div[id="wptouch-head"][class="metabox-holder"]
+##div[id="stay_connected"]
+##div[id="pw-footer"]
+##div[id="popup_content"]
+##div[id="dm_donations"]
+##div[id="discovery-top"]
+##div[id="discovery"]
+##div[componentid="80"]
+##div[componentid="10"]
+##div[class="donation"]
 !
 ! http://hackersthegame.wikia.com/wiki/Hackers_Wikia
 hackersthegame.wikia.com###MtaxPQGU
@@ -1645,18 +1644,18 @@ semprot.com##.semprotnenenmontok_adalah_pujaan_hatiku
 !
 ! https://browserleaks.com
 !browserleaks.com##div:nth-of-type(n) > .adsbygoogle
-*##.entry-content > div:nth-of-type(n) > .adsbygoogle
-*###container > div:nth-of-type(n) > .adsbygoogle
-*##div:nth-of-type(2) > .adsbygoogle
-*##div:nth-of-type(3) > .adsbygoogle
-*##div:nth-of-type(4) > .adsbygoogle
-*##div:nth-of-type(5) > .adsbygoogle
-*##div:nth-of-type(6) > .adsbygoogle
-*##div:nth-of-type(7) > .adsbygoogle
-*##div:nth-of-type(8) > .adsbygoogle
-*##div:nth-of-type(9) > .adsbygoogle
-*##div:nth-of-type(10) > .adsbygoogle
-*##.include > .adsbygoogle
+##.entry-content > div:nth-of-type(n) > .adsbygoogle
+###container > div:nth-of-type(n) > .adsbygoogle
+##div:nth-of-type(2) > .adsbygoogle
+##div:nth-of-type(3) > .adsbygoogle
+##div:nth-of-type(4) > .adsbygoogle
+##div:nth-of-type(5) > .adsbygoogle
+##div:nth-of-type(6) > .adsbygoogle
+##div:nth-of-type(7) > .adsbygoogle
+##div:nth-of-type(8) > .adsbygoogle
+##div:nth-of-type(9) > .adsbygoogle
+##div:nth-of-type(10) > .adsbygoogle
+##.include > .adsbygoogle
 !@@||*s_a_f_e..overflow*
 @@||*s_a_f_e..0verflow*
 @@||*/1.gif?v=*
@@ -1678,7 +1677,7 @@ hk.news.appledaily.com###articleOmo
 pinterest.com###__PWS_ROOT__ > div > div > .Hsu.iyn.zI7 > div:nth-of-type(2)
 !
 ! https://webdeasy.de
-*##.privacy-popup
+##.privacy-popup
 !
 ! http://pseudo-flaw.net
 pseudo-flaw.net##[src="/resource/adblock/sample_ad2.gif"]
@@ -1688,8 +1687,8 @@ mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB:has(:scope > div)
 !
 ! https://www.weekendhk.com
 !*##.gpt_ads_box
-*##.gpt_ads_box
-*###sidebar_video_wrapper
+##.gpt_ads_box
+###sidebar_video_wrapper
 !
 !  https://hk.on.cc
 hk.on.cc###focus_banner_cd_CTN
@@ -1712,20 +1711,20 @@ unwire.pro##.widget_text.widget
 !*##.box-4.ezoic-ad
 !*##.box-2.ezoic-ad
 !*##.box-1.ezoic-ad
-*##.ezoic-ad
-*##.ezoic-ad-adaptive
-*##.adtester-container
+##.ezoic-ad
+##.ezoic-ad-adaptive
+##.adtester-container
 askdavetaylor.com##.adtester-container
 !www.askdavetaylor.com##.ezoic-ad-adaptive
 !*##.ezoic-ad:nth-of-type(n)
 !
 ! https://gadgetsrevived.com
 !gadgetsrevived.com##.adsbygoogle
-*###page > .adsbygoogle
+###page > .adsbygoogle
 !
 ! https://www.bilibili.com
 bilibili.com###slide_ad
-*###slide_ad
+###slide_ad
 !
 ! https://lifehacker.co.in
 lifehacker.co.in##.animated.dialog-lightbox-widget-content.dialog-widget-content
@@ -1743,16 +1742,16 @@ www.smartone.com###carouselExampleControls
 @@||edgecast-vod.yahoo.net^
 !
 ! http://cablenews.i-cable.com
-*##.right_ad
+##.right_ad
 !
 ! http://gameplayhk.com
-*##.share-article
+##.share-article
 !
 ! https://www.hk01.com
 hk01.com##div.dnZMTb.sc-bdVaJa.hKiLMS
 !
 ! https://www.mobiloud.com
-*##.cc-color-override-1827372716
+##.cc-color-override-1827372716
 !
 ! https://propellerads.com
 propellerads.com###media_image-2
@@ -1762,10 +1761,10 @@ propellerads.com###media_image-2
 technews.tw###a8abe630
 technews.tw###ADTOP
 technews.tw###a46524ac
-*##[id^="div-gpt-ad-"]
+##[id^="div-gpt-ad-"]
 !
 ! https://adlock.com
-*###banner_full
+###banner_full
 !
 ! http://ccc.technews.tw
 ||trvdp.com^
@@ -1776,10 +1775,10 @@ mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_id^R
 mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO
 !
 ! https://www.researchgate.net
-*##.lite-page__above
+##.lite-page__above
 !
 ! https://www.hkbn.net
-*##.animated.float
+##.animated.float
 !
 ! https://www.instagram.com
 www.instagram.com##.qD5Mv._4EzTm.eGOV_.IwRSH.Igw0E
@@ -1799,12 +1798,12 @@ www.hk01.com##[src^="https://e.infogram.com/"]
 @@||*-google-tag-manager/*$script
 !
 ! https://webdeasy.de
-*##div.webd-f-container:nth-of-type(n)
+##div.webd-f-container:nth-of-type(n)
 !
 ! https://timesofindia.indiatimes.com
 timesofindia.indiatimes.com##.ipadmt.paisa1
 !
-*##div.\39 f5cbf51aebdcd5dd70684a59b8a7241:nth-of-type(n)
+##div.\39 f5cbf51aebdcd5dd70684a59b8a7241:nth-of-type(n)
 !
 ! https://item.taobao.com
 item.taobao.com##.auto.baxia-dialog
@@ -1819,17 +1818,17 @@ v.youku.com##.h5-ext-layer
 @@||tui.taobao.com^
 !
 ! http://pseudo-flaw.net/content/adblock/
-*###startAd
-*###endAd
+###startAd
+###endAd
 !pseudo-flaw.net###startAd
 !pseudo-flaw.net###endAd
 !
 ! https://www.peekme.cc
-*##.text-center.margin-bottom-10.ad-box
-*###sideFixed
+##.text-center.margin-bottom-10.ad-box
+###sideFixed
 !
 ! https://cheatsquad.gg
-*##.ad_billboard
+##.ad_billboard
 !
 ! https://www.peekme.cc
 www.peekme.cc##.well-sm.well.ad-well.text-center
@@ -1857,12 +1856,12 @@ thomas.vanhoutte.be##center
 !
 ! https://hk.news.yahoo.com
 hk.news.yahoo.com###sda-MAST
-*###Col2-0-Ad-Proxy
-*###Col2-1-Ad-Proxy
-*###Col2-8-Ad-Proxy
-*###mrt-node-Lead-1-Ad
-*###mrt-node-Lead-2-Ad
-*###sda-LDRB
+###Col2-0-Ad-Proxy
+###Col2-1-Ad-Proxy
+###Col2-8-Ad-Proxy
+###mrt-node-Lead-1-Ad
+###mrt-node-Lead-2-Ad
+###sda-LDRB
 !
 ! bochk.com
 @@||its.bochk.com^$script
@@ -1876,9 +1875,9 @@ pan.baidu.com##.swal2-backdrop-show.swal2-center.swal2-container
 ! https://www.linkedin.com
 www.linkedin.com###ember10843
 www.linkedin.com##.pv-ad-banner
-*##.pv-ad-banner
+##.pv-ad-banner
 !
-*##.cookies-container
+##.cookies-container
 
 ! https://www.zhenbuka.com
 www.zhenbuka.com###yb112
@@ -1890,9 +1889,7 @@ www.zhenbuka.com##.jq-toast-wrap
 ! https://hk.yahoo.com
 hk.yahoo.com###ad-north-base
 
-!*##+js(acis, GoogleAnalyticsObject)
-!*##+js(acis, googletag)
-*##+js(acis, adsbygoogle)
+!*##+js(acis, adsbygoogle)
 
 ||sibforms.com^
 
@@ -1903,7 +1900,7 @@ lihkg.com##._3t1IIUwX87Q7giYt9CBgsT
 wow.qooza.hk###top-banner
 
 ! https://www.setn.com
-*##.heder-area-ad
+##.heder-area-ad
 
 ! https://unwire.hk
 unwire.hk##.image-container > .image-box
@@ -1912,11 +1909,11 @@ unwire.hk##.image-container > .image-box
 www.carousell.com.hk##div.M_xE.D_nH.M_xB.D_nF
 
 ! https://www.commonhealth.com.tw
-*##.contnet-ad1.ad--text
-*##.ad
-*##.ad--bg-300by250
-*##.contentLeaflet
-*##.ad--150
+##.contnet-ad1.ad--text
+!*##.ad
+##.ad--bg-300by250
+##.contentLeaflet
+##.ad--150
 
 ! https://mrmad.com.tw
 mrmad.com.tw##.adsbygoogle
@@ -1936,8 +1933,8 @@ boardgamegeek.com##.advertisement
 link.springer.com##.c-ad
 
 ! https://www.techopedia.com
-*##.ad__mapping1__wrapper
-*##.ad__wrapper
+##.ad__mapping1__wrapper
+##.ad__wrapper
 
 ! gotrip.hk
 @@||*/*OneSignalSDKWorker
@@ -1945,8 +1942,69 @@ link.springer.com##.c-ad
 ! un.org
 @@||unstats.un.org^$1p
 
-*##.cookie-message
+##.cookie-message
 
 ! thestandnews.com
 @@||button.like.co^$domain=www.thestandnews.com
 @@||button.like.co^$domain=button.like.co
+
+! https://www.dyspatch.io
+www.dyspatch.io##.in.fade.modal-backdrop
+
+! https://hk.news.yahoo.com
+hk.news.yahoo.com###sda-MON
+
+##.cookie-consent__body
+###cookieConsentContainer
+
+! https://unwire.hk
+###spotim-specific
+
+! unwire.hk
+@@||static-cdn.spot.im/production/conversation/tags/v3.40.11/ad-container-bundle.js
+@@||api-2-0.spot.im^
+
+! https://boardgamegeek.com
+boardgamegeek.com##gg-leaderboard-lg-ad
+
+! thestandnews.com
+@@||*ingest.sentry.io*
+
+! https://newactivators.com
+##center:nth-of-type(n) > [href^="http://imy4host.xyz/"]
+
+! inmediahk.net
+@@||button.like.co^
+
+! https://www.hk01.com
+www.hk01.com##.is-visible.LazyLoad
+
+! https://orientaldaily.on.cc
+orientaldaily.on.cc###block_container
+
+! https://std.stheadline.com
+###div-gpt-ad-1585192318147-0
+std.stheadline.com##.text-center.mb-3
+
+! https://www.ifreesite.com
+###if_mainboxa > .adsbygoogle
+
+! https://www.ifreesite.com
+##.if_adslot.adsbygoogle
+
+! https://boardgamegeek.com
+boardgamegeek.com##.p-0.dark
+
+! smokefree.hk
+@@||*jquery*.js$script
+
+! hksyu.edu.hk
+@@||www.googleapis.com/identitytoolkit/*
+
+! https://webdeasy.de
+##.ezoic-ad
+!webdeasy.de##.ezoic-ad
+!webdeasy.de##.cwebdeasy-g-container.white-bg.sidebar-box
+
+! https://developers.playwire.com
+###modal
