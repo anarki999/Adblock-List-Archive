@@ -9,6 +9,7 @@ I would also recommend the following host file subscription link below:
 - https://adaway.org/hosts.txt
 - https://filters.adtidy.org/android/filters/15_optimized.txt
 - https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
+- https://anti-ad.net/adguard.txt
 - https://blocklistproject.github.io/Lists/tracking.txt
 - https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/hosts.final
 - https://someonewhocares.org/hosts/zero/hosts
@@ -16,3 +17,8 @@ I would also recommend the following host file subscription link below:
 - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
 
 They works very well on my Android Adguard DNS filtering function.
+
+-------------------------------------
+
+Extra list: (For Chinese Language User) (EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.)
+https://filters.adtidy.org/android/filters/224_optimized.txt
