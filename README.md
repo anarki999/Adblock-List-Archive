@@ -6,9 +6,9 @@ Please report the problem if you found my list breaking some websites. Please in
 
 I would also recommend the following host file subscription link below:
 
-- https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
 - https://adaway.org/hosts.txt
 - https://filters.adtidy.org/android/filters/15_optimized.txt
+- https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
 - https://blocklistproject.github.io/Lists/tracking.txt
 - https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/hosts.final
 - https://someonewhocares.org/hosts/zero/hosts
