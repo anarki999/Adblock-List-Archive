@@ -11,7 +11,6 @@ I would also recommend the following host file subscription link below:
 - https://filters.adtidy.org/extension/ublock/filters/2_optimized.txt
 - https://anti-ad.net/adguard.txt
 - https://blocklistproject.github.io/Lists/tracking.txt
-- https://raw.githubusercontent.com/bongochong/CombinedPrivacyBlockLists/master/NoFormatting/hosts.final
 - https://someonewhocares.org/hosts/zero/hosts
 - https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv4.txt
 - https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
