@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20220118
+! Last Update : 20220527
 ! Update details: Greatly improve the anti-adblock system
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" only and DO NOT ENABLE "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -1591,6 +1591,7 @@ profullcrack.com##center:nth-of-type(n)
 @@||tinypaste.cc^$generichide
 @@||uploadocean.com^$generichide
 @@||www.wholehk.com^$generichide
+@@||mingpao.com^$generichide
 !
 ||*crash*.com$inline-script
 !
@@ -1792,7 +1793,7 @@ briian.com##div.post-navigation:nth-of-type(n)
 @@||disqus.com^
 !
 ! https://www.hk01.com
-www.hk01.com##[src^="https://e.infogram.com/"]
+! www.hk01.com##[src^="https://e.infogram.com/"]
 !
 ! pixelprivacy.com
 @@||*-google-tag-manager/*$script
@@ -2060,3 +2061,22 @@ www.hk01.com##div.ewbiRf
 ! https://dl.520cc.cc/ddll/dl.php?id=LKsCdGDMVZtVjk
 @@||*/ad.php?*
 #@##inplayer
+
+! https://www.passiontimes.hk
+www.passiontimes.hk##div.asideSection:nth-of-type(n) > .media
+
+! https://www.hk01.com
+www.hk01.com##.lg\:items-center.lg\:flex.hidden.dzlctlu
+
+! http://cchess.online
+cchess.online###layui-layer-shade2
+
+! https://www.hk01.com
+www.hk01.com##.lg\:items-center.lg\:flex.hidden.lg\:min-h-\[250px\]
+www.hk01.com##.l7v9z99.mb-3.mt-4.eoXNZh.sc-4ev7nz-0
+
+! https://www.facebook.com
+www.facebook.com##body > .tkr6xdv7.l9j0dhe7
+
+! https://news.mingpao.com
+mingpao.com##.fb-page
