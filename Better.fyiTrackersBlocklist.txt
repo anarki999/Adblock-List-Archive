@@ -2083,3 +2083,24 @@ mingpao.com##.fb-page
 ##.google_more_reading
 ##.article_insertAD
 ##.article-contents .embedly-card
+
+! yahoo.com
+@@||video-api.yql.yahoo.com^
+
+! https://codecguide.com
+codecguide.com###aswift_0_expand
+
+! https://onhax.io
+##div:nth-of-type(n) > center
+
+! ettoday.net
+@@||ad.ettoday.net^
+
+! dailymotion.com
+@@||graphql.api.dailymotion.com^
+
+! https://mf.techbang.com
+mf.techbang.com##.mf_all_pushdown_970x250
+
+! https://gamcka.com
+gamcka.com##.i623d8bd1d538e675257710.w623d8bd1d537b364289752
