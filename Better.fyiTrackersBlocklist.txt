@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20220709
+! Last Update : 20220810
 ! Update details: added more useful rule to hide ads
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" only and DO NOT ENABLE "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -2054,13 +2054,14 @@ boardgamegeek.com##.p-0.dark
 #@#.ad_box
 #@#.adsbygoogle:upward(1)
 
-! 1https://www.hk01.com
+! https://www.hk01.com
 www.hk01.com##.lg\:items-center.lg\:flex.hidden.dtivfw8
 www.hk01.com##.lg\:items-center.lg\:flex.hidden.dl2q0g0
 www.hk01.com##div.ewbiRf
 www.hk01.com##.lg\:items-center.lg\:flex.hidden.dzlctlu
 www.hk01.com##.lg\:items-center.lg\:flex.hidden.lg\:min-h-\[250px\]
 www.hk01.com##.l7v9z99.mb-3.mt-4.eoXNZh.sc-4ev7nz-0
+www.hk01.com##.md\:items-center.md\:flex.hidden.lg\:min-h-\[250px\].md\:min-h-\[90px\]
 
 ! https://dl.520cc.cc/ddll/dl.php?id=LKsCdGDMVZtVjk
 @@||*/ad.php?*
@@ -2091,7 +2092,7 @@ mingpao.com##.fb-page
 codecguide.com###aswift_0_expand
 
 ! https://onhax.io
-onhax.io##div:nth-of-type(n) > center
+##div:nth-of-type(n) > center
 
 ! ettoday.net
 @@||ad.ettoday.net^
@@ -2108,3 +2109,14 @@ gamcka.com##.i623d8bd1d538e675257710.w623d8bd1d537b364289752
 ||3dmgame^
 @@||3dmgame.com^$1p
 @@||3dmgame.com^$third-party,image
+
+! https://www.dagsavisen.no
+www.dagsavisen.no###topbanner
+www.dagsavisen.no##.hestesko-section
+www.dagsavisen.no##div.arcad-block-container.hIcLuf.default__MentorAd-sc-1fgth5y-1:nth-of-type(n)
+
+! https://webcache.googleusercontent.com
+webcache.googleusercontent.com##.headerP_high
+
+! qualtrics.com
+@@||qualtrics.com^$1p
