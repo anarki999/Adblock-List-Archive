@@ -2120,3 +2120,29 @@ webcache.googleusercontent.com##.headerP_high
 
 ! qualtrics.com
 @@||qualtrics.com^$1p
+
+! https://orientaldaily.on.cc
+###floatingLRECholder
+##.super
+
+! https://www.hk01.com
+www.hk01.com##.md\:items-center.md\:flex.hidden.lg\:min-h-\[250px\].md\:min-h-\[90px\]
+
+! sportskeeda.com
+||advertising.com^
+
+! https://www.sportskeeda.com
+www.sportskeeda.com##.fEy1Z2XT
+
+! https://xboxplay.games
+xboxplay.games##.pt-info > div:nth-of-type(3)
+xboxplay.games##.pt-cntn > div
+
+! https://screenrant.com
+screenrant.com##.fEy1Z2XT
+
+! https://uploadrar.com
+uploadrar.com###arlinablock
+
+! https://www.starsignhk.com
+www.starsignhk.com##.hidden-xs
