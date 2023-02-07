@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20230129
+! Last Update : 20230207
 ! Update details: added more useful rule to hide ads
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" only and DO NOT ENABLE "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -2009,7 +2009,7 @@ boardgamegeek.com##.p-0.dark
 !webdeasy.de##.cwebdeasy-g-container.white-bg.sidebar-box
 
 ! https://developers.playwire.com
-###modal
+playwire.com###modal
 
 ! https://blockadblock.com
 #$#ins.adsbygoogle { width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important }
