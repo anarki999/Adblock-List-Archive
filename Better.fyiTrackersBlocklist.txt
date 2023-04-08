@@ -1593,6 +1593,7 @@ profullcrack.com##center:nth-of-type(n)
 @@||uploadocean.com^$generichide
 @@||www.wholehk.com^$generichide
 @@||mingpao.com^$generichide
+@@||fightermeme.com^$generichide
 !
 ||*crash*.com$inline-script
 !
