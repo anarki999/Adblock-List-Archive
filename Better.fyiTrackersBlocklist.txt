@@ -2153,3 +2153,12 @@ www.starsignhk.com##.hidden-xs
 ! https://www.bnext.com.tw
 ##.fc-ab-root
 ##.fc-dialog-container
+
+! https://screenrant.com
+screenrant.com##.fEy1Z2XT
+
+! https://browserleaks.com
+##.orientationchange.adsbygoogle
+
+! https://www.jav777.xyz
+www.jav777.xyz###playertopads
