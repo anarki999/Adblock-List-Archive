@@ -2171,3 +2171,8 @@ www.jav777.xyz###playertopads
 @@||*com.hk/
 @@||*edu.hk/
 @@||*com/hk/
+@@||oclc.org*
+
+##styled__VideoAdvert-sc-11wpos5-4.adds-wrapper
+||s.yimg.com/zz/nn/lib/metro/g/my/anim_loading_sm.gif$image
+@@||*/cookiesConsent.min.js$script
