@@ -501,7 +501,7 @@ cocomy.net##.well-sm.well.ad-well
 !||/fingerprint*.js$xmlhttprequest
 !||/fingerprint*/*.js$xmlhttprequest
 !||/*fingerprint/*.js$xmlhttprequest
-!||/*fingerprint*/*.js$xmlhttprequest
+||/*fingerprint*/*.js$xmlhttprequest
 ||*/fp.js$script,xmlhttprequest
 ||*/fp1.js$script,xmlhttprequest
 ||*/fp2.js$script,xmlhttprequest
