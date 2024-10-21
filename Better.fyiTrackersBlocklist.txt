@@ -498,7 +498,7 @@ cocomy.net##.well-sm.well.ad-well
 !||*/*fingerprint/$script
 ||/fingerprint.js$script,xmlhttprequest
 ||/*fingerprint.js$script,xmlhttprequest
-||/fingerprint*.js$script,xmlhttprequest
+||/fingerprint*.js$xmlhttprequest
 ||/fingerprint*/*.js$xmlhttprequest
 ||/*fingerprint/*.js$xmlhttprequest
 ||/*fingerprint*/*.js$xmlhttprequest
@@ -514,7 +514,7 @@ cocomy.net##.well-sm.well.ad-well
 ||*/fp9.js$script,xmlhttprequest
 ||*/fp10.js$script,xmlhttprequest
 ||*/*fingerprint*$image,domain=~yimg.com
-||*/*fingerprint*$xmlhttprequest
+||/*fingerprint*$xmlhttprequest
 !||*/*fingerprint*$inline-script
 !||*/*/*analytics*.js$script
 @@||*/jquery.min.js$script
