@@ -495,7 +495,7 @@ cocomy.net##.well-sm.well.ad-well
 ||*/canvasjs.js$script,xmlhttprequest
 ||/fingerprint.js$script,xmlhttprequest
 ||/*fingerprint.js$script,xmlhttprequest
-!||/fingerprint*.js$xmlhttprequest
+||/fingerprint*.js$xmlhttprequest
 ||/fingerprint*/*.js$xmlhttprequest
 ||/*fingerprint/*.js$xmlhttprequest
 ||/*fingerprint*/*.js$xmlhttprequest
