@@ -1,6 +1,6 @@
 [Better.fyi Trackers Blocklist]
 ! Title: Better.fyi Trackers & Anti-adblock killer Blocklist by anarki999
-! Last Update : 20241017
+! Last Update : 20241021
 ! Update details: added more useful rule to hide ads
 ! Source: https://raw.githubusercontent.com/anarki999/Adblock-List-Archive/master/Better.fyiTrackersBlocklist.txt
 ! Best Setup in uBlock Origin: Please enable "Parse and enforce cosmetic filters" only and DO NOT ENABLE "Ignore generic cosmetic filters" options in Filter Lists section.
@@ -496,12 +496,12 @@ cocomy.net##.well-sm.well.ad-well
 !||*/*fingerprint*$script
 !||*/fingerprint*$script
 !||*/*fingerprint/$script
-||*/fingerprint.js$script,xmlhttprequest
-||*/*fingerprint.js$script,xmlhttprequest
-||*/fingerprint*.js$script,xmlhttprequest
-||*/fingerprint*/*.js$script,xmlhttprequest
-||*/*fingerprint/*.js$script,xmlhttprequest
-||*/*fingerprint*/*.js$script,xmlhttprequest
+||/fingerprint.js$script,xmlhttprequest
+||/*fingerprint.js$script,xmlhttprequest
+||/fingerprint*.js$script,XMLHttpRequest
+!||/fingerprint*/*.js$script,XMLHttpRequest
+!||/*fingerprint/*.js$script,XMLHttpRequest
+!||/*fingerprint*/*.js$script,xmlhttprequest
 ||*/fp.js$script,xmlhttprequest
 ||*/fp1.js$script,xmlhttprequest
 ||*/fp2.js$script,xmlhttprequest
@@ -2171,6 +2171,7 @@ www.jav777.xyz###playertopads
 @@||*com.hk/
 @@||*edu.hk/
 @@||*com/hk/
+@@||*.com/*/hk/
 @@||oclc.org*
 
 ##styled__VideoAdvert-sc-11wpos5-4.adds-wrapper
