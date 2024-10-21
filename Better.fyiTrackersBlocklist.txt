@@ -493,14 +493,11 @@ cocomy.net##.well-sm.well.ad-well
 !||*/*canvas*$script
 ||*/canvas.js$script,xmlhttprequest
 ||*/canvasjs.js$script,xmlhttprequest
-!||*/*fingerprint*$script
-!||*/fingerprint*$script
-!||*/*fingerprint/$script
 ||/fingerprint.js$script,xmlhttprequest
-||/*fingerprint.js$script,XMLHttpRequest
+||/*fingerprint.js$script,xmlhttprequest
 !||/fingerprint*.js$xmlhttprequest
-!||/fingerprint*/*.js$xmlhttprequest
-!||/*fingerprint/*.js$xmlhttprequest
+||/fingerprint*/*.js$xmlhttprequest
+||/*fingerprint/*.js$xmlhttprequest
 ||/*fingerprint*/*.js$xmlhttprequest
 ||*/fp.js$script,xmlhttprequest
 ||*/fp1.js$script,xmlhttprequest
