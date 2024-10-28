@@ -1443,7 +1443,7 @@ imdb.com##div[class="aux-content-widget-2"]
 instapaper.com##div[id="bookmarkListDeckAdPlaceholder"]
 !
 ! [Public Group: Micro$oft]
-||live.com^$third-party
+! ||live.com^$third-party
 ||live.com##div[class="OuterContainer"]
 !
 ! [Public Group: Last.fm]
