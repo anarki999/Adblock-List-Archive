@@ -1283,7 +1283,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||impdesk.com^$third-party
 ||sumologic.com^$third-party
 !||disquscdn.com^$third-party
-||qualtrics.com^$third-party
+!||qualtrics.com^$third-party
 ||ghdig.com^$third-party
 ||mcclatchydc.com^$third-party
 ||jwpsrv.com^$third-party
