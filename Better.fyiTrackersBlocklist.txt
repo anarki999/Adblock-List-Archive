@@ -2252,7 +2252,7 @@ indexexchange.com
 *fyber.com*
 *inmobi.com*
 *ironSource.mobi*
-*is.com*
+is.com
 s.youtube.com
 *redirector.googlevideo.com*
 *youtubei.googleapis.com*
@@ -2485,6 +2485,7 @@ hk.yahoo.com##li.lg\:pb-0.pb-2.relative:nth-of-type(10)
 news.mingpao.com##.mpads
 ! https://list.unwire.hk
 @@||list.unwire.hk^
+
 
 
 
