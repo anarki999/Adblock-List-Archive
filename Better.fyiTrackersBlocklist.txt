@@ -2478,6 +2478,9 @@ hk.yahoo.com##li.lg\:pb-0.pb-2.relative:nth-of-type(10)
 ! https://www.msn.com
 @@||bing.com^$domain=www.msn.com
 
+! https://news.mingpao.com
+news.mingpao.com##.mpads
 ! https://list.unwire.hk
 @@||list.unwire.hk^
+
 
