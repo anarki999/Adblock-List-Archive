@@ -638,6 +638,7 @@ www.teepr.com##.side-big-banner
 ! yahoo.com (for fastest website loading) (still testing)
 ||yimg.com^
 @@||yimg.com^$domain=yahoo.com|tumblr.com|yahoo.net|yahoo.co|yahoo.co.uk|yahoo.co.jp|flickr.com
+@@||s.yimg.com/rx/
 ||l.yimg.com^*&partner=*&url=$important
 ||yimg.com/gemini/pr/video_$important
 ||yimg.com/gs/apex/mediastore/$important
@@ -1186,7 +1187,6 @@ receivefreesms.net##center:nth-of-type(n)
 !||zencdn.net^$third-party
 ||digitalmediacommunications.com^$third-party
 ||richmetrics.com^$third-party
-!||brightcove.net^$third-party
 ||dtmpub.com^$third-party
 ||revcontent.com^$third-party
 ||collective-media.net^$third-party
@@ -2197,9 +2197,10 @@ www.pornfind.org##.card
 www.hk01.com##.md\:hidden.bg-light-n2.items-center.min-h-\[250px\].flex.-mt-4.-mx-3
 
 !Allow TV on https://hk.tv.yahoo.com/
-@@||brightcove.com^$domain=yahoo.com
-@@||brightcove.net^$domain=yahoo.com
-@@||brightcovecdn.com^$domain=yahoo.com
+!@@||brightcove.com^$domain=yahoo.com
+!@@||brightcove.net^$domain=yahoo.com
+!@@||brightcovecdn.com^$domain=yahoo.com
+@@||edge.api.brightcove.com
 
 ! Oct 23, 2025 https://clt.vtc.edu.hk
 clt.vtc.edu.hk###cookieConsentModal
@@ -2479,3 +2480,4 @@ hk.yahoo.com##li.lg\:pb-0.pb-2.relative:nth-of-type(10)
 
 ! https://list.unwire.hk
 @@||list.unwire.hk^
+
