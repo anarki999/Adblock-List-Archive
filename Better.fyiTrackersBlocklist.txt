@@ -402,10 +402,6 @@ i-comic.net##.in.fade.modal-backdrop
 ! http://www.girltalkhk.com/2016/08/10/sapeiar-poorcouple/
 girltalkhk.com##.ad-unit-footer-header
 !
-! http://hk.apple.nextmedia.com/news/art/20160920/19776210
-###fb_like
-@@||connect.facebook.net^
-!
 ! http://www.creativebloq.com/3d/30-amazing-examples-webgl-action-6142954
 creativebloq.com##.placeholder
 !creativebloq.com##.slotify-slot:nth-of-type(1)
@@ -877,7 +873,7 @@ receivefreesms.net##center:nth-of-type(n)
 ||facebook.com/tr/*
 ||facebook.com/impression.php/*
 @@||facebook.com/*/plugins
-@@||connect.facebook.net/*
+!@@||connect.facebook.net/*
 @@||staticxx.facebook.com/connect/*
 @@||fbcdn.net/*
 !
@@ -2486,7 +2482,8 @@ news.mingpao.com##.mpads
 ! https://list.unwire.hk
 @@||list.unwire.hk^
 
-
+! Allow Google AI
+@@||www.google.com$domain=google.com
 
 
 
