@@ -2470,6 +2470,9 @@ metrics.brightcove.com
 s.innovid.com
 *tremorhub.com*
 
+! https://superadblocktest.com/
+advertising-api-eu.amazon.com
+
 ! https://hk.yahoo.com
 hk.yahoo.com##.justify-center.items-center.w-full
 hk.yahoo.com##.overflow-hidden.w-full.h-\[45px\]
@@ -2482,5 +2485,6 @@ hk.yahoo.com##li.lg\:pb-0.pb-2.relative:nth-of-type(10)
 news.mingpao.com##.mpads
 ! https://list.unwire.hk
 @@||list.unwire.hk^
+
 
 
