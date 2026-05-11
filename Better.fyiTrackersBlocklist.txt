@@ -519,7 +519,7 @@ cocomy.net##.well-sm.well.ad-well
 !
 ! Anti-adblocking / unbreaking (making your adblock & uBlock undectable with AKK list)
 !@@||cdn.digits.com/1/sdk.js$script
-@@||*/*/sdk.js$script
+@@||*/*/sdk.js$script,domain=~urldecoder.org
 !@@||cdn.hk01.com/*/scripts/ga.js$script
 !@@||cdn.hk01.com/*/scripts/ga_trace.js$script
 @@||*/*/ga.js$script,domain=~google-analytics.com
